@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- large font size -->
+    <dimen name="tws_SuperBiger_TextSize">36sp</dimen>
+    <dimen name="tws_SuperBig_TextSize">32sp</dimen>
+    <dimen name="tws_Super_TextSize">24sp</dimen>
+    <dimen name="tws_Larger_TextSize">20sp</dimen>
+    <dimen name="tws_Large_TextSize">18sp</dimen>
+    <!-- large font size -->
+    <dimen name="tws_Medium_TextSize">16sp</dimen>
+    <!-- large font size -->
+    <dimen name="tws_Small_TextSize">14sp</dimen>
+    <!-- large font size -->
+    <dimen name="tws_Micro_TextSize">12sp</dimen>
+    <dimen name="tws_Mini_TextSize">10sp</dimen>
+    <dimen name="actionbar_menuitem_minwidth">44dp</dimen>
+    <dimen name="des_textview_padding_top">18dp</dimen>
+    <dimen name="filter_view_image_w">300dp</dimen>
+    <dimen name="filter_view_image_h">300dp</dimen>
+    <dimen name="stroke_width">4dp</dimen>
+    <dimen name="burgeon_child_space">10dp</dimen>
+    <dimen name="circularProgress_button_w">196dp</dimen>
+    <dimen name="circularProgress_button_h">64dp</dimen>
+    <dimen name="circularProgress_button_cornerRadius">48dp</dimen>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/toggle_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:padding="5dip"
+        android:text="@string/toggle_subtitle_on" />
+
+    <Button
+        android:id="@+id/toggle_edit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:padding="5dip"
+        android:text="@string/toggle_edit_btn_on" />
+
+    <Button
+        android:id="@+id/toggle_more_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:padding="5dip"
+        android:text="@string/toggle_more_btn_on" />
+
+    <Button
+        android:id="@+id/toggle_action_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:padding="5dip"
+        android:visibility="visible"
+        android:text="@string/toggle_action_mode" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dip"
+        android:padding="5dip"
+        android:visibility="visible"
+        android:text="@string/action_bar_display_options_title" />
+</LinearLayout>

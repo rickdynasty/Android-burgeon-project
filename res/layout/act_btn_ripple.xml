@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn1"
+                style="@style/Widget.tws.Button.Second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="@string/Button"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/btn2"
+                style="@style/Widget.tws.Button.Second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="@string/Dialog"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/btn3"
+                style="@style/Widget.tws.Button.Second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="@string/Toast"
+                android:textColor="@android:color/black" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Button" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:clipChildren="false"
+            android:orientation="horizontal" >
+
+            <include
+                android:id="@+id/ripple_child1"
+                layout="@layout/ripple_child"
+                android:clickable="true" />
+
+            <include
+                android:id="@+id/ripple_child2"
+                layout="@layout/ripple_child"
+                android:clickable="true" />
+
+            <include
+                android:id="@+id/ripple_child3"
+                layout="@layout/ripple_child"
+                android:clickable="true" />
+
+            <include
+                android:id="@+id/ripple_child4"
+                layout="@layout/ripple_child"
+                android:clickable="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:clipChildren="false"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:clipChildren="false" >
+
+                <TextView
+                    android:id="@+id/default_light"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:text="Default Light" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:clipChildren="false"
+                android:background="@color/blueviolet"
+                 >
+
+                <TextView
+                    android:id="@+id/default_dark"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Default Dark" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/list_light"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:text="List Light" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:clickable="true"
+            android:orientation="horizontal"
+            android:background="@color/blueviolet" >
+
+            <TextView
+                android:id="@+id/list_dark"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="List Dark" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

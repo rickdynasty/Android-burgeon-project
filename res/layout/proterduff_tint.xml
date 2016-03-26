@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Dst"
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Src_color"
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Effect"
+            android:textColor="#ff0000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <ImageView
+            android:id="@+id/tint_dst1"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="#ff0000"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/tint_src1"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="="
+            android:textColor="#ff0000"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/tint_ok1"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="35dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <ImageView
+            android:id="@+id/tint_dst2"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="#ff0000"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/tint_src2"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="="
+            android:textColor="#ff0000"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/tint_ok2"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="35dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <ImageView
+            android:id="@+id/tint_dst3"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="#ff0000"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/tint_src3"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="="
+            android:textColor="#ff0000"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/tint_ok3"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="35dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <ImageView
+            android:id="@+id/tint_dst4"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="#ff0000"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/tint_src4"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="35dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="="
+            android:textColor="#ff0000"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/tint_ok4"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="35dp" />
+    </LinearLayout>
+
+</LinearLayout>

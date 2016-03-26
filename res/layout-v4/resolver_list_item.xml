@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:clipChildren="false"
+    android:paddingBottom="@dimen/tws_listview_item_padding_side_bottom"
+    android:paddingTop="@dimen/tws_listview_item_padding_side_top"
+    android:descendantFocusability="blocksDescendants" >
+
+        <ImageView
+            android:id="@+id/app_icon"
+            android:layout_width="@dimen/tws_listview_icon_size"
+        	android:layout_height="@dimen/tws_listview_icon_size"
+            android:layout_alignParentLeft="true"
+            android:scaleType="fitCenter"
+        	android:layout_marginRight="@dimen/tws_listview_icon_margin_right_small" />
+
+		<com.tencent.tws.assistant.widget.RadioButton
+            android:id="@+id/is_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/app_icon"
+            android:layout_toLeftOf="@id/is_default"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:layout_marginRight="5dp"
+            style="@style/TextAppearance.tws.Second.twsTextMediumLightTitle"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"/>
+     
+    </RelativeLayout>
+
+

@@ -1,0 +1,121 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground"> @android:color/transparent </item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="ActionModeStyle" parent="@style/Theme.tws.Second">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_holo_light111</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_holo_light111</item>
+        <item name="actionBarStyle">@style/TwsActionBarStyle</item>
+        <item name="actionModeStyle">@style/TwsActionModeStyle</item>
+    </style>
+
+    <style name="TwsActionBarStyle" parent="@style/Widget.tws.ActionBar.Second">
+        <item name="background">@drawable/cab_background_top_holo_light111</item>
+        <item name="backgroundSplit">@drawable/cab_background_bottom_holo_light111</item>
+    </style>
+
+    <style name="TwsActionModeStyle" parent="@style/Widget.tws.ActionMode.Second"></style>
+
+    <style name="TwsActionMenuSelected" parent="@style/Theme.tws.Second">
+        <item name="menuitemstyle">@style/TwsActionMenuItemTextStyle</item>
+    </style>
+
+    <style name="TwsActionMenuItemTextStyle" parent="@style/TextAppearance.tws.Second.twsTextLargerLightTitleMenuItem">
+        <item name="android:textColor">@color/action_menu_item_color</item>
+    </style>
+
+    <style name="TwsActionBarTabWithTitle" parent="@style/Theme.tws.Second">
+        <item name="actionBarStyle">@style/widget_ActionBar_Transparent</item>
+        <item name="android:actionBarTabStyle">@style/Widget_ActionBar_TabView_Transparent</item>
+    </style>
+
+    <style name="widget_ActionBar_Transparent" parent="@style/Widget.tws.ActionBar.Second">
+        <item name="background">@drawable/custom_tab_background</item>
+        <item name="backgroundStacked">@drawable/custom_tab_background</item>
+        <item name="backgroundSplit">@color/tws_transparent</item>
+        <item name="backgroundMode">normal</item>
+    </style>
+
+    <style name="Widget_ActionBar_TabView_Transparent" parent="@style/Widget.tws.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_transparent</item>
+    </style>
+
+    <style name="widget_ActionBar_Gradient" parent="@style/Widget.tws.ActionBar.Second">
+        <item name="gradientBackgroundStartColor">@color/lightgrey</item>
+        <item name="gradientBackgroundEndColor">@color/darkgrey</item>
+    </style>
+
+    <style name="widget_ActionMode_Gradient" parent="@style/Widget.tws.ActionMode.Second">
+        <item name="gradientBackgroundStartColor">@color/lightgrey</item>
+        <item name="gradientBackgroundEndColor">@color/darkgrey</item>
+    </style>
+
+    <style name="TwsActionBarGradient" parent="@style/Theme.tws.Second">
+        <item name="actionBarStyle">@style/widget_ActionBar_Gradient</item>
+        <item name="actionModeStyle">@style/widget_ActionMode_Gradient</item>
+    </style>
+
+    <style name="TwsBaseWidget" parent="@style/Theme.tws.Second">
+        <item name="colorControlNormal">@color/base_widget_normal</item>
+        <item name="colorControlActivated">@color/base_widget_activated</item>
+    </style>
+
+    <style name="CustomNumberPickerStyle" parent="@style/Theme.tws.Second">
+        <item name="numberPickerStyle">@style/BaseNumberPicker</item>
+        <item name="numberPickerInputTextStyle">@style/BaseNumberPickerInput</item>
+    </style>
+
+    <style name="BaseNumberPicker" parent="@style/Widget.tws.NumberPicker.Second">
+        <item name="normalTextColor">@color/number_picker_normal</item>
+    </style>
+
+    <style name="BaseNumberPickerInput" parent="@style/Widget.tws.EditText.NumberPickerInputText.Second">
+        <item name="android:textColor">@color/number_picker_selected</item>
+    </style>
+
+    <style name="CustomDialog" parent="@style/Theme.tws.Second">
+        <item name="bottomDialogTheme">@style/Dialog_Bottom_Theme</item>
+    </style>
+
+    <style name="Dialog_Bottom_Theme" parent="@style/Theme.tws.Second.Dialog.Bottom">
+        <item name="colorControlNormal">@color/base_widget_normal</item>
+        <item name="colorControlActivated">@color/base_widget_activated</item>
+    </style>
+
+    <style name="TwsCustomActionMenu" parent="@style/Theme.tws.Second">
+        <item name="actionButtonStyle_menuitem">@style/customActionMenu</item>
+    </style>
+
+    <style name="customActionMenu" parent="@style/Widget.tws.ActionButton.menuitem">
+        <item name="android:minWidth">@dimen/actionbar_menuitem_minwidth</item>
+    </style>
+
+    <style name="apidemo.second" parent="@style/Theme.tws.Second">
+        <item name="listViewStyle">@style/apidemo.ListView</item>
+        <item name="dmTextViewStyle">@style/Widget.tws.TextView</item>
+    </style>
+
+    <style name="apidemo.ListView" parent="@android:style/Widget.ListView">
+        <item name="divider">@drawable/list_divider_holo_light</item>
+        <item name="listSelector">@null</item>
+        <item name="emptyListBackground">@drawable/transparent_background</item>
+        <item name="emptyListTextAppearance">@style/TextAppearance.tws.ListViewEmptyText</item>
+        <item name="emptyListSecondTextAppearance">@style/TextAppearance.tws.ListViewEmptyTextSecond</item>
+        <item name="emptyListMarginLeft">12dp</item>
+        <item name="emptyListMarginTop">12dp</item>
+        <item name="emptyListMarginRight">12dp</item>
+        <item name="emptyListMarginBottom">12dp</item>
+    </style>
+</resources>

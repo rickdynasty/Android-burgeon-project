@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TwsCheckBox">
+        <attr name="checkboxDrawable" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="RippleDrawable">
+        <attr name="android:color" />
+    </declare-styleable>
+    <declare-styleable name="LayerDrawableItem">
+        <attr name="android:left" />
+        <attr name="android:top" />
+        <attr name="android:right" />
+        <attr name="android:bottom" />
+        <attr name="android:drawable" />
+        <attr name="android:id" />
+    </declare-styleable>
+    <declare-styleable name="AnimatedStateListDrawable">
+        <attr name="android:visible" />
+        <attr name="android:variablePadding" />
+        <attr name="android:constantSize" />
+        <attr name="android:dither" />
+        <attr name="android:enterFadeDuration" />
+        <attr name="android:exitFadeDuration" />
+        <attr name="android:autoMirrored" />
+    </declare-styleable>
+    <declare-styleable name="AnimatedStateListDrawableItem">
+        <attr name="android:drawable" />
+        <attr name="android:id" />
+    </declare-styleable>
+    <declare-styleable name="CircularProgressButton">
+        <attr name="selectorIdle" format="reference" />
+        <attr name="selectorComplete" format="reference" />
+        <attr name="selectorError" format="reference" />
+        <attr name="textComplete" format="string" />
+        <attr name="textIdle" format="string" />
+        <attr name="textError" format="string" />
+        <attr name="textProgress" format="string" />
+        <attr name="colorProgress" format="color" />
+        <attr name="colorIndicator" format="color" />
+        <attr name="colorIndicatorBackground" format="color" />
+        <attr name="iconError" format="reference" />
+        <attr name="iconComplete" format="reference" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="paddingProgress" format="dimension" />
+    </declare-styleable>
+</resources>

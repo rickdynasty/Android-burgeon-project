@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tws="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <android.widget.TwsEditText
+        android:id="@+id/tws_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:drawablePadding="8dp"
+        android:editable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:hint="Input content"
+        android:inputType="textPassword"
+        android:paddingLeft="9dp"
+        android:singleLine="true"
+        android:textColorHint="#33000000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:text="显示清理Action" />
+
+    <Button
+        android:id="@+id/btn_iswb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"/>
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="24dp" >
+
+    <LinearLayout android:id="@+id/search_editor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        <com.tencent.tws.assistant.apidemos.searchview.SearchBarView
+            android:id="@+id/sms_search_view" 
+	    	android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:drawableLeft="@drawable/ic_search"
+		    android:hint="@string/search_activity_hint"
+		    android:gravity="center_vertical"
+		    android:textSize="18sp"
+		    android:background="@drawable/textfield_multiline_activated_holo_light"
+		    android:layout_marginLeft="12dp"
+		    android:layout_marginRight="12dp"
+		    android:layout_marginTop="14dp"
+		    android:layout_marginBottom="14dp"
+		    android:enabled="true"
+		    android:singleLine="true"
+		    android:textColorHint="#ffd0d0d0"  
+		    android:paddingLeft="9dp"
+		    android:paddingRight="8dp"
+		    android:drawablePadding="8dp"
+		    android:layout_weight="1" />
+        <Button android:id="@+id/cancel_search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="@android:string/cancel"/>
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/search_result_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_editor"/>
+     <TextView
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/empty_search_result"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <View
+        android:id="@+id/translucent_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_editor"
+        android:gravity="center"
+        android:background="#8f000000"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

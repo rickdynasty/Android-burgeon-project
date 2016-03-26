@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <dimen name="tws_action_bar_height">54dip</dimen>
+    <dimen name="tws_action_bar_tab_height">67dip</dimen>
+</resources>

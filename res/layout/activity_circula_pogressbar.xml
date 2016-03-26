@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff1f1f1"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/my_progress_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <com.tencent.tws.burgeon.widget.CirculaPogressBar
+                    android:id="@+id/my_progress"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+
+                <SeekBar
+                    android:id="@+id/progress_seekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+            </LinearLayout>
+
+            <com.tencent.tws.burgeon.widget.MasterLayout
+                android:id="@+id/MasterLayout01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:clickable="true" >
+            </com.tencent.tws.burgeon.widget.MasterLayout>
+
+            <com.tencent.tws.burgeon.widget.progressbar.CircularProgressButton
+                android:id="@+id/circularButton_custom_selector01"
+                android:layout_width="@dimen/circularProgress_button_w"
+                android:layout_height="@dimen/circularProgress_button_h"
+                android:layout_marginTop="@dimen/burgeon_child_space"
+                android:textColor="@color/tws_white"
+                android:textSize="@dimen/tws_Large_TextSize"
+                app:cornerRadius="@dimen/circularProgress_button_cornerRadius"
+                app:selectorComplete="@drawable/complete_state_selector"
+                app:selectorError="@drawable/error_state_selector"
+                app:selectorIdle="@drawable/idle_state_selector"
+                app:textComplete="@string/Complete"
+                app:textError="@string/Error"
+                app:textIdle="@string/Upload" />
+
+            <com.tencent.tws.burgeon.widget.progressbar.CircularProgressButton
+                android:id="@+id/circularButton_custom_selector02"
+                android:layout_width="@dimen/circularProgress_button_w"
+                android:layout_height="@dimen/circularProgress_button_h"
+                android:layout_marginTop="@dimen/burgeon_child_space"
+                android:textColor="@color/tws_white"
+                android:textSize="@dimen/tws_Large_TextSize"
+                app:cornerRadius="@dimen/circularProgress_button_cornerRadius"
+                app:selectorComplete="@drawable/complete_state_selector"
+                app:selectorError="@drawable/error_state_selector"
+                app:selectorIdle="@drawable/idle_state_selector"
+                app:textComplete="@string/Complete"
+                app:textError="@string/Error"
+                app:textIdle="@string/Upload" />
+
+            <com.tencent.tws.burgeon.widget.progressbar.CircularProgressButton
+                android:id="@+id/circularButton_progress_padding01"
+                android:layout_width="@dimen/circularProgress_button_w"
+                android:layout_height="@dimen/circularProgress_button_h"
+                android:layout_marginTop="@dimen/burgeon_child_space"
+                android:textColor="@color/tws_white"
+                android:textSize="@dimen/tws_Large_TextSize"
+                app:cornerRadius="@dimen/circularProgress_button_cornerRadius"
+                app:paddingProgress="10dp"
+                app:textComplete="@string/Complete"
+                app:textError="@string/Error"
+                app:textIdle="@string/Upload" />
+
+            <com.tencent.tws.burgeon.widget.progressbar.CircularProgressButton
+                android:id="@+id/circularButton_progress_padding02"
+                android:layout_width="@dimen/circularProgress_button_w"
+                android:layout_height="@dimen/circularProgress_button_h"
+                android:layout_marginTop="@dimen/burgeon_child_space"
+                android:textColor="@color/tws_white"
+                android:textSize="@dimen/tws_Large_TextSize"
+                app:cornerRadius="@dimen/circularProgress_button_cornerRadius"
+                app:paddingProgress="10dp"
+                app:textComplete="@string/Complete"
+                app:textError="@string/Error"
+                app:textIdle="@string/Upload" />
+
+            <com.tencent.tws.burgeon.widget.progressbar.CircularProgressButton
+                android:id="@+id/circularButton_integer_progress01"
+                android:layout_width="@dimen/circularProgress_button_w"
+                android:layout_height="@dimen/circularProgress_button_h"
+                android:layout_marginTop="@dimen/burgeon_child_space"
+                android:textColor="@color/tws_white"
+                android:textSize="@dimen/tws_Large_TextSize"
+                app:textComplete="@string/Complete"
+                app:textError="@string/Error"
+                app:textIdle="@string/Upload" />
+
+            <com.tencent.tws.burgeon.widget.progressbar.CircularProgressButton
+                android:id="@+id/circularButton_integer_progress02"
+                android:layout_width="@dimen/circularProgress_button_w"
+                android:layout_height="@dimen/circularProgress_button_h"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="@dimen/burgeon_child_space"
+                android:textColor="@color/tws_white"
+                android:textSize="@dimen/tws_Large_TextSize"
+                app:textComplete="@string/Complete"
+                app:textError="@string/Error"
+                app:textIdle="@string/Upload" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
