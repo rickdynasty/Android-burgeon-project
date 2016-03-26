@@ -17,7 +17,7 @@ import com.tencent.tws.burgeon.widget.MasterLayout;
 import com.tencent.tws.burgeon.widget.progressbar.CircularProgressButton;
 import com.tencent.tws.devicemanager.R;
 
-public class PogressBarActivity extends TwsActivity implements SeekBar.OnSeekBarChangeListener, OnClickListener {
+public class ProgressBarActivity extends TwsActivity implements SeekBar.OnSeekBarChangeListener, OnClickListener {
 
 	private CirculaPogressBar mProgressView;
 	private SeekBar mSeekBar;
@@ -35,7 +35,7 @@ public class PogressBarActivity extends TwsActivity implements SeekBar.OnSeekBar
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_circula_pogressbar);
+		setContentView(R.layout.activity_progressbar);
 		mProgressView = (CirculaPogressBar) findViewById(R.id.my_progress);
 		mSeekBar = (SeekBar) findViewById(R.id.progress_seekBar);
 		mSeekBar.setOnSeekBarChangeListener(this);
@@ -57,7 +57,7 @@ public class PogressBarActivity extends TwsActivity implements SeekBar.OnSeekBar
 
 						@Override
 						public void run() {
-							Toast.makeText(PogressBarActivity.this, "Starting download", Toast.LENGTH_SHORT).show();
+							Toast.makeText(ProgressBarActivity.this, "Starting download", Toast.LENGTH_SHORT).show();
 						}
 					});
 					new DownLoadSigTask().execute();
@@ -68,7 +68,7 @@ public class PogressBarActivity extends TwsActivity implements SeekBar.OnSeekBar
 					runOnUiThread(new Runnable() {
 						@Override
 						public void run() {
-							Toast.makeText(PogressBarActivity.this, "Download stopped", Toast.LENGTH_SHORT).show();
+							Toast.makeText(ProgressBarActivity.this, "Download stopped", Toast.LENGTH_SHORT).show();
 						}
 					});
 				}
@@ -76,7 +76,7 @@ public class PogressBarActivity extends TwsActivity implements SeekBar.OnSeekBar
 					runOnUiThread(new Runnable() {
 						@Override
 						public void run() {
-							Toast.makeText(PogressBarActivity.this, "Download complete", Toast.LENGTH_SHORT).show();
+							Toast.makeText(ProgressBarActivity.this, "Download complete", Toast.LENGTH_SHORT).show();
 						}
 					});
 				}
