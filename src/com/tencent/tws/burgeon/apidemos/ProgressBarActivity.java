@@ -1,7 +1,5 @@
 package com.tencent.tws.burgeon.apidemos;
 
-import java.util.Random;
-
 import android.animation.ValueAnimator;
 import android.app.TwsActivity;
 import android.os.AsyncTask;
@@ -21,8 +19,6 @@ public class ProgressBarActivity extends TwsActivity implements SeekBar.OnSeekBa
 
 	private CirculaPogressBar mProgressView;
 	private SeekBar mSeekBar;
-	private int value;
-	private Random random = new Random(System.currentTimeMillis());
 
 	MasterLayout masterLayout;
 	CircularProgressButton mCustomSelector01;

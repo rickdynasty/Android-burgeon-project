@@ -10,8 +10,8 @@
 
     <com.tencent.tws.burgeon.Draw.Paint.ColorFilterView
         android:id="@+id/filter_bitmap_view"
-        android:layout_width="@dimen/filter_view_image_w"
-        android:layout_height="@dimen/filter_view_image_h"
+        android:layout_width="@dimen/burgeon_image_view_w"
+        android:layout_height="@dimen/burgeon_image_view_h"
         android:layout_centerHorizontal="true"
         android:scaleType="centerCrop" />
 

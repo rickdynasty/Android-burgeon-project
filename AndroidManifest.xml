@@ -924,6 +924,25 @@
                 <category android:name="tencent.tws.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.tencent.tws.burgeon.animation.apidemos.AnimationBaseActivity"
+            android:label="@string/activity_label_AnimationBaseActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="tencent.tws.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.tws.burgeon.animation.apidemos.AnimationListActivity"
+            android:label="@string/activity_label_AnimationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="tencent.tws.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
         <!-- Burgeon_end -->
     </application>
 

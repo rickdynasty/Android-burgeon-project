@@ -21,8 +21,8 @@ public class ColorFilterView extends View {
 	private float mBlueFilter;
 	private float mAlphaFilter;
 	private ColorMatrix mColorMatrix;
-	private int filter_view_image_w;
-	private int filter_view_image_h;
+	private int burgeon_image_view_w;
+	private int burgeon_image_view_h;
 
 	public ColorFilterView(Context context, AttributeSet attrs) {
 		super(context, attrs);
@@ -42,8 +42,8 @@ public class ColorFilterView extends View {
 	private void init() {
 		mPaint = new Paint();
 		mBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.meinv);
-		filter_view_image_w = getResources().getDimensionPixelSize(R.dimen.filter_view_image_w);
-		filter_view_image_h = getResources().getDimensionPixelSize(R.dimen.filter_view_image_h);
+		burgeon_image_view_w = getResources().getDimensionPixelSize(R.dimen.burgeon_image_view_w);
+		burgeon_image_view_h = getResources().getDimensionPixelSize(R.dimen.burgeon_image_view_h);
 	}
 
 	@Override
@@ -53,10 +53,10 @@ public class ColorFilterView extends View {
 
 		int bW = mBitmap.getWidth();
 		int bH = mBitmap.getHeight();
-		float scal = Math.max(1.0f, Math.min(filter_view_image_w / (float) bW, filter_view_image_h / (float) bH));
+		float scal = Math.max(1.0f, Math.min(burgeon_image_view_w / (float) bW, burgeon_image_view_h / (float) bH));
 		bW = (int) (bW * scal);
 		bH = (int) (bH * scal);
-		int left = (filter_view_image_w - bW) / 2;
+		int left = (burgeon_image_view_w - bW) / 2;
 		// canvas.drawBitmap(mBitmap, left, 0, mPaint);
 		canvas.drawBitmap(mBitmap, null, new Rect(left, 0, left + bW, bH), mPaint);
 	}

@@ -305,6 +305,8 @@
     <string name="activity_label_ProxyActivity">DesignPattern/Structural/Proxy</string>
     <string name="activity_label_WaveActivity">Draw/Paint/Wave</string>
     <string name="activity_label_FilterActivity">Draw/Paint/ColorFilter</string>
+    <string name="activity_label_AnimationBaseActivity">Animation/Base</string>
+    <string name="activity_label_AnimationListActivity">Animation/Animation_List</string>
 
     <string name="Upload">Upload</string>
     <string name="Error">Error</string>
