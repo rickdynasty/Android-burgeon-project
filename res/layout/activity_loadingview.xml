@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <com.tencent.tws.burgeon.widget.TwsLoadingView
+        android:id="@+id/animation_LoadingView"
+        android:layout_width="@dimen/burgeon_image_view_w_small"
+        android:layout_height="@dimen/burgeon_image_view_h_small"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp" />
+
+</LinearLayout>

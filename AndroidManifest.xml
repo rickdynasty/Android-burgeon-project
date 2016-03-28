@@ -951,6 +951,15 @@
                 <category android:name="tencent.tws.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.tencent.tws.burgeon.animation.apidemos.TwsLoadingViewActivity"
+            android:label="@string/activity_label_TwsLoadingViewActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="tencent.tws.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
 
         <!-- Burgeon_end -->
     </application>

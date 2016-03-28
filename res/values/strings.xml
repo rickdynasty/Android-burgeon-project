@@ -308,6 +308,7 @@
     <string name="activity_label_FilterActivity">Draw/Paint/ColorFilter</string>
     <string name="activity_label_AnimationBaseActivity">Animation/Base</string>
     <string name="activity_label_AnimationListActivity">Animation/Animation_List</string>
+    <string name="activity_label_TwsLoadingViewActivity">Animation/TwsLoadingView</string>
     <string name="Upload">Upload</string>
     <string name="Error">Error</string>
     <string name="Complete">Complete</string>
