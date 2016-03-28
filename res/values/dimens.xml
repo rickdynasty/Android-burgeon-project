@@ -28,5 +28,6 @@
     <dimen name="circularProgress_button_w">196dp</dimen>
     <dimen name="circularProgress_button_h">64dp</dimen>
     <dimen name="circularProgress_button_cornerRadius">48dp</dimen>
+    <dimen name="circular_default_border_width">4dp</dimen>
 
 </resources>

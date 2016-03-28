@@ -591,8 +591,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.apidemos.ProgressBarActivity"
-            android:label="@string/activity_label_CirculaPogressBarActivity" >
+            android:name="com.tencent.tws.burgeon.widget.progressbar.PogressBarActivity"
+            android:label="@string/activity_label_PogressBarActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -936,6 +936,15 @@
         <activity
             android:name="com.tencent.tws.burgeon.animation.apidemos.AnimationListActivity"
             android:label="@string/activity_label_AnimationListActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="tencent.tws.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.tws.burgeon.widget.progressbar.TwsCircularProgressViewActivity"
+            android:label="@string/activity_label_TwsCircularProgressViewActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

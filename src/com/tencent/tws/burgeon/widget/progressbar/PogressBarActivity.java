@@ -1,4 +1,4 @@
-package com.tencent.tws.burgeon.apidemos;
+package com.tencent.tws.burgeon.widget.progressbar;
 
 import android.animation.ValueAnimator;
 import android.app.TwsActivity;
@@ -12,10 +12,9 @@ import android.widget.Toast;
 
 import com.tencent.tws.burgeon.widget.CirculaPogressBar;
 import com.tencent.tws.burgeon.widget.MasterLayout;
-import com.tencent.tws.burgeon.widget.progressbar.CircularProgressButton;
 import com.tencent.tws.devicemanager.R;
 
-public class ProgressBarActivity extends TwsActivity implements SeekBar.OnSeekBarChangeListener, OnClickListener {
+public class PogressBarActivity extends TwsActivity implements SeekBar.OnSeekBarChangeListener, OnClickListener {
 
 	private CirculaPogressBar mProgressView;
 	private SeekBar mSeekBar;
@@ -53,7 +52,7 @@ public class ProgressBarActivity extends TwsActivity implements SeekBar.OnSeekBa
 
 						@Override
 						public void run() {
-							Toast.makeText(ProgressBarActivity.this, "Starting download", Toast.LENGTH_SHORT).show();
+							Toast.makeText(PogressBarActivity.this, "Starting download", Toast.LENGTH_SHORT).show();
 						}
 					});
 					new DownLoadSigTask().execute();
@@ -64,7 +63,7 @@ public class ProgressBarActivity extends TwsActivity implements SeekBar.OnSeekBa
 					runOnUiThread(new Runnable() {
 						@Override
 						public void run() {
-							Toast.makeText(ProgressBarActivity.this, "Download stopped", Toast.LENGTH_SHORT).show();
+							Toast.makeText(PogressBarActivity.this, "Download stopped", Toast.LENGTH_SHORT).show();
 						}
 					});
 				}
@@ -72,7 +71,7 @@ public class ProgressBarActivity extends TwsActivity implements SeekBar.OnSeekBa
 					runOnUiThread(new Runnable() {
 						@Override
 						public void run() {
-							Toast.makeText(ProgressBarActivity.this, "Download complete", Toast.LENGTH_SHORT).show();
+							Toast.makeText(PogressBarActivity.this, "Download complete", Toast.LENGTH_SHORT).show();
 						}
 					});
 				}

@@ -44,4 +44,12 @@
         <attr name="cornerRadius" format="dimension" />
         <attr name="paddingProgress" format="dimension" />
     </declare-styleable>
-</resources>
+    <declare-styleable name="TwsCircularProgressView">
+        <attr name="borderWidth" />
+        <attr name="colorSequence" format="reference" />
+        <attr name="sweepAnimationDurationMillis" format="integer" />
+        <attr name="angleAnimationDurationMillis" format="integer" />
+        <attr name="minSweepAngle" format="integer" />
+    </declare-styleable>
+
+</resources>

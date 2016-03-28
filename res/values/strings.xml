@@ -107,7 +107,8 @@
     <string name="activity_label_ButtonRipple">Widget/Button/ButtonRipple</string>
     <string name="activity_label_TwsEditTextActivity">Widget/EditText/TwsEditText</string>
     <string name="activity_label_TwsButtonActivity">Widget/Button/TwsButton</string>
-    <string name="activity_label_CirculaPogressBarActivity">Widget/PogressBar</string>
+    <string name="activity_label_PogressBarActivity">Widget/PogressBar/Base</string>
+    <string name="activity_label_TwsCircularProgressViewActivity">Widget/PogressBar/TwsCircularProgressView</string>
     <string name="activity_label_DatePickerView">Widget/Pickers/DatePicker</string>
     <string name="activity_label_DateTimePickerView">Widget/Pickers/DateTimePicker</string>
     <string name="activity_label_TimePickerView">Widget/Pickers/TimePicker</string>
@@ -307,7 +308,6 @@
     <string name="activity_label_FilterActivity">Draw/Paint/ColorFilter</string>
     <string name="activity_label_AnimationBaseActivity">Animation/Base</string>
     <string name="activity_label_AnimationListActivity">Animation/Animation_List</string>
-
     <string name="Upload">Upload</string>
     <string name="Error">Error</string>
     <string name="Complete">Complete</string>

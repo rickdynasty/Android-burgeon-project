@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="circular_default_sweepAnimationDuration">900</integer>
+    <integer name="circular_default_angleAnimationDurationMillis">2000</integer>
+    <integer name="circular_default_miniSweepAngle">30</integer>
+
+    <array name="circular_default_color_sequence">
+        <item>@color/circular_green</item>
+    </array>
+    <array name="demo_color_sequence">
+        <item>#ff0000</item>
+        <item>#00ff00</item>
+        <item>#0000ff</item>
+    </array>
+
+</resources>
