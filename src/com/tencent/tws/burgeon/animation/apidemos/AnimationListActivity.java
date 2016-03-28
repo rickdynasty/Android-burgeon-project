@@ -30,7 +30,7 @@ public class AnimationListActivity extends TwsActivity implements OnClickListene
 		AnimationDrawable animationDrawable;
 		switch (view.getId()) {
 		case R.id.btn_action:
-			mImageView.setImageResource(R.drawable.animationlist_wifi);
+			mImageView.setImageResource(R.drawable.animationlist_loading);
 			animationDrawable = (AnimationDrawable) mImageView.getDrawable();
 			animationDrawable.start();
 			break;
