@@ -17,7 +17,7 @@ import android.widget.ImageView;
 import com.tencent.tws.devicemanager.R;
 
 public class AnimationBaseActivity extends TwsActivity implements OnClickListener {
-	private ImageView image = null;
+	private ImageView mImageView = null;
 	private int width;
 	private int height;
 	private final long fOneMinute = 1000;
@@ -28,7 +28,7 @@ public class AnimationBaseActivity extends TwsActivity implements OnClickListene
 		setContentView(R.layout.activity_animation_base);
 
 		init();
-		image = (ImageView) findViewById(R.id.animationImageView);
+		mImageView = (ImageView) findViewById(R.id.anim_base_imageview);
 
 		((Button) findViewById(R.id.alphaButton)).setOnClickListener(this);
 		((Button) findViewById(R.id.rotateButton)).setOnClickListener(this);
@@ -72,9 +72,12 @@ public class AnimationBaseActivity extends TwsActivity implements OnClickListene
 			break;
 		}
 
-		if (animation != null) {
+		if (null == mImageView)
+			mImageView = (ImageView) findViewById(R.id.anim_base_imageview);
+
+		if (animation != null && mImageView != null) {
 			animationSet.addAnimation(animation);
-			image.startAnimation(animationSet);
+			mImageView.startAnimation(animationSet);
 		}
 	}
 }

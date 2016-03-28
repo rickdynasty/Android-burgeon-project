@@ -6,7 +6,7 @@
     android:orientation="vertical" >
 
     <ImageView
-        android:id="@+id/image"
+        android:id="@+id/anim_base_imageview"
         android:layout_width="@dimen/burgeon_image_view_w"
         android:layout_height="@dimen/burgeon_image_view_h"
         android:paddingTop="20dp"
