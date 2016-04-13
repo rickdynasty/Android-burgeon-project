@@ -1,7 +1,5 @@
 package com.tencent.tws.burgeon.widget.progressbar;
 
-import com.tencent.tws.devicemanager.R;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -16,6 +14,8 @@ import android.os.Parcelable;
 import android.util.AttributeSet;
 import android.util.StateSet;
 import android.widget.Button;
+
+import com.tencent.tws.devicemanager.R;
 
 public class CircularProgressButton extends Button {
 

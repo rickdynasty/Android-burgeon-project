@@ -75,8 +75,6 @@ import android.view.inputmethod.InputConnection;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Adapter;
 import android.widget.Checkable;
-// tws-start fix hide class problem in android4.4::2014-07-19
-// tws-end fix hide class problem in android4.4::2014-07-19
 import android.widget.EditText;
 import android.widget.Filter;
 import android.widget.Filterable;
@@ -90,6 +88,8 @@ import com.tencent.tws.assistant.interpolator.CubicEaseInInterpolator;
 import com.tencent.tws.assistant.utils.ThemeUtils;
 import com.tencent.tws.assistant.widget.ListView.OnScrollStateListener;
 import com.tencent.tws.devicemanager.R;
+// tws-start fix hide class problem in android4.4::2014-07-19
+// tws-end fix hide class problem in android4.4::2014-07-19
 
 /**
  * Base class that can be used to implement virtualized lists of items. A list does

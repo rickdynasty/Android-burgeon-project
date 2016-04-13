@@ -111,7 +111,6 @@ public class ActionModeNormal extends TwsActivity {
         			}
         		}, true);
                 mActionMode.setTitle("一二三");
-//                getTwsActionBar().getEditView(true).setText("aaa");
                 ((Button)getTwsActionBar().getCloseView(true)).setText("打开");
                 ToggleButton rightButton = (ToggleButton) getTwsActionBar().getMultiChoiceView();
                 rightButton.setChecked(false);

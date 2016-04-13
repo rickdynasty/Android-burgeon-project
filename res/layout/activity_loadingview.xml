@@ -3,13 +3,12 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:gravity="center_horizontal"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:paddingTop="50dp" >
 
     <com.tencent.tws.burgeon.widget.TwsLoadingView
         android:id="@+id/animation_LoadingView"
-        android:layout_width="@dimen/burgeon_image_view_w_small"
-        android:layout_height="@dimen/burgeon_image_view_h_small"
-        android:paddingBottom="20dp"
-        android:paddingTop="20dp" />
+        android:layout_width="@dimen/burgeon_image_view_size"
+        android:layout_height="@dimen/burgeon_image_view_size" />
 
 </LinearLayout>

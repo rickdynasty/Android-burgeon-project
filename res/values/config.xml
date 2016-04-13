@@ -14,4 +14,7 @@
         <item>#0000ff</item>
     </array>
 
-</resources>
+    <!-- loading view -->
+    <integer name="loading_frames_in_min">30</integer>
+    <integer name="loading_rotate_degree_in_min">145</integer>
+</resources>

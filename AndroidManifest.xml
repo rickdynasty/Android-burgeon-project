@@ -531,16 +531,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.floatview.FloatViewActivity"
-            android:hardwareAccelerated="false"
-            android:label="@string/activity_label_FloatViewActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="tencent.tws.intent.category.SAMPLE_CODE" />
-            </intent-filter>
-        </activity>
-        <activity
             android:name="com.tencent.tws.assistant.apidemos.actionbar.ActionBarMiniMode"
             android:hardwareAccelerated="false"
             android:label="@string/activity_label_ActionBarMiniMode" >

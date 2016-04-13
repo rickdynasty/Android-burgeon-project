@@ -1,7 +1,5 @@
  package com.tencent.tws.burgeon.DesignPattern.Behavioral.Interpreter;
 
-import java.util.Stack;
-
 import android.app.TwsActivity;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;

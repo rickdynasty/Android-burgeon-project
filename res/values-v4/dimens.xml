@@ -72,8 +72,8 @@
     <!-- listview -->
     <dimen name="tws_listview_item_padding_side_left">20dip</dimen>
     <dimen name="tws_listview_item_padding_side_right">20dip</dimen>
-    <dimen name="tws_listview_item_padding_side_top">17dip</dimen>
-    <dimen name="tws_listview_item_padding_side_bottom">17dip</dimen>
+    <dimen name="tws_listview_item_padding_side_top">5dip</dimen>
+    <dimen name="tws_listview_item_padding_side_bottom">5dip</dimen>
     <dimen name="tws_listview_icon_size">44dip</dimen>
     <dimen name="ring_action_bar_height">48dip</dimen>
     <dimen name="child_total_height">56dp</dimen>

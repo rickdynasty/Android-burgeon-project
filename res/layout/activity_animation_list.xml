@@ -7,8 +7,8 @@
 
     <ImageView
         android:id="@+id/animationImageView"
-        android:layout_width="@dimen/burgeon_image_view_w_small"
-        android:layout_height="@dimen/burgeon_image_view_h_small"
+        android:layout_width="@dimen/burgeon_image_view_size"
+        android:layout_height="@dimen/burgeon_image_view_size"
         android:paddingTop="20dp"
         android:src="@drawable/animationlist_loading" />
 

@@ -12,8 +12,6 @@ import android.graphics.Shader;
 import android.os.Bundle;
 import android.view.View;
 
-import com.tencent.tws.devicemanager.R;
-
 public class GraphicesActivity extends TwsActivity {
 	/** Called when the activity is first created. */
 	@Override

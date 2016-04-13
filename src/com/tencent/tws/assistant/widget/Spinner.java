@@ -30,11 +30,11 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListAdapter;
-//
 import android.widget.SpinnerAdapter;
 
 import com.tencent.tws.assistant.app.AlertDialog;
 import com.tencent.tws.devicemanager.R;
+//
 //
 /**
  * A view that displays one child at a time and lets the user pick among them.

@@ -27,13 +27,13 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.DecelerateInterpolator;
-//
-//
 import android.widget.EditText;
 
 import com.tencent.tws.assistant.internal.view.menu.ActionMenuPresenter;
 import com.tencent.tws.assistant.internal.view.menu.ActionMenuView;
 import com.tencent.tws.devicemanager.R;
+//
+//
 
 public abstract class AbsActionBarView extends ViewGroup {
     protected ActionMenuView mMenuView;

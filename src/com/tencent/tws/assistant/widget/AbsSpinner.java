@@ -27,11 +27,11 @@ import android.util.SparseArray;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-//
-//
 import android.widget.SpinnerAdapter;
 
 import com.tencent.tws.devicemanager.R;
+//
+//
 
 /**
  * An abstract base class for spinner widgets. SDK users will probably not

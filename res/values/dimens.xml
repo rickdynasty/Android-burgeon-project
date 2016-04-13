@@ -21,8 +21,7 @@
     <dimen name="des_textview_padding_top">18dp</dimen>
     <dimen name="burgeon_image_view_w">300dp</dimen>
     <dimen name="burgeon_image_view_h">360dp</dimen>
-    <dimen name="burgeon_image_view_w_small">100dp</dimen>
-    <dimen name="burgeon_image_view_h_small">120dp</dimen>
+    <dimen name="burgeon_image_view_size">88dp</dimen>
     <dimen name="stroke_width">4dp</dimen>
     <dimen name="burgeon_child_space">10dp</dimen>
     <dimen name="circularProgress_button_w">196dp</dimen>

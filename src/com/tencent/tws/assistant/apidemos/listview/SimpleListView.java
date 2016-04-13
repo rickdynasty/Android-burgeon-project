@@ -28,6 +28,7 @@ public class SimpleListView extends TwsListActivity {
 		super.onCreate(savedInstanceState);
 		
 		getWindow().requestFeature(Window.FEATURE_ACTION_BAR_OVERLAY);
+		getListView().setScrollBarFadeDuration(0);
 		
 		dataArr = getResources().getStringArray(R.array.date);
 		
