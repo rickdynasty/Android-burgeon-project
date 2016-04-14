@@ -26,7 +26,7 @@ public class TwsCombinationButtonActivity extends TwsActivity implements OnClick
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		setContentView(R.layout.activity_tws_button);
+		setContentView(R.layout.activity_tws_combination_button);
 		tws_btn_Normal = (TwsCombinationButton) findViewById(R.id.tws_btn_Normal);
 		tws_btn_Normal.setOnClickListener(this);
 		tws_btn_Recommended = (TwsCombinationButton) findViewById(R.id.tws_btn_Recommended);
