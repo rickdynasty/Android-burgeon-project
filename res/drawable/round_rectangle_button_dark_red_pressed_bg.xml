@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
 
+    <!-- The first layer of the pure black in color -->
     <item>
-        <shape
-            android:innerRadius="22dp"
-            android:shape="ring"
-            android:thickness="2dp"
-            android:useLevel="false" >
+        <shape android:shape="rectangle" >
             <solid android:color="#FFE32B6C" />
+
+            <corners android:radius="@dimen/tws_button_radius" />
         </shape>
     </item>
     <item
         android:bottom="2dp"
         android:left="2dp"
         android:right="2dp"
+        android:shape="rectangle"
         android:top="2dp">
-        <shape android:shape="oval" >
+        <shape>
             <solid android:color="#80E32B6C" />
+
+            <corners android:radius="@dimen/tws_button_radius" />
         </shape>
     </item>
 

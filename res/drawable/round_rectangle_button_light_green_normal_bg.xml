@@ -3,12 +3,7 @@
 
     <item>
         <shape android:shape="rectangle" >
-
-            <corners
-                android:bottomLeftRadius="@dimen/tws_button_radius"
-                android:bottomRightRadius="@dimen/tws_button_radius"
-                android:topLeftRadius="@dimen/tws_button_radius"
-                android:topRightRadius="@dimen/tws_button_radius" />
+            <corners android:radius="@dimen/tws_button_radius" />
 
             <gradient
                 android:angle="135"
@@ -25,11 +20,7 @@
         <shape>
             <solid android:color="#407010" />
 
-            <corners
-                android:bottomLeftRadius="@dimen/tws_button_radius"
-                android:bottomRightRadius="@dimen/tws_button_radius"
-                android:topLeftRadius="@dimen/tws_button_radius"
-                android:topRightRadius="@dimen/tws_button_radius" />
+            <corners android:radius="@dimen/tws_button_radius" />
         </shape>
     </item>
 

@@ -6,14 +6,9 @@
         <shape android:shape="rectangle" >
             <solid android:color="@color/green" />
 
-            <corners
-                android:bottomLeftRadius="@dimen/tws_button_radius"
-                android:bottomRightRadius="@dimen/tws_button_radius"
-                android:topLeftRadius="@dimen/tws_button_radius"
-                android:topRightRadius="@dimen/tws_button_radius" />
+            <corners android:radius="@dimen/tws_button_radius" />
         </shape>
     </item>
-    <!-- The color of the second layer, which is the top layer of the, because the second layer relative to the View up a dp so at the bottom of the first layer to expose a dp black so give a person a kind of only the bottom border of illusion -->
     <item
         android:bottom="2dp"
         android:left="2dp"
@@ -23,11 +18,7 @@
         <shape>
             <solid android:color="#132205" />
 
-            <corners
-                android:bottomLeftRadius="@dimen/tws_button_radius"
-                android:bottomRightRadius="@dimen/tws_button_radius"
-                android:topLeftRadius="@dimen/tws_button_radius"
-                android:topRightRadius="@dimen/tws_button_radius" />
+            <corners android:radius="@dimen/tws_button_radius" />
         </shape>
     </item>
 

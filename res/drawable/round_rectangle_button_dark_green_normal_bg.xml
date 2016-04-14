@@ -2,12 +2,10 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item>
-        <shape android:shape="rectangle" >
-            <corners
-                android:bottomLeftRadius="@dimen/tws_button_radius"
-                android:bottomRightRadius="@dimen/tws_button_radius"
-                android:topLeftRadius="@dimen/tws_button_radius"
-                android:topRightRadius="@dimen/tws_button_radius" />
+        <shape
+            android:shape="rectangle"
+            android:width="2dp" >
+            <corners android:radius="@dimen/tws_button_radius" />
 
             <gradient
                 android:angle="135"
@@ -24,11 +22,7 @@
         <shape>
             <solid android:color="#132205" />
 
-            <corners
-                android:bottomLeftRadius="@dimen/tws_button_radius"
-                android:bottomRightRadius="@dimen/tws_button_radius"
-                android:topLeftRadius="@dimen/tws_button_radius"
-                android:topRightRadius="@dimen/tws_button_radius" />
+            <corners android:radius="@dimen/tws_button_radius" />
         </shape>
     </item>
 

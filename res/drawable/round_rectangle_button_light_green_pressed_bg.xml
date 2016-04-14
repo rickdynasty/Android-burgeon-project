@@ -5,11 +5,7 @@
         <shape android:shape="rectangle" >
             <solid android:color="@color/green" />
 
-            <corners
-                android:bottomLeftRadius="@dimen/tws_button_radius"
-                android:bottomRightRadius="@dimen/tws_button_radius"
-                android:topLeftRadius="@dimen/tws_button_radius"
-                android:topRightRadius="@dimen/tws_button_radius" />
+            <corners android:radius="@dimen/tws_button_radius" />
         </shape>
     </item>
     <item
@@ -21,11 +17,7 @@
         <shape>
             <solid android:color="#407010" />
 
-            <corners
-                android:bottomLeftRadius="@dimen/tws_button_radius"
-                android:bottomRightRadius="@dimen/tws_button_radius"
-                android:topLeftRadius="@dimen/tws_button_radius"
-                android:topRightRadius="@dimen/tws_button_radius" />
+            <corners android:radius="@dimen/tws_button_radius" />
         </shape>
     </item>
 

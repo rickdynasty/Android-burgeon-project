@@ -77,7 +77,7 @@ public class TwsButton extends Button {
 				setWidth(twsbutton_circle_size);
 				setHeight(twsbutton_circle_size);
 			}
-			setBackground(getResources().getDrawable(R.drawable.circle_button_dark_red_bg));
+			setBackground(getResources().getDrawable(R.drawable.round_rectangle_button_dark_red_bg));
 
 			break;
 		case RECTANGLE_LIGHT_GREEN_MODE:
