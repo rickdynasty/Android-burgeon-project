@@ -15,7 +15,7 @@
         android:layout_gravity="center_horizontal"
         android:columnCount="2" >
 
-        <com.tencent.tws.burgeon.widget.progressbar.TwsCircularProgressView
+        <com.rick_tan.burgeon.widget.progressbar.TwsCircularProgressView
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="8dp"
@@ -24,20 +24,20 @@
             app:colorSequence="@array/circular_default_color_sequence"
             app:sweepAnimationDurationMillis="@integer/circular_default_sweepAnimationDuration" />
 
-        <com.tencent.tws.burgeon.widget.progressbar.TwsCircularProgressView
+        <com.rick_tan.burgeon.widget.progressbar.TwsCircularProgressView
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="8dp"
             app:borderWidth="10dp" />
 
-        <com.tencent.tws.burgeon.widget.progressbar.TwsCircularProgressView
+        <com.rick_tan.burgeon.widget.progressbar.TwsCircularProgressView
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="8dp"
             app:angleAnimationDurationMillis="1000"
             app:sweepAnimationDurationMillis="400" />
 
-        <com.tencent.tws.burgeon.widget.progressbar.TwsCircularProgressView
+        <com.rick_tan.burgeon.widget.progressbar.TwsCircularProgressView
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_margin="8dp"

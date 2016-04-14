@@ -8,7 +8,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.fbdemo.MainActivity">
 
-    <com.tencent.tws.burgeon.Draw.Paint.ColorFilterView
+    <com.rick_tan.burgeon.Draw.Paint.ColorFilterView
         android:id="@+id/filter_bitmap_view"
         android:layout_width="@dimen/burgeon_image_view_w"
         android:layout_height="@dimen/burgeon_image_view_h"

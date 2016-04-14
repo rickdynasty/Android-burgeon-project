@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 
-<com.tencent.tws.assistant.internal.view.menu.ListMenuItemView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.tencent.tws.core.internal.view.menu.ListMenuItemView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:minHeight="@dimen/tws_listview_item_height"
     android:layout_height="wrap_content"
@@ -41,4 +41,4 @@
 
     <!-- Checkbox, and/or radio button will be inserted here. -->
     
-</com.tencent.tws.assistant.internal.view.menu.ListMenuItemView>
+</com.tencent.tws.core.internal.view.menu.ListMenuItemView>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.tencent.tws.assistant.widget.CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tws="http://schemas.android.com/apk/res/com.tencent.tws.devicemanager"
+<com.tencent.tws.core.widget.CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tws="http://schemas.android.com/apk/res/com.tencent.tws.burgeon"
     tws:twsCheckStyle="twsSingle"
     android:id="@+id/ringTtitle"
     android:layout_width="match_parent"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tencent.tws.devicemanager"
+    package="com.tencent.tws.burgeon"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -53,7 +53,7 @@
         android:label="@string/app_name"
         android:theme="@style/Theme.tws.Second" >
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.ApiDemos"
+            android:name="com.tencent.tws.core.apidemos.ApiDemos"
             android:theme="@style/apidemo.second" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -62,7 +62,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.actionbar.ActionBarDisplayOptions"
+            android:name="com.tencent.tws.core.apidemos.actionbar.ActionBarDisplayOptions"
             android:label="@string/activity_label_ActionBarDisplayOptions"
             android:theme="@style/TwsCustomActionMenu" >
             <intent-filter>
@@ -72,7 +72,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.actionbar.ActionBarGradient"
+            android:name="com.tencent.tws.core.apidemos.actionbar.ActionBarGradient"
             android:label="@string/activity_label_ActionBarGradient"
             android:theme="@style/TwsActionBarGradient" >
             <intent-filter>
@@ -82,7 +82,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.actionbar.ActionBarNormalButton"
+            android:name="com.tencent.tws.core.apidemos.actionbar.ActionBarNormalButton"
             android:label="@string/activity_label_ActionBarNormalButton" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -91,7 +91,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.actionbar.ActionBarNormalHolo"
+            android:name="com.tencent.tws.core.apidemos.actionbar.ActionBarNormalHolo"
             android:label="@string/activity_label_ActionBarNormalHolo" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -100,7 +100,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.actionbar.ActionBarNormalEdit"
+            android:name="com.tencent.tws.core.apidemos.actionbar.ActionBarNormalEdit"
             android:label="@string/activity_label_ActionBarNormalEdit" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -109,7 +109,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.actionbar.ActionBarShowHide"
+            android:name="com.tencent.tws.core.apidemos.actionbar.ActionBarShowHide"
             android:label="@string/activity_label_ActionBarShowHide"
             android:uiOptions="splitActionBarWhenNarrow" >
             <intent-filter>
@@ -119,7 +119,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.actionbar.ActionModeNormal"
+            android:name="com.tencent.tws.core.apidemos.actionbar.ActionModeNormal"
             android:label="@string/activity_label_ActionModeNormal"
             android:uiOptions="none" >
             <intent-filter>
@@ -129,7 +129,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.actionbar.ActionModeCheckListActivity"
+            android:name="com.tencent.tws.core.apidemos.actionbar.ActionModeCheckListActivity"
             android:label="@string/activity_label_ActionModeCheckListActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -138,7 +138,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.actionbar.ActionBarSpinner"
+            android:name="com.tencent.tws.core.apidemos.actionbar.ActionBarSpinner"
             android:label="@string/activity_label_ActionBarSpinner" >
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
@@ -146,7 +146,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.actionbar.ActionModeMultiChoiceListActivity"
+            android:name="com.tencent.tws.core.apidemos.actionbar.ActionModeMultiChoiceListActivity"
             android:label="@string/activity_label_ActionModeMultiChoiceListActivity"
             android:theme="@style/ActionModeStyle"
             android:uiOptions="splitActionBarWhenNarrow" >
@@ -156,7 +156,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.actionbar.ActionMenuSelected"
+            android:name="com.tencent.tws.core.apidemos.actionbar.ActionMenuSelected"
             android:label="@string/activity_label_ActionMenuSelected"
             android:uiOptions="splitActionBarWhenNarrow" >
             <intent-filter>
@@ -166,7 +166,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.actionbar.ActionMenuSelectedText"
+            android:name="com.tencent.tws.core.apidemos.actionbar.ActionMenuSelectedText"
             android:label="@string/activity_label_ActionMenuSelectedText"
             android:theme="@style/TwsActionMenuSelected"
             android:uiOptions="splitActionBarWhenNarrow" >
@@ -177,7 +177,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.widget.TwsBaseWidget"
+            android:name="com.tencent.tws.core.apidemos.widget.TwsBaseWidget"
             android:label="@string/activity_label_TwsBaseWidget"
             android:theme="@style/TwsBaseWidget" >
             <intent-filter>
@@ -187,7 +187,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.listview.ListViewTest"
+            android:name="com.tencent.tws.core.apidemos.listview.ListViewTest"
             android:label="@string/activity_label_ListViewTest" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -196,7 +196,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.listview.ListViewComplex"
+            android:name="com.tencent.tws.core.apidemos.listview.ListViewComplex"
             android:label="@string/activity_label_ListViewComplex" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -205,7 +205,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.listview.MultipleChoiceList"
+            android:name="com.tencent.tws.core.apidemos.listview.MultipleChoiceList"
             android:label="@string/activity_label_MultipleChoiceList" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -214,7 +214,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.preference.PreferenceActivityDemo"
+            android:name="com.tencent.tws.core.apidemos.preference.PreferenceActivityDemo"
             android:label="@string/activity_label_PreferenceActivityDemo" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -223,7 +223,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.tab.TabViewpagerActivity"
+            android:name="com.tencent.tws.core.apidemos.tab.TabViewpagerActivity"
             android:label="@string/activity_label_TabViewpagerActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -232,7 +232,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.widget.AlertDialogSamples"
+            android:name="com.tencent.tws.core.apidemos.widget.AlertDialogSamples"
             android:label="@string/activity_label_AlertDialogSamples" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -241,7 +241,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.widget.AlertActivitySamples"
+            android:name="com.tencent.tws.core.apidemos.widget.AlertActivitySamples"
             android:label="@string/activity_label_AlertActivitySamples"
             android:theme="@style/Theme.tws.Second.Dialog.Bottom" >
             <intent-filter>
@@ -251,7 +251,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.fragment.FragmentDemo"
+            android:name="com.tencent.tws.core.apidemos.fragment.FragmentDemo"
             android:label="@string/activity_label_FragmentDemo" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -260,7 +260,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.sortlistview.SortListviewActivity"
+            android:name="com.tencent.tws.core.apidemos.sortlistview.SortListviewActivity"
             android:label="@string/activity_label_SortListviewActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -269,7 +269,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.expandablelistview.CustomExpandableListActivity"
+            android:name="com.tencent.tws.core.apidemos.expandablelistview.CustomExpandableListActivity"
             android:label="@string/activity_label_CustomExpandableListActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -278,7 +278,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.expandablelistview.SimpleExpandableListActivity"
+            android:name="com.tencent.tws.core.apidemos.expandablelistview.SimpleExpandableListActivity"
             android:label="@string/activity_label_SimpleExpandableListActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -287,7 +287,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.view.DatePickerView"
+            android:name="com.tencent.tws.core.apidemos.view.DatePickerView"
             android:label="@string/activity_label_DatePickerView" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -296,7 +296,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.view.DateTimePickerView"
+            android:name="com.tencent.tws.core.apidemos.view.DateTimePickerView"
             android:label="@string/activity_label_DateTimePickerView" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -305,7 +305,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.view.TimePickerView"
+            android:name="com.tencent.tws.core.apidemos.view.TimePickerView"
             android:label="@string/activity_label_TimePickerView" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -314,7 +314,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.view.PickerDialogOutside"
+            android:name="com.tencent.tws.core.apidemos.view.PickerDialogOutside"
             android:label="@string/activity_label_PickerDialogOutside" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -323,7 +323,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.searchview.SearchResultActivity"
+            android:name="com.tencent.tws.core.apidemos.searchview.SearchResultActivity"
             android:exported="false"
             android:label="@string/activity_label_SearchResultActivity"
             android:screenOrientation="portrait"
@@ -335,7 +335,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.actiontab.TwsActionBarTabSecondCustom"
+            android:name="com.tencent.tws.core.apidemos.actiontab.TwsActionBarTabSecondCustom"
             android:label="@string/activity_label_TwsActionBarTabSecondCustom"
             android:theme="@style/TwsActionBarTabWithTitle" >
             <intent-filter>
@@ -345,7 +345,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.actiontab.TwsActionBarTabSecond"
+            android:name="com.tencent.tws.core.apidemos.actiontab.TwsActionBarTabSecond"
             android:label="@string/activity_label_TwsActionBarTabSecond"
             android:theme="@style/TwsActionBarTabWithTitle" >
             <intent-filter>
@@ -355,7 +355,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.actiontab.TwsActionBarTabCustom"
+            android:name="com.tencent.tws.core.apidemos.actiontab.TwsActionBarTabCustom"
             android:label="@string/activity_label_TwsActionBarTabCustom"
             android:theme="@style/TwsActionBarTabWithTitle" >
             <intent-filter>
@@ -365,7 +365,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.actiontab.TwsActionBarTab"
+            android:name="com.tencent.tws.core.apidemos.actiontab.TwsActionBarTab"
             android:label="@string/activity_label_TwsActionBarTab"
             android:theme="@style/TwsActionBarTabWithTitle" >
             <intent-filter>
@@ -375,7 +375,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.view.NumberPickerView"
+            android:name="com.tencent.tws.core.apidemos.view.NumberPickerView"
             android:label="@string/activity_label_NumberPickerView"
             android:theme="@style/CustomNumberPickerStyle" >
             <intent-filter>
@@ -385,7 +385,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.blur.ListViewBlur"
+            android:name="com.tencent.tws.core.apidemos.blur.ListViewBlur"
             android:label="@string/activity_label_ListViewBlur"
             android:uiOptions="splitActionBarWhenNarrow" >
             <intent-filter>
@@ -395,7 +395,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.blur.ListViewFullScreenBlur"
+            android:name="com.tencent.tws.core.apidemos.blur.ListViewFullScreenBlur"
             android:label="@string/activity_label_ListViewFullScreenBlur"
             android:uiOptions="splitActionBarWhenNarrow" >
             <intent-filter>
@@ -405,7 +405,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.blur.ListViewFullScreenNoBlur"
+            android:name="com.tencent.tws.core.apidemos.blur.ListViewFullScreenNoBlur"
             android:label="@string/activity_label_ListViewFullScreenNoBlur"
             android:uiOptions="splitActionBarWhenNarrow" >
             <intent-filter>
@@ -415,7 +415,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.blur.ActionModeListViewFullScreenBlur"
+            android:name="com.tencent.tws.core.apidemos.blur.ActionModeListViewFullScreenBlur"
             android:label="@string/activity_label_ActionModeListViewFullScreenBlur" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -424,7 +424,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.blur.ScrollViewBlur"
+            android:name="com.tencent.tws.core.apidemos.blur.ScrollViewBlur"
             android:label="@string/activity_label_ScrollViewBlur"
             android:uiOptions="splitActionBarWhenNarrow" >
             <intent-filter>
@@ -434,7 +434,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.blur.ScrollViewFullScreenBlur"
+            android:name="com.tencent.tws.core.apidemos.blur.ScrollViewFullScreenBlur"
             android:label="@string/activity_label_ScrollViewFullScreenBlur"
             android:uiOptions="splitActionBarWhenNarrow" >
             <intent-filter>
@@ -444,7 +444,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.blur.ScrollViewFullScreenNoBlur"
+            android:name="com.tencent.tws.core.apidemos.blur.ScrollViewFullScreenNoBlur"
             android:label="@string/activity_label_ScrollViewFullScreenNoBlur"
             android:uiOptions="splitActionBarWhenNarrow" >
             <intent-filter>
@@ -454,7 +454,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.blur.GridViewBlur"
+            android:name="com.tencent.tws.core.apidemos.blur.GridViewBlur"
             android:label="@string/activity_label_GridViewBlur"
             android:uiOptions="splitActionBarWhenNarrow" >
             <intent-filter>
@@ -464,7 +464,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.blur.ActionModeGridViewBlur"
+            android:name="com.tencent.tws.core.apidemos.blur.ActionModeGridViewBlur"
             android:label="@string/activity_label_ActionModeGridViewBlur"
             android:uiOptions="splitActionBarWhenNarrow" >
             <intent-filter>
@@ -474,7 +474,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.blur.GridViewNoBlur"
+            android:name="com.tencent.tws.core.apidemos.blur.GridViewNoBlur"
             android:label="@string/activity_label_GridViewNoBlur"
             android:uiOptions="splitActionBarWhenNarrow" >
             <intent-filter>
@@ -484,7 +484,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.blur.ActionModeBlur"
+            android:name="com.tencent.tws.core.apidemos.blur.ActionModeBlur"
             android:label="@string/activity_label_ActionModeBlur"
             android:uiOptions="splitActionBarWhenNarrow" >
             <intent-filter>
@@ -494,7 +494,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.blur.ActionModeNoBlur"
+            android:name="com.tencent.tws.core.apidemos.blur.ActionModeNoBlur"
             android:label="@string/activity_label_ActionModeNoBlur"
             android:uiOptions="splitActionBarWhenNarrow" >
             <intent-filter>
@@ -504,7 +504,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.listview.SimpleListView"
+            android:name="com.tencent.tws.core.apidemos.listview.SimpleListView"
             android:label="@string/activity_label_SimpleListView" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -513,7 +513,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.listview.NormalListView"
+            android:name="com.tencent.tws.core.apidemos.listview.NormalListView"
             android:label="@string/activity_label_NormalListView" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -522,7 +522,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.listview.CheckListView"
+            android:name="com.tencent.tws.core.apidemos.listview.CheckListView"
             android:label="@string/activity_label_CheckListView" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -531,7 +531,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.actionbar.ActionBarMiniMode"
+            android:name="com.tencent.tws.core.apidemos.actionbar.ActionBarMiniMode"
             android:hardwareAccelerated="false"
             android:label="@string/activity_label_ActionBarMiniMode" >
             <intent-filter>
@@ -541,7 +541,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.sortlistview.SideBarActivity"
+            android:name="com.tencent.tws.core.apidemos.sortlistview.SideBarActivity"
             android:hardwareAccelerated="false"
             android:label="@string/activity_label_SideBarActivity" >
             <intent-filter>
@@ -551,7 +551,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.ripple.ButtonRipple"
+            android:name="com.tencent.tws.core.apidemos.ripple.ButtonRipple"
             android:hardwareAccelerated="false"
             android:label="@string/activity_label_ButtonRipple" >
             <intent-filter>
@@ -561,7 +561,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.widget.TwsEditTextActivity"
+            android:name="com.tencent.tws.core.apidemos.widget.TwsEditTextActivity"
             android:hardwareAccelerated="false"
             android:label="@string/activity_label_TwsEditTextActivity" >
             <intent-filter>
@@ -571,7 +571,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.assistant.apidemos.widget.TwsButtonActivity"
+            android:name="com.tencent.tws.core.apidemos.widget.TwsButtonActivity"
             android:hardwareAccelerated="false"
             android:label="@string/activity_label_TwsButtonActivity" >
             <intent-filter>
@@ -581,7 +581,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.widget.progressbar.PogressBarActivity"
+            android:name="com.rick_tan.burgeon.apidemos.PogressBarActivity"
             android:label="@string/activity_label_PogressBarActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -590,7 +590,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.apidemos.GraphicesActivity"
+            android:name="com.rick_tan.burgeon.apidemos.draw.GraphicesActivity"
             android:label="@string/activity_label_GraphicesActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -599,7 +599,7 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name="com.tencent.tws.assistant.apidemos.floatview.NetworkConnectChangedReceiver" >
+        <receiver android:name="com.tencent.tws.core.apidemos.floatview.NetworkConnectChangedReceiver" >
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
                 <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
@@ -609,7 +609,7 @@
 
         <!-- Burgeon-start -->
         <activity
-            android:name="com.tencent.tws.burgeon.layout.shape.ShapeRectangle"
+            android:name="com.rick_tan.burgeon.apidemos.draw.ShapeRectangleActivity"
             android:label="@string/activity_label_shaperectangele" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -618,7 +618,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.layout.shape.ShapeOval"
+            android:name="com.rick_tan.burgeon.apidemos.draw.ShapeOvalActivity"
             android:label="@string/activity_label_shapeoval" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -627,7 +627,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.layout.shape.ShapeLine"
+            android:name="com.rick_tan.burgeon.apidemos.draw.ShapeLineActivity"
             android:label="@string/activity_label_shapeline" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -636,7 +636,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.layout.shape.ShapeRing"
+            android:name="com.rick_tan.burgeon.apidemos.draw.ShapeRingActivity"
             android:label="@string/activity_label_shapering" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -645,7 +645,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.layout.selector.SelectorActivity"
+            android:name="com.rick_tan.burgeon.apidemos.draw.SelectorActivity"
             android:label="@string/activity_label_layoutselector" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -654,7 +654,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.layout.layerlist.LayerListActivity"
+            android:name="com.rick_tan.burgeon.apidemos.draw.LayerListActivity"
             android:label="@string/activity_label_layoutlayerlist" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -663,7 +663,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.Draw.PorterDuff.XfermodesActivity"
+            android:name="com.rick_tan.burgeon.Draw.PorterDuff.XfermodesActivity"
             android:label="@string/activity_label_porterDuffXfermodes" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -672,7 +672,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.Draw.PorterDuff.ClipActivity"
+            android:name="com.rick_tan.burgeon.Draw.PorterDuff.ClipActivity"
             android:label="@string/activity_label_porterDuffclip" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -681,7 +681,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.Draw.PorterDuff.TintActivity"
+            android:name="com.rick_tan.burgeon.Draw.PorterDuff.TintActivity"
             android:label="@string/activity_label_porterDufftint" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -690,7 +690,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Creational.FactoryMethod.FactoryMethodActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Creational.FactoryMethod.FactoryMethodActivity"
             android:label="@string/activity_label_FactoryMethodActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -699,7 +699,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Creational.AbstractFactory.AbstractFactoryActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Creational.AbstractFactory.AbstractFactoryActivity"
             android:label="@string/activity_label_AbstractFactoryActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -708,7 +708,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Creational.Singleton.SingletonActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Creational.Singleton.SingletonActivity"
             android:label="@string/activity_label_SingletonActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -717,7 +717,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Creational.Builder.BuilderActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Creational.Builder.BuilderActivity"
             android:label="@string/activity_label_BuilderActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -726,7 +726,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Creational.Prototype.PrototypeActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Creational.Prototype.PrototypeActivity"
             android:label="@string/activity_label_PrototypeActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -735,7 +735,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Behavioral.TemplateMethod.TemplateMethodActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Behavioral.TemplateMethod.TemplateMethodActivity"
             android:label="@string/activity_label_TemplateMethodActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -744,7 +744,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Behavioral.Mediator.MediatorActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Behavioral.Mediator.MediatorActivity"
             android:label="@string/activity_label_MediatorActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -753,7 +753,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Behavioral.Observer.ObserverActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Behavioral.Observer.ObserverActivity"
             android:label="@string/activity_label_ObserverActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -762,7 +762,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Behavioral.Visitor.VisitorActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Behavioral.Visitor.VisitorActivity"
             android:label="@string/activity_label_VisitorActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -771,7 +771,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Behavioral.Command.CommandActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Behavioral.Command.CommandActivity"
             android:label="@string/activity_label_CommandActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -780,7 +780,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Behavioral.ChainOfResponsibility.ChainofResponsibilityActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Behavioral.ChainOfResponsibility.ChainofResponsibilityActivity"
             android:label="@string/activity_label_ChainofResponsibilityActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -789,7 +789,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Behavioral.Strategy.StrategyActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Behavioral.Strategy.StrategyActivity"
             android:label="@string/activity_label_StrategyActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -798,7 +798,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Behavioral.Iterator.IteratorActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Behavioral.Iterator.IteratorActivity"
             android:label="@string/activity_label_IteratorActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -807,7 +807,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Behavioral.Interpreter.InterpreterActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Behavioral.Interpreter.InterpreterActivity"
             android:label="@string/activity_label_InterpreterActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -816,7 +816,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Behavioral.Memento.MementoActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Behavioral.Memento.MementoActivity"
             android:label="@string/activity_label_MementoActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -825,7 +825,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Behavioral.State.StateActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Behavioral.State.StateActivity"
             android:label="@string/activity_label_StateActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -834,7 +834,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Structural.Adapter.AdapterActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Structural.Adapter.AdapterActivity"
             android:label="@string/activity_label_AdapterActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -843,7 +843,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Structural.Bridge.BridgeActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Structural.Bridge.BridgeActivity"
             android:label="@string/activity_label_BridgeActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -852,7 +852,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Structural.Composite.CompositeActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Structural.Composite.CompositeActivity"
             android:label="@string/activity_label_CompositeActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -861,7 +861,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Structural.Decorator.DecoratorActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Structural.Decorator.DecoratorActivity"
             android:label="@string/activity_label_DecoratorActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -870,7 +870,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Structural.Facade.FacadeActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Structural.Facade.FacadeActivity"
             android:label="@string/activity_label_FacadeActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -879,7 +879,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Structural.Flyweight.FlyweightActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Structural.Flyweight.FlyweightActivity"
             android:label="@string/activity_label_FlyweightActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -888,7 +888,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.DesignPattern.Structural.Proxy.ProxyActivity"
+            android:name="com.rick_tan.burgeon.DesignPattern.Structural.Proxy.ProxyActivity"
             android:label="@string/activity_label_ProxyActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -897,7 +897,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.Draw.Paint.WaveActivity"
+            android:name="com.rick_tan.burgeon.Draw.Paint.WaveActivity"
             android:label="@string/activity_label_WaveActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -906,7 +906,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.Draw.Paint.FilterActivity"
+            android:name="com.rick_tan.burgeon.Draw.Paint.FilterActivity"
             android:label="@string/activity_label_FilterActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -915,7 +915,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.animation.apidemos.AnimationBaseActivity"
+            android:name="com.rick_tan.burgeon.apidemos.animation.AnimationBaseActivity"
             android:label="@string/activity_label_AnimationBaseActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -924,7 +924,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.animation.apidemos.AnimationListActivity"
+            android:name="com.rick_tan.burgeon.apidemos.animation.AnimationListActivity"
             android:label="@string/activity_label_AnimationListActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -933,7 +933,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.widget.progressbar.TwsCircularProgressViewActivity"
+            android:name="com.rick_tan.burgeon.apidemos.TwsCircularProgressViewActivity"
             android:label="@string/activity_label_TwsCircularProgressViewActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -942,7 +942,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.burgeon.animation.apidemos.TwsLoadingViewActivity"
+            android:name="com.rick_tan.burgeon.apidemos.animation.TwsLoadingViewActivity"
             android:label="@string/activity_label_TwsLoadingViewActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

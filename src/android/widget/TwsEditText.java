@@ -34,7 +34,7 @@ import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.view.inputmethod.EditorInfo;
 
-import com.tencent.tws.devicemanager.R;
+import com.tencent.tws.burgeon.R;
 
 /*
  * This is supposed to be a *very* thin veneer over TextView.

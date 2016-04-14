@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="#C2C2C2"
     android:orientation="vertical"
-    tools:context="com.tencent.tws.burgeon.layout.layerlist.LayerListActivity">
+    tools:context="com.rick_tan.burgeon.apidemos.draw.LayerListActivity">
 
     <RadioGroup
         android:layout_width="match_parent"

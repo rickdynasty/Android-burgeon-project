@@ -72,8 +72,8 @@
     <string name="activity_label_TwsBaseWidget">Widget/TwsBaseWidget</string>
     <string name="activity_label_PreferenceActivityDemo">Preference</string>
     <string name="activity_label_TabViewpagerActivity">Tab/TabViewpager</string>
-    <string name="activity_label_AlertDialogSamples">AlertDialogs/White</string>
-    <string name="activity_label_AlertActivitySamples">AlertDialogs/AlertActivity</string>
+    <string name="activity_label_AlertDialogSamples">AlertDialogs</string>
+    <string name="activity_label_AlertActivitySamples">AlertActivity</string>
     <string name="activity_label_FragmentDemo">Fragment</string>
     <string name="activity_label_TwsActionBarTabSecondCustom">Tab/TwsActionBarTabSecondCustom</string>
     <string name="activity_label_TwsActionBarTabSecond">Tab/TwsActionBarTabSecond</string>

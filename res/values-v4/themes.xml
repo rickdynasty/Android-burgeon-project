@@ -41,16 +41,16 @@
     </style>
 
     <style name="AlertDialog.tws.Second.Bottom">
-        <item name="android:fullDark">@color/tws_operat_view_bg</item>
-        <item name="android:topDark">@color/tws_operat_view_bg</item>
-        <item name="android:centerDark">@color/tws_operat_view_bg</item>
-        <item name="android:bottomDark">@color/tws_operat_view_bg</item>
-        <item name="android:fullBright">@color/tws_operat_view_bg</item>
-        <item name="android:topBright">@color/tws_operat_view_bg</item>
-        <item name="android:centerBright">@color/tws_operat_view_bg</item>
-        <item name="android:bottomBright">@color/tws_operat_view_bg</item>
-        <item name="android:bottomMedium">@color/tws_operat_view_bg</item>
-        <item name="android:centerMedium">@color/tws_operat_view_bg</item>
+        <item name="android:fullDark">@drawable/bottom_dialog_full_holo_light</item>
+        <item name="android:topDark">@drawable/bottom_dialog_top_holo_light</item>
+        <item name="android:centerDark">@drawable/bottom_dialog_middle_holo_light</item>
+        <item name="android:bottomDark">@drawable/bottom_dialog_bottom_holo_light</item>
+        <item name="android:fullBright">@drawable/bottom_dialog_full_holo_light</item>
+        <item name="android:topBright">@drawable/bottom_dialog_top_holo_light</item>
+        <item name="android:centerBright">@drawable/bottom_dialog_middle_holo_light</item>
+        <item name="android:bottomBright">@drawable/bottom_dialog_bottom_holo_light</item>
+        <item name="android:bottomMedium">@drawable/bottom_dialog_bottom_holo_light</item>
+        <item name="android:centerMedium">@drawable/bottom_dialog_middle_holo_light</item>
     </style>
 
     <style name="AlertDialog.tws.Second.Dark">
@@ -274,7 +274,7 @@
 
     <style name="TextAppearance.tws.DialogWindowTitle">
         <item name="android:textSize">@dimen/tws_Large_TextSize</item>
-        <item name="android:textColor">@color/tws_white</item>
+        <item name="android:textColor">@color/tws_blue</item>
     </style>
 
     <style name="TextAppearance.tws.ListViewEmptyText">
@@ -291,7 +291,7 @@
 
     <style name="TextAppearance.tws.Second.twsTextDialogButton">
         <item name="android:textSize">@dimen/tws_Large_TextSize</item>
-        <item name="android:textColor">@color/tws_white</item>
+        <item name="android:textColor">@color/tws_dialog_button_text_light</item>
     </style>
 
     <style name="TextAppearance.tws.Second.twsTextDialogButton.Dark">
@@ -379,13 +379,13 @@
 
     <style name="TextAppearance.tws.Second.twsTextMediumLightBody">
         <item name="android:textSize">@dimen/tws_Large_TextSize</item>
-        <item name="android:textColor">@color/tws_white</item>
+        <item name="android:textColor">@color/tws_light_body</item>
         <item name="android:textColorHint">@color/tws_second_Hint</item>
     </style>
 
     <style name="TextAppearance.tws.Second.twsTextMediumLightBodyL">
         <item name="android:textSize">@dimen/tws_Large_TextSize</item>
-        <item name="android:textColor">@color/tws_white</item>
+        <item name="android:textColor">@color/tws_light_body</item>
         <item name="android:textColorHint">@color/tws_second_Hint</item>
     </style>
 
@@ -429,7 +429,7 @@
 
     <style name="TextAppearance.tws.Second.twsTextSmallLightBodySub">
         <item name="android:textSize">@dimen/tws_Small_TextSize</item>
-        <item name="android:textColor">@color/tws_white</item>
+        <item name="android:textColor">@color/tws_light_body_sub</item>
         <item name="android:textColorHint">@color/tws_second_Hint</item>
     </style>
 
@@ -794,7 +794,6 @@
 
     <style name="Theme.tws.Second">
         <item name="actionBarStyle">@style/Widget.tws.ActionBar.Second</item>
-        <item name="dmTextViewStyle">@style/Widget.tws.TextView.DM</item>
         <item name="textColorSearchUrl">@color/search_url_text_holo</item>
         <item name="menuitemstyle">@style/TextAppearance.tws.Second.twsTextLargerLightTitleMenuItem</item>
         <item name="menuitemBottomStyle">@style/TextAppearance.tws.Second.twsTextLargerLightTitleMenuItem.Bottom</item>
@@ -1302,9 +1301,9 @@
     <style name="Widget.tws.ActionBar.Second">
         <item name="titleTextStyle">@style/TextAppearance.tws.Second.twsTextLargerLightTitle.ActionBarTitle</item>
         <item name="subtitleTextStyle">@style/TextAppearance.tws.Second.twsTextSmallLightTitle</item>
-        <item name="background">@color/tws_view_bg</item>
+        <item name="background">@drawable/ab_solid_holo_light</item>
         <item name="backgroundStacked">@drawable/ab_solid_holo_light</item>
-        <item name="backgroundSplit">@color/tws_view_bg</item>
+        <item name="backgroundSplit">@drawable/ab_solid_holo_light_bottom</item>
         <item name="homebutton">@drawable/ic_ab_back</item>
         <item name="homebackground">@color/transparent</item>
         <item name="actionbarleftbtnstyle">@style/TextAppearance.tws.Second.twsTextLargerLightTitleLeftButton</item>
@@ -1318,7 +1317,7 @@
     <style name="Widget.tws.ActionBar.Second.Holo">
         <item name="titleTextStyle">@style/TextAppearance.tws.Second.twsTextLargerDarkTitle.ActionBarTitle</item>
         <item name="subtitleTextStyle">@style/TextAppearance.tws.Second.twsTextSmallDarkTitle</item>
-        <item name="background">@color/tws_view_bg</item>
+        <item name="background">@drawable/ab_solid_holo_dark</item>
         <item name="backgroundStacked">@drawable/ab_solid_holo_dark</item>
         <item name="backgroundSplit">@drawable/ab_solid_holo_dark</item>
         <item name="homebutton">@drawable/ic_ab_back_holo</item>
@@ -1422,8 +1421,8 @@
         <item name="backgroundActionMode">@drawable/ab_solid_holo_light_noshadow</item>
         <item name="backgroundSplit">@drawable/ab_solid_holo_light_bottom</item>
         <item name="backgroundMode">gradient</item>
-        <item name="gradientBackgroundStartColor">@color/tws_view_bg</item>
-        <item name="gradientBackgroundEndColor">@color/tws_view_bg</item>
+        <item name="gradientBackgroundStartColor">@color/actionbar_gradient_background_start_color</item>
+        <item name="gradientBackgroundEndColor">@color/actionbar_gradient_background_end_color</item>
     </style>
 
     <style name="Widget.tws.ActionMode.Second.Holo">
@@ -1604,14 +1603,16 @@
         <item name="listSelector">@null</item>
     </style>
 
-	<!-- <item name="listSelector">@drawable/list_menu_selector</item> -->
     <style name="Widget.tws.ListView.Second.Dialog">
-        <item name="android:background">@color/tws_operat_view_bg</item>
-        <item name="divider">@null</item>
+        <item name="android:background">@drawable/list_menu_bg_holo_light</item>
+        <item name="listSelector">@drawable/list_menu_selector</item>
+        <item name="topListSelector">@drawable/list_menu_selector_top</item>
+        <item name="bottomListSelector">@drawable/list_menu_selector_bottom</item>
+        <item name="useShapedSelector">true</item>
     </style>
 
     <style name="Widget.tws.ListView.Second.Dialog.Dark">
-        <item name="android:background">@color/tws_view_bg</item>
+        <item name="android:background">@color/tws_black</item>
         <item name="listSelector">@color/tws_black</item>
     </style>
 
@@ -1779,7 +1780,7 @@
     </style>
 
     <style name="Widget.tws.TabBar" parent="@android:style/Widget.Holo.TabWidget">
-        <item name="android:background">@color/tws_view_bg</item>
+        <item name="android:background">@drawable/tab_bar_bg_light</item>
         <item name="android:gravity">center_horizontal</item>
         <item name="tabStripLeft">@null</item>
         <item name="tabStripRight">@null</item>
@@ -1801,7 +1802,7 @@
     <style name="Widget.tws.TabText" parent="@android:style/Widget.Holo.ActionBar.TabText">
         <item name="android:maxWidth">180dip</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:textSize">@dimen/tws_Small_TextSize</item>
+        <item name="android:textSize">18dp</item>
         <item name="android:textColor">@color/tab_text_light</item>
     </style>
 
@@ -1823,7 +1824,6 @@
 
     <style name="Widget.tws.TabView" parent="@android:style/Widget.Holo.ActionBar.TabView">
         <item name="android:textColor">@color/tab_text_light</item>
-        <item name="android:textSize">@dimen/tws_Small_TextSize</item>
         <item name="android:gravity">center</item>
         <item name="android:background">@drawable/tab_bg_light</item>
         <item name="android:layout_weight">@integer/action_bar_tab_layout_weight</item>
@@ -1885,8 +1885,5 @@
         <item name="textSize">@dimen/tws_Medium_TextSize</item>
         <item name="textColor">@color/tws_button_textColor</item>
         <item name="disabled_textColor">@color/tws_button_disabled_textColor</item>
-    </style>
-    <style name="Widget.tws.TextView.DM">
-        <item name="android:textColor">@color/tws_white</item>
     </style>
 </resources>

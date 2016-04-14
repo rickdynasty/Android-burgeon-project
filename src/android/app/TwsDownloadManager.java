@@ -70,7 +70,7 @@ public class TwsDownloadManager extends DownloadManager {
     /**
      * 定制UI的Activity 名
      */
-    public static final ComponentName CUSTOMIZED_DOWNLOAD_ACTIVITY = new ComponentName("com.tencent.tws.assistant.download", "com.tencent.tws.assistant.download.DownloadCustomerActivity");
+    public static final ComponentName CUSTOMIZED_DOWNLOAD_ACTIVITY = new ComponentName("com.tencent.tws.core.download", "com.tencent.tws.core.download.DownloadCustomerActivity");
     
     /**
      * 定制UI的title

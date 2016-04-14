@@ -18,13 +18,13 @@
 -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:tws="http://schemas.android.com/apk/res/com.tencent.tws.devicemanager"
+	xmlns:tws="http://schemas.android.com/apk/res/com.tencent.tws.burgeon"
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     >
 
-    <com.tencent.tws.assistant.widget.ListView android:id="@android:id/list"
+    <com.tencent.tws.core.widget.ListView android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="0px"
         android:layout_weight="1"

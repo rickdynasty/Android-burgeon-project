@@ -13,7 +13,7 @@
         android:orientation="vertical"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
-        tools:context="com.tencent.tws.burgeon.layout.shape.ShapeRectangle" >
+        tools:context="com.rick_tan.burgeon.apidemos.draw.ShapeRectangle" >
 
         <TextView
             android:layout_width="wrap_content"

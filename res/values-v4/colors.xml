@@ -56,7 +56,7 @@
     <color name="tws_tab_disabled">#80ffffff</color>
     <color name="tws_tab_pressed">#ffffffff</color>
     <color name="tws_tab_selected">#ffffffff</color>
-    <color name="tws_tab_normal">#80ffffff</color>
+    <color name="tws_tab_normal">#ffffffff</color>
     <color name="tws_tab_sub_disabled">#4c000000</color>
     <color name="tws_tab_sub_pressed">#ff000000</color>
     <color name="tws_tab_sub_selected">#ff000000</color>

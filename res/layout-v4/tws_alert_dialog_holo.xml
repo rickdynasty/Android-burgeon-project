@@ -18,7 +18,7 @@
 -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tws="http://schemas.android.com/apk/res/com.tencent.tws.devicemanager"
+    xmlns:tws="http://schemas.android.com/apk/res/com.tencent.tws.burgeon"
     android:id="@id/parentPanel"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
     android:layout_marginRight="16dip"
     android:minWidth="300dp"
     android:orientation="vertical"
-    android:background="@color/tws_operat_view_bg">
+    android:background="@drawable/dialog_bg">
 
     <LinearLayout
         android:id="@id/topPanel"
@@ -69,7 +69,6 @@
                 <TextView
                     android:id="@id/alertTitle"
                     style="?attr/windowTitleStyle"
-                    android:textColor="@color/tws_white"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
@@ -101,7 +100,7 @@
         android:gravity="center_vertical"
         android:orientation="vertical" >
 
-        <com.tencent.tws.assistant.widget.TwsScrollView
+        <com.tencent.tws.core.widget.TwsScrollView
             android:id="@id/scrollView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -136,7 +135,7 @@
             		android:paddingTop="16dip"
                     android:lineSpacingExtra="3dip" />
             </LinearLayout>
-        </com.tencent.tws.assistant.widget.TwsScrollView>
+        </com.tencent.tws.core.widget.TwsScrollView>
     </LinearLayout>
 
     <LinearLayout 
@@ -160,13 +159,6 @@
             android:paddingBottom="10dip"
             android:paddingTop="10dip" />
     </LinearLayout>
-    
-    <View
-        android:id="@id/dialog_bottom_split"
-        android:layout_width="match_parent"
-        android:layout_height="1px"
-        android:background="@color/tws_dialog_split"
-        android:visibility="gone" />
 
     <LinearLayout
         android:id="@id/dialog_bottom_buttons_panel"

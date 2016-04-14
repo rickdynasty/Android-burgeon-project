@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:padding="16dp"
-    tools:context="com.tencent.tws.burgeon.layout.shape.ShapeRing">
+    tools:context="com.rick_tan.burgeon.apidemos.draw.ShapeRing">
 
     <ImageView
         android:layout_width="50dp"

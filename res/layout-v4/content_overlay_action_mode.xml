@@ -5,25 +5,25 @@
     android:fitsSystemWindows="true"
     android:orientation="vertical" >
 
-    <com.tencent.tws.assistant.internal.widget.ActionBarContainer
+    <com.tencent.tws.core.internal.widget.ActionBarContainer
         android:id="@+id/tws_action_bar_container"
         style="?attr/actionBarStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
 
-        <com.tencent.tws.assistant.internal.widget.ActionBarView
+        <com.tencent.tws.core.internal.widget.ActionBarView
             android:id="@+id/tws_action_bar"
             style="?attr/actionBarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <com.tencent.tws.assistant.internal.widget.ActionBarContextView
+        <com.tencent.tws.core.internal.widget.ActionBarContextView
             android:id="@+id/tws_action_context_bar"
             style="?attr/actionModeStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:visibility="gone" />
-    </com.tencent.tws.assistant.internal.widget.ActionBarContainer>
+    </com.tencent.tws.core.internal.widget.ActionBarContainer>
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
             android:foreground="?android:attr/windowContentOverlay"
             android:foregroundGravity="fill_horizontal|top" />
 
-        <com.tencent.tws.assistant.internal.widget.ActionBarContainer
+        <com.tencent.tws.core.internal.widget.ActionBarContainer
             android:id="@+id/tws_split_action_bar"
             style="?attr/actionBarStyle"
             android:layout_width="match_parent"

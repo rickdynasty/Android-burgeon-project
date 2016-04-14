@@ -104,7 +104,6 @@
 
     <style name="apidemo.second" parent="@style/Theme.tws.Second">
         <item name="listViewStyle">@style/apidemo.ListView</item>
-        <item name="dmTextViewStyle">@style/Widget.tws.TextView</item>
     </style>
 
     <style name="apidemo.ListView" parent="@android:style/Widget.ListView">

@@ -47,8 +47,8 @@ import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.TextView;
 
-import com.tencent.tws.assistant.widget.ListView;
-import com.tencent.tws.devicemanager.R;
+import com.tencent.tws.core.widget.ListView;
+import com.tencent.tws.burgeon.R;
 
 
 /**

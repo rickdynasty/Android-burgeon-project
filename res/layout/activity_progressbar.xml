@@ -25,7 +25,7 @@
                 android:gravity="center"
                 android:orientation="horizontal" >
 
-                <com.tencent.tws.burgeon.widget.CirculaPogressBar
+                <com.rick_tan.burgeon.widget.CirculaPogressBar
                     android:id="@+id/my_progress"
                     android:layout_width="100dp"
                     android:layout_height="100dp" />
@@ -38,15 +38,15 @@
                     android:layout_marginRight="10dp" />
             </LinearLayout>
 
-            <com.tencent.tws.burgeon.widget.MasterLayout
+            <com.rick_tan.burgeon.widget.MasterLayout
                 android:id="@+id/MasterLayout01"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:clickable="true" >
-            </com.tencent.tws.burgeon.widget.MasterLayout>
+            </com.rick_tan.burgeon.widget.MasterLayout>
 
-            <com.tencent.tws.burgeon.widget.progressbar.CircularProgressButton
+            <com.rick_tan.burgeon.widget.progressbar.CircularProgressButton
                 android:id="@+id/circularButton_custom_selector01"
                 android:layout_width="@dimen/circularProgress_button_w"
                 android:layout_height="@dimen/circularProgress_button_h"
@@ -61,7 +61,7 @@
                 app:textError="@string/Error"
                 app:textIdle="@string/Upload" />
 
-            <com.tencent.tws.burgeon.widget.progressbar.CircularProgressButton
+            <com.rick_tan.burgeon.widget.progressbar.CircularProgressButton
                 android:id="@+id/circularButton_custom_selector02"
                 android:layout_width="@dimen/circularProgress_button_w"
                 android:layout_height="@dimen/circularProgress_button_h"
@@ -76,7 +76,7 @@
                 app:textError="@string/Error"
                 app:textIdle="@string/Upload" />
 
-            <com.tencent.tws.burgeon.widget.progressbar.CircularProgressButton
+            <com.rick_tan.burgeon.widget.progressbar.CircularProgressButton
                 android:id="@+id/circularButton_progress_padding01"
                 android:layout_width="@dimen/circularProgress_button_w"
                 android:layout_height="@dimen/circularProgress_button_h"
@@ -89,7 +89,7 @@
                 app:textError="@string/Error"
                 app:textIdle="@string/Upload" />
 
-            <com.tencent.tws.burgeon.widget.progressbar.CircularProgressButton
+            <com.rick_tan.burgeon.widget.progressbar.CircularProgressButton
                 android:id="@+id/circularButton_progress_padding02"
                 android:layout_width="@dimen/circularProgress_button_w"
                 android:layout_height="@dimen/circularProgress_button_h"
@@ -102,7 +102,7 @@
                 app:textError="@string/Error"
                 app:textIdle="@string/Upload" />
 
-            <com.tencent.tws.burgeon.widget.progressbar.CircularProgressButton
+            <com.rick_tan.burgeon.widget.progressbar.CircularProgressButton
                 android:id="@+id/circularButton_integer_progress01"
                 android:layout_width="@dimen/circularProgress_button_w"
                 android:layout_height="@dimen/circularProgress_button_h"
@@ -113,7 +113,7 @@
                 app:textError="@string/Error"
                 app:textIdle="@string/Upload" />
 
-            <com.tencent.tws.burgeon.widget.progressbar.CircularProgressButton
+            <com.rick_tan.burgeon.widget.progressbar.CircularProgressButton
                 android:id="@+id/circularButton_integer_progress02"
                 android:layout_width="@dimen/circularProgress_button_w"
                 android:layout_height="@dimen/circularProgress_button_h"

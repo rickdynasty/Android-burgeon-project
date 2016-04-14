@@ -6,7 +6,7 @@ import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.tencent.tws.devicemanager.R;
+import com.tencent.tws.burgeon.R;
 
 public class TwsMaxHeightLinearLayout extends TwsLinearLayout {
 	private int mMaxHeight=0;

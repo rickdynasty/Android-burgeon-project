@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:paddingTop="50dp" >
 
-    <com.tencent.tws.burgeon.widget.TwsLoadingView
+    <com.rick_tan.burgeon.widget.TwsLoadingView
         android:id="@+id/animation_LoadingView"
         android:layout_width="@dimen/burgeon_image_view_size"
         android:layout_height="@dimen/burgeon_image_view_size" />

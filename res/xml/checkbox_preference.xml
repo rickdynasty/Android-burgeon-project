@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.tencent.tws.assistant.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+<com.tencent.tws.core.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tws="http://schemas.android.com/apk/res-auto" >
 
-    <com.tencent.tws.assistant.preference.CheckBoxPreference
+    <com.tencent.tws.core.preference.CheckBoxPreference
         android:key="wifi"
         android:title="@string/preference_preference_tittle" />
 
-    <com.tencent.tws.assistant.preference.EditTextPreference
+    <com.tencent.tws.core.preference.EditTextPreference
         android:dependency="wifi"
         android:layout="?android:attr/preferenceLayoutChild"
         android:title="@string/preference_preference_tittle" />
 
-    <com.tencent.tws.assistant.preference.Preference
+    <com.tencent.tws.core.preference.Preference
         android:key="Preference"
         android:summary="@string/preference_common_summary"
         android:title="@string/preference_preference_tittle" />
 
-    <com.tencent.tws.assistant.preference.CheckBoxPreference
+    <com.tencent.tws.core.preference.CheckBoxPreference
         android:key="CheckBoxPreference"
         android:summary="@string/preference_common_summary"
         android:title="@string/preference_checkbox_tittle" />
 
-    <com.tencent.tws.assistant.preference.EditTextPreference
+    <com.tencent.tws.core.preference.EditTextPreference
         android:defaultValue="@string/preference_edittext_defaultvalue"
         android:dialogTitle="@string/preference_common_dialogtittle"
         android:key="EditTextPreference"
         android:summary="@string/preference_common_summary"
         android:title="@string/preference_edittext_tittle" />
 
-    <com.tencent.tws.assistant.preference.VolumePreference
+    <com.tencent.tws.core.preference.VolumePreference
         android:defaultValue="0.5"
         android:dialogTitle="@string/preference_common_dialogtittle"
         android:key="VolumePreference"
@@ -36,19 +36,19 @@
         android:summary="@string/preference_common_summary"
         android:title="@string/preference_volume_tittle" />
 
-    <com.tencent.tws.assistant.preference.SeekBarDialogPreference
+    <com.tencent.tws.core.preference.SeekBarDialogPreference
         android:dialogTitle="@string/preference_common_dialogtittle"
         android:key="SeekBarDialogPreference"
         android:summary="@string/preference_common_summary"
         android:title="@string/preference_seekbardialog_tittle" />
-    <com.tencent.tws.assistant.preference.SeekBarDialogPreference
+    <com.tencent.tws.core.preference.SeekBarDialogPreference
         android:dialogTitle="@string/preference_common_dialogtittle"
         android:key="SeekBarDialogPreference"
         android:summary="@string/preference_common_summary"
         android:title="@string/preference_seekbardialog_tittle"
         tws:preferenceArrow="false" />
 
-    <com.tencent.tws.assistant.preference.ListPreference
+    <com.tencent.tws.core.preference.ListPreference
         android:dialogTitle="@string/preference_common_dialogtittle"
         android:entries="@array/list_entries"
         android:entryValues="@array/list_entries_value"
@@ -56,19 +56,19 @@
         android:summary="@string/preference_common_summary"
         android:title="@string/preference_list_tittle" />
 
-    <com.tencent.tws.assistant.preference.PreferenceScreen android:title="@string/preference_preferencescreen_title" >
-        <com.tencent.tws.assistant.preference.CheckBoxPreference
+    <com.tencent.tws.core.preference.PreferenceScreen android:title="@string/preference_preferencescreen_title" >
+        <com.tencent.tws.core.preference.CheckBoxPreference
             android:key="CheckBoxPreference"
             android:summary="@string/preference_common_summary"
             android:title="@string/preference_checkbox_tittle" />
-        <com.tencent.tws.assistant.preference.CheckBoxPreference
+        <com.tencent.tws.core.preference.CheckBoxPreference
             android:key="CheckBoxPreference"
             android:summary="@string/preference_common_summary"
             android:title="@string/preference_checkbox_tittle" />
-    </com.tencent.tws.assistant.preference.PreferenceScreen>
+    </com.tencent.tws.core.preference.PreferenceScreen>
 
-    <com.tencent.tws.assistant.preference.PreferenceCategory android:title="@string/preference_category_advanced" >
-        <com.tencent.tws.assistant.preference.SwitchPreference
+    <com.tencent.tws.core.preference.PreferenceCategory android:title="@string/preference_category_advanced" >
+        <com.tencent.tws.core.preference.SwitchPreference
             android:key="SwitchPreference"
             android:summaryOff="summaryOff"
             android:summaryOn="summaryOn"
@@ -76,18 +76,18 @@
             android:switchTextOn=" "
             android:title="SwitchPreference" />
 
-        <com.tencent.tws.assistant.preference.SeekBarPreference
+        <com.tencent.tws.core.preference.SeekBarPreference
             android:icon="@drawable/ic_search"
             android:key="SeekBarPreference"
             android:max="100"
             android:progress="60" />
 
-        <com.tencent.tws.assistant.preference.RingtonePreference
+        <com.tencent.tws.core.preference.RingtonePreference
             android:key="RingtonePreference"
             android:ringtoneType="alarm"
             android:showSilent="true"
             android:summary="@string/preference_common_summary"
             android:title="@string/preference_ringtone_tittle" />
-    </com.tencent.tws.assistant.preference.PreferenceCategory>
+    </com.tencent.tws.core.preference.PreferenceCategory>
 
-</com.tencent.tws.assistant.preference.PreferenceScreen>
+</com.tencent.tws.core.preference.PreferenceScreen>

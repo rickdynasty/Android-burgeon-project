@@ -47,7 +47,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 
-import com.tencent.tws.devicemanager.R;
+import com.tencent.tws.burgeon.R;
 
 /**
  * Provides the contents for the suggestion drop-down list.in {@link SearchDialog}.

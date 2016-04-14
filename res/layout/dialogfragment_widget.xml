@@ -5,10 +5,10 @@
     android:layout_marginLeft="16dp"
     android:orientation="vertical" >
 
-    <com.tencent.tws.assistant.widget.ListView
+    <com.tencent.tws.core.widget.ListView
         android:id="@+id/listView1"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
-    </com.tencent.tws.assistant.widget.ListView>
+    </com.tencent.tws.core.widget.ListView>
     
 </LinearLayout>

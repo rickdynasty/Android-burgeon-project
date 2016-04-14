@@ -14,15 +14,15 @@
      limitations under the License.
 -->
 
-<com.tencent.tws.assistant.widget.CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tws="http://schemas.android.com/apk/res/com.tencent.tws.devicemanager"
+<com.tencent.tws.core.widget.CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tws="http://schemas.android.com/apk/res/com.tencent.tws.burgeon"
     tws:twsCheckStyle="twsSingle"
     android:id="@id/text1"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:minHeight="@dimen/tws_listview_item_height"
     style="?android:attr/textAppearanceMedium"
-	android:textColor="@color/tws_white"
+	android:textColor="?android:attr/textColorAlertDialogListItem"
     android:gravity="center_vertical"
     android:paddingLeft="18dip"
     android:paddingRight="13dip"

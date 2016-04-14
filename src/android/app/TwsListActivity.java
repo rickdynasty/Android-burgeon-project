@@ -21,9 +21,9 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.ListAdapter;
 
-import com.tencent.tws.assistant.widget.AdapterView;
-import com.tencent.tws.assistant.widget.ListView;
-import com.tencent.tws.devicemanager.R;
+import com.tencent.tws.core.widget.AdapterView;
+import com.tencent.tws.core.widget.ListView;
+import com.tencent.tws.burgeon.R;
 
 /**
  * An activity that displays a list of items by binding to a data source such as

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.tencent.tws.assistant.widget.ListView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.tencent.tws.core.widget.ListView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:cacheColorHint="#00000000"
@@ -8,4 +8,4 @@
     android:padding="16dp"
     android:scrollbarStyle="outsideOverlay" >
 
-</com.tencent.tws.assistant.widget.ListView>
+</com.tencent.tws.core.widget.ListView>

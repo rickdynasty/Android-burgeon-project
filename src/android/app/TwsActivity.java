@@ -45,22 +45,22 @@ import android.widget.PopupWindow;
 import android.widget.TextView;
 
 import com.android.internal.view.menu.ContextMenuBuilder;
-import com.tencent.tws.assistant.app.ActionBar;
-import com.tencent.tws.assistant.app.TwsDialog;
-import com.tencent.tws.assistant.gaussblur.JNIBlur;
-import com.tencent.tws.assistant.internal.app.ActionBarImpl;
-import com.tencent.tws.assistant.internal.view.menu.ListMenuPresenter;
-import com.tencent.tws.assistant.internal.view.menu.MenuBuilder;
-import com.tencent.tws.assistant.internal.view.menu.MenuDialogHelper;
-import com.tencent.tws.assistant.internal.view.menu.MenuPresenter;
-import com.tencent.tws.assistant.internal.view.menu.MenuView;
-import com.tencent.tws.assistant.internal.view.menu.StandaloneActionMode;
-import com.tencent.tws.assistant.internal.widget.ActionBarContainer;
-import com.tencent.tws.assistant.internal.widget.ActionBarContextView;
-import com.tencent.tws.assistant.internal.widget.ActionBarView;
-import com.tencent.tws.assistant.utils.ReflectUtils;
-import com.tencent.tws.assistant.utils.ThemeUtils;
-import com.tencent.tws.devicemanager.R;
+import com.tencent.tws.core.app.ActionBar;
+import com.tencent.tws.core.app.TwsDialog;
+import com.tencent.tws.core.gaussblur.JNIBlur;
+import com.tencent.tws.core.internal.app.ActionBarImpl;
+import com.tencent.tws.core.internal.view.menu.ListMenuPresenter;
+import com.tencent.tws.core.internal.view.menu.MenuBuilder;
+import com.tencent.tws.core.internal.view.menu.MenuDialogHelper;
+import com.tencent.tws.core.internal.view.menu.MenuPresenter;
+import com.tencent.tws.core.internal.view.menu.MenuView;
+import com.tencent.tws.core.internal.view.menu.StandaloneActionMode;
+import com.tencent.tws.core.internal.widget.ActionBarContainer;
+import com.tencent.tws.core.internal.widget.ActionBarContextView;
+import com.tencent.tws.core.internal.widget.ActionBarView;
+import com.tencent.tws.core.utils.ReflectUtils;
+import com.tencent.tws.core.utils.ThemeUtils;
+import com.tencent.tws.burgeon.R;
 
 //
 

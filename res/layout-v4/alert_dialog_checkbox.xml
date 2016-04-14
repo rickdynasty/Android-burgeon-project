@@ -30,7 +30,7 @@
 			android:layout_height="wrap_content"/>
 	</LinearLayout>
 	
-	<com.tencent.tws.assistant.widget.CheckBox 
+	<com.tencent.tws.core.widget.CheckBox 
 	    android:id="@id/checkBox"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
@@ -41,6 +41,6 @@
 		android:gravity="center_vertical|left"
 		android:button= "@drawable/second_btn_check_holo_light"
 		android:textAppearance="@style/TextAppearance.tws.Second.twsTextMediumLightBody"
-		android:textColor="@color/tws_white" />
+		android:textColor="@color/tws_light_body_sub" />
 </LinearLayout>
 

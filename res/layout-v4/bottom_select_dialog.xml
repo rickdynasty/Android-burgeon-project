@@ -23,15 +23,14 @@
     This layout file is inflated and used as the ListView to display the items.
     Assign an ID so its state will be saved/restored.
 -->
-<view class="com.tencent.tws.assistant.widget.ListView"
+<view class="com.tencent.tws.core.widget.ListView"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tws="http://schemas.android.com/apk/res/com.tencent.tws.devicemanager"
     android:id="@id/dialog_bottom_buttons_listview"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="0dip"
     android:cacheColorHint="@null"
-    style="@style/Widget.tws.ListView.Second.Dialog"
+    android:divider="?android:attr/listDividerAlertDialog"
     android:dividerHeight="1px"
     android:scrollbars="vertical"
     android:overScrollMode="ifContentScrolls" />

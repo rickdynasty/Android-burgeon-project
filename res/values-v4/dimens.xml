@@ -175,7 +175,7 @@
 
     <!-- Recommended Button -->
     <dimen name="tws_button_high_Recommended">37dp</dimen>
-    <dimen name="tws_tabhost_h">30dp</dimen>
+    <dimen name="tws_tabhost_h">42dp</dimen>
     <dimen name="tws_tabhost_big_h">54dp</dimen>
     <dimen name="tws_tabspec_space">16dp</dimen>
 

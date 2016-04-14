@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.tencent.tws.burgeon.layout.shape.ShapeLine" >
+    tools:context="com.rick_tan.burgeon.apidemos.draw.ShapeLine" >
 
     <TextView
         android:layout_width="match_parent"

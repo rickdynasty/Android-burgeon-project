@@ -19,11 +19,11 @@
                 android:id="@id/tabs"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/tws_tabhost_h"
-                android:background="@color/tws_view_bg"
+                android:background="@drawable/tab_bar_bg_light"
                 android:orientation="horizontal" />
         </HorizontalScrollView>
 
-        <com.tencent.tws.assistant.widget.TabIndicator
+        <com.tencent.tws.core.widget.TabIndicator
             android:id="@id/tab_indicator"
             style="?attr/tabIndicatorStyle"
             android:layout_width="match_parent"
@@ -31,7 +31,7 @@
             android:layout_alignBottom="@+id/scrolltabs"
             android:layout_marginBottom="4dp" />
 
-        <com.tencent.tws.assistant.support.v4.view.ViewPager
+        <com.tencent.tws.core.support.v4.view.ViewPager
             android:id="@id/tabviewpager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

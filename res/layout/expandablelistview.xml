@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
     
-    <com.tencent.tws.assistant.widget.ExpandableListView 
+    <com.tencent.tws.core.widget.ExpandableListView 
         android:id="@+id/listView"
         android:layout_width="match_parent"
    	 	android:layout_height="match_parent" />

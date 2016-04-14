@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.tencent.tws.burgeon.Draw.Paint.SineCosineWaveView
+    <com.rick_tan.burgeon.Draw.Paint.SineCosineWaveView
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
