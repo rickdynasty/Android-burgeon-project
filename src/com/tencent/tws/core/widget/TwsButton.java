@@ -57,7 +57,7 @@ public class TwsButton extends Button {
 				setWidth(twsbutton_circle_size);
 				setHeight(twsbutton_circle_size);
 			}
-			setBackground(getResources().getDrawable(R.drawable.circle_button_light_green_bg));
+			setBackground(getResources().getDrawable(R.drawable.round_rectangle_button_light_green_bg));
 			break;
 		case CIRCLE_DARK_GREEN_MODE:
 			if (layout_width <= 0 || layout_height <= 0) {
@@ -67,7 +67,7 @@ public class TwsButton extends Button {
 				setWidth(twsbutton_circle_size);
 				setHeight(twsbutton_circle_size);
 			}
-			setBackground(getResources().getDrawable(R.drawable.circle_button_dark_green_bg));
+			setBackground(getResources().getDrawable(R.drawable.round_rectangle_button_dark_green_bg));
 			break;
 		case CIRCLE_DARK_RED_MODE:
 			if (layout_width <= 0 || layout_height <= 0) {
