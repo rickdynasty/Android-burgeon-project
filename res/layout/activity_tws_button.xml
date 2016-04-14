@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tws="http://schemas.android.com/apk/res/com.tencent.tws.burgeon"
+    android:id="@+id/screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <com.tencent.tws.core.widget.TwsButton
+                android:id="@+id/circle_dark_green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:text="@string/circle_dark_green"
+                tws:twsButtonMode="circle_dark_green" />
+
+            <com.tencent.tws.core.widget.TwsButton
+                android:id="@+id/circle_light_green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:text="@string/circle_light_green"
+                tws:twsButtonMode="circle_light_green" />
+        </LinearLayout>
+
+        <com.tencent.tws.core.widget.TwsButton
+            android:id="@+id/rectangle_light_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dip"
+            android:text="@string/rectangle_light_green"
+            tws:twsButtonMode="rectangle_light_green" />
+
+        <com.tencent.tws.core.widget.TwsButton
+            android:id="@+id/rectangle_dark_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dip"
+            android:text="@string/rectangle_dark_green"
+            tws:twsButtonMode="rectangle_dark_green" />
+
+        <com.tencent.tws.core.widget.TwsButton
+            android:id="@+id/circle_dark_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dip"
+            android:text="@string/circle_dark_red"
+            tws:twsButtonMode="circle_dark_red" />
+
+        <com.tencent.tws.core.widget.TwsButton
+            android:id="@+id/action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dip"
+            android:text="test" />
+    </LinearLayout>
+
+</ScrollView>

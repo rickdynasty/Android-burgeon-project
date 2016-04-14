@@ -581,6 +581,15 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.tencent.tws.core.apidemos.widget.TwsButtonActivity"
+            android:label="@string/activity_label_TwsButtonActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="tencent.tws.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="com.rick_tan.burgeon.apidemos.PogressBarActivity"
             android:label="@string/activity_label_PogressBarActivity" >
             <intent-filter>

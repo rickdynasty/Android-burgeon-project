@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- disabled -->
+    <item android:drawable="@drawable/round_rectangle_button_dark_disabled_bg" android:state_enabled="false"/>
+
+    <!-- pressed -->
+    <item android:drawable="@drawable/round_rectangle_button_light_green_pressed_bg" android:state_pressed="true"/>
+
+    <!-- focused -->
+    <item android:drawable="@drawable/round_rectangle_button_light_green_pressed_bg" android:state_focused="true"/>
+
+    <!-- default -->
+    <item android:drawable="@drawable/round_rectangle_button_light_green_normal_bg"/>
+
+</selector>

@@ -169,4 +169,9 @@
     <color name="tws_button_textColor_Progress">@color/white</color>
     <color name="tws_button_disabled_textColor_Progress">@color/white</color>
 
+    <!-- 50% alpha green -->
+    <color name="green_alpha_larger">#807EDF1E</color>
+    <!-- 15% alpha green -->
+    <color name="green_alpha_mini">#267EDF1E</color>
+
 </resources>

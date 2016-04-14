@@ -65,7 +65,7 @@ public class TwsCombinationButton extends FrameLayout {
 	}
 
 	public TwsCombinationButton(Context context, AttributeSet attrs) {
-		this(context, attrs, R.attr.twsButtonStyle);
+		this(context, attrs, R.attr.twsCombinationButtonStyle);
 	}
 
 	public TwsCombinationButton(Context context, AttributeSet attrs, int defStyleAttr) {
@@ -75,7 +75,7 @@ public class TwsCombinationButton extends FrameLayout {
 		TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.TwsCombinationButton, 0, 0);
 		mText = a.getString(R.styleable.TwsCombinationButton_text);
 		mHeight = (int) a.getDimension(R.styleable.TwsCombinationButton_height, getResources().getDimensionPixelSize(R.dimen.tws_button_high));
-		mButtomMode = a.getInt(R.styleable.TwsCombinationButton_twsButtonMode, -1);
+		mButtomMode = a.getInt(R.styleable.TwsCombinationButton_twsCombinationButtonMode, -1);
 		if (-1 == mButtomMode) {
 			mBackground = a.getColor(R.styleable.TwsCombinationButton_normal_background, getResources().getColor(R.color.tws_button_normal_background));
 			mPressedBackground = a.getColor(R.styleable.TwsCombinationButton_pressed_background, getResources().getColor(R.color.tws_button_pressed_background));

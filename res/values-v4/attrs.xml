@@ -660,6 +660,7 @@
         <attr name="windowTitleSize" format="dimension" />
         <attr name="windowTitleStyle" format="reference" />
         <attr name="yesNoPreferenceStyle" format="reference" />
+        <attr name="twsCombinationButtonStyle" format="reference" />
         <attr name="twsButtonStyle" format="reference" />
     </declare-styleable>
     <declare-styleable name="TimePicker">
@@ -762,7 +763,7 @@
         <attr name="text" format="string" />
         <attr name="height" />
         <attr name="radius" format="dimension" />
-        <attr name="twsButtonMode">
+        <attr name="twsCombinationButtonMode">
             <enum name="normal" value="0" />
             <enum name="recommended" value="1" />
             <enum name="progress" value="2" />
@@ -782,6 +783,19 @@
         <attr name="textSize" />
         <attr name="textColor" />
         <attr name="disabled_textColor" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="TwsButton">
+        <attr name="twsButtonMode">
+            <enum name="circle_light_green" value="0" />
+            <enum name="circle_dark_green" value="1" />
+            <enum name="rectangle_light_green" value="2" />
+            <enum name="rectangle_dark_green" value="3" />
+            <enum name="circle_light_red" value="4" />
+            <enum name="circle_dark_red" value="5" />
+        </attr>
+        <attr name="android:layout_width" />
+        <attr name="android:layout_height" />
+        <attr name="src" format="reference" />
     </declare-styleable>
 
 </resources>

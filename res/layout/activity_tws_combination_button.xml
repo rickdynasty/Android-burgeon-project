@@ -42,7 +42,7 @@
             android:layout_marginRight="@dimen/tws_button_margin_right"
             android:gravity="center"
             tws:text="only use to test TwsCombinationButton - only use to test TwsCombinationButton - only use to"
-            tws:twsButtonMode="recommended" >
+            tws:twsCombinationButtonMode="recommended" >
         </com.tencent.tws.core.widget.TwsCombinationButton>
 
         <Button
@@ -65,7 +65,7 @@
             android:layout_marginRight="@dimen/tws_button_margin_right"
             android:gravity="center"
             tws:text="only use to test TwsCombinationButton - only use to test TwsCombinationButton - only use to"
-            tws:twsButtonMode="progress" >
+            tws:twsCombinationButtonMode="progress" >
         </com.tencent.tws.core.widget.TwsCombinationButton>
 
         <Button

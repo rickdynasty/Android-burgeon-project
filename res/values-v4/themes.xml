@@ -676,7 +676,8 @@
         <item name="android:editTextPreferenceStyle">@style/Preference.tws.DialogPreference.EditTextPreference</item>
         <item name="android:dividerVertical">?android:attr/listDivider</item>
         <item name="android:switchPreferenceStyle">@style/Preference.tws.SwitchPreference</item>
-        <item name="twsButtonStyle">@style/Widget.tws.TwsCombinationButtonStyle</item>
+        <item name="twsCombinationButtonStyle">@style/Widget.tws.TwsCombinationButtonStyle</item>
+        <item name="twsButtonStyle">@style/Widget.tws.TwsButtonStyle</item>
     </style>
 
     <style name="Theme.tws.CompactMenu" parent="@android:style/Theme.Holo">
@@ -1886,4 +1887,10 @@
         <item name="textColor">@color/tws_button_textColor</item>
         <item name="disabled_textColor">@color/tws_button_disabled_textColor</item>
     </style>
+
+    <style name="Widget.tws.TwsButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/tws_Medium_TextSize</item>
+    </style>
+
 </resources>

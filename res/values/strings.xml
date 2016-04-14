@@ -106,6 +106,7 @@
     <string name="activity_label_ButtonRipple">Widget/Button/ButtonRipple</string>
     <string name="activity_label_TwsEditTextActivity">Widget/EditText/TwsEditText</string>
     <string name="activity_label_TwsCombinationButtonActivity">Widget/Button/TwsCombinationButton</string>
+    <string name="activity_label_TwsButtonActivity">Widget/Button/TwsButton</string>
     <string name="activity_label_PogressBarActivity">Widget/PogressBar/Base</string>
     <string name="activity_label_TwsCircularProgressViewActivity">Widget/PogressBar/TwsCircularProgressView</string>
     <string name="activity_label_DatePickerView">Widget/Pickers/DatePicker</string>
@@ -316,4 +317,12 @@
     <string name="StateChangeSample">State Change Sample</string>
     <string name="ProgressPaddingSample">Progress Padding Sample</string>
     <string name="CustomSelectorSample">Custom Selector Sample</string>
+
+    <!-- TwsButton -->
+    <string name="circle_light_green">clg</string>
+    <string name="circle_dark_green">cdg</string>
+    <string name="rectangle_light_green">rlg</string>
+    <string name="rectangle_dark_green">rdg</string>
+    <string name="circle_dark_red">cdr</string>
+
 </resources>
