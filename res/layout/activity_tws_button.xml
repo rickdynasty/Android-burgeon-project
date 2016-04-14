@@ -16,16 +16,16 @@
             android:text="默认按钮"
             android:textColor="@color/white" />
 
-        <com.tencent.tws.core.widget.TwsButton
+        <com.tencent.tws.core.widget.TwsCombinationButton
             android:id="@+id/tws_btn_Normal"
-            style="@style/Widget.tws.TwsButtonStyle"
+            style="@style/Widget.tws.TwsCombinationButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="@dimen/tws_button_high"
             android:layout_marginLeft="@dimen/tws_button_margin_left"
             android:layout_marginRight="@dimen/tws_button_margin_right"
             android:gravity="center"
-            tws:text="only use to test TwsButton - only use to test TwsButton - only use to" >
-        </com.tencent.tws.core.widget.TwsButton>
+            tws:text="only use to test TwsCombinationButton - only use to test TwsCombinationButton - only use to" >
+        </com.tencent.tws.core.widget.TwsCombinationButton>
 
         <TextView
             android:layout_width="wrap_content"
@@ -34,16 +34,16 @@
             android:text="推荐按钮"
             android:textColor="@color/white" />
 
-        <com.tencent.tws.core.widget.TwsButton
+        <com.tencent.tws.core.widget.TwsCombinationButton
             android:id="@+id/tws_btn_Recommended"
             android:layout_width="match_parent"
             android:layout_height="@dimen/tws_button_high"
             android:layout_marginLeft="@dimen/tws_button_margin_left"
             android:layout_marginRight="@dimen/tws_button_margin_right"
             android:gravity="center"
-            tws:text="only use to test TwsButton - only use to test TwsButton - only use to"
+            tws:text="only use to test TwsCombinationButton - only use to test TwsCombinationButton - only use to"
             tws:twsButtonMode="recommended" >
-        </com.tencent.tws.core.widget.TwsButton>
+        </com.tencent.tws.core.widget.TwsCombinationButton>
 
         <Button
             android:id="@+id/btn_test"
@@ -57,16 +57,16 @@
             android:text="进度按钮"
             android:textColor="@color/white" />
 
-        <com.tencent.tws.core.widget.TwsButton
+        <com.tencent.tws.core.widget.TwsCombinationButton
             android:id="@+id/tws_btn_Progress"
             android:layout_width="match_parent"
             android:layout_height="@dimen/tws_button_high"
             android:layout_marginLeft="@dimen/tws_button_margin_left"
             android:layout_marginRight="@dimen/tws_button_margin_right"
             android:gravity="center"
-            tws:text="only use to test TwsButton - only use to test TwsButton - only use to"
+            tws:text="only use to test TwsCombinationButton - only use to test TwsCombinationButton - only use to"
             tws:twsButtonMode="progress" >
-        </com.tencent.tws.core.widget.TwsButton>
+        </com.tencent.tws.core.widget.TwsCombinationButton>
 
         <Button
             android:id="@+id/btn_test2"
@@ -81,7 +81,7 @@
             android:text="自定义按钮"
             android:textColor="@color/white" />
 
-        <com.tencent.tws.core.widget.TwsButton
+        <com.tencent.tws.core.widget.TwsCombinationButton
             android:id="@+id/tws_btn_Custom"
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -102,10 +102,10 @@
             tws:pressed_borderColor="@color/tws_button_pressed_borderColor"
             tws:progressColor="@color/red"
             tws:radius="0dp"
-            tws:text="only use to test TwsButton - only use to test TwsButton - only use to"
+            tws:text="only use to test TwsCombinationButton - only use to test TwsCombinationButton - only use to"
             tws:textColor="@color/blue"
             tws:textSize="@dimen/tws_Larger_TextSize" >
-        </com.tencent.tws.core.widget.TwsButton>
+        </com.tencent.tws.core.widget.TwsCombinationButton>
     </LinearLayout>
 
 </ScrollView>

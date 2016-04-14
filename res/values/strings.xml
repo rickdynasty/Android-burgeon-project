@@ -105,7 +105,7 @@
     <string name="activity_label_SideBarActivity">Widget/SideBar</string>
     <string name="activity_label_ButtonRipple">Widget/Button/ButtonRipple</string>
     <string name="activity_label_TwsEditTextActivity">Widget/EditText/TwsEditText</string>
-    <string name="activity_label_TwsButtonActivity">Widget/Button/TwsButton</string>
+    <string name="activity_label_TwsCombinationButtonActivity">Widget/Button/TwsCombinationButton</string>
     <string name="activity_label_PogressBarActivity">Widget/PogressBar/Base</string>
     <string name="activity_label_TwsCircularProgressViewActivity">Widget/PogressBar/TwsCircularProgressView</string>
     <string name="activity_label_DatePickerView">Widget/Pickers/DatePicker</string>

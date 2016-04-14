@@ -676,7 +676,7 @@
         <item name="android:editTextPreferenceStyle">@style/Preference.tws.DialogPreference.EditTextPreference</item>
         <item name="android:dividerVertical">?android:attr/listDivider</item>
         <item name="android:switchPreferenceStyle">@style/Preference.tws.SwitchPreference</item>
-        <item name="twsButtonStyle">@style/Widget.tws.TwsButtonStyle</item>
+        <item name="twsButtonStyle">@style/Widget.tws.TwsCombinationButtonStyle</item>
     </style>
 
     <style name="Theme.tws.CompactMenu" parent="@android:style/Theme.Holo">
@@ -1870,7 +1870,7 @@
         <item name="layout">@layout/time_picker</item>
     </style>
 
-    <style name="Widget.tws.TwsButtonStyle">
+    <style name="Widget.tws.TwsCombinationButtonStyle">
         <item name="height">@dimen/tws_button_high</item>
         <item name="radius">@dimen/tws_button_round_radius</item>
         <item name="normal_background">@color/tws_button_normal_background</item>

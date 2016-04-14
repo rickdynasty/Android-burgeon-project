@@ -758,7 +758,7 @@
     <declare-styleable name="ActionMenuItemView">
         <attr name="minWidth" />
     </declare-styleable>
-    <declare-styleable name="TwsButton">
+    <declare-styleable name="TwsCombinationButton">
         <attr name="text" format="string" />
         <attr name="height" />
         <attr name="radius" format="dimension" />

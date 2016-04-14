@@ -19,9 +19,9 @@ import android.widget.TextView;
 
 import com.tencent.tws.burgeon.R;
 
-public class TwsButton extends FrameLayout {
+public class TwsCombinationButton extends FrameLayout {
 
-	private final String TAG = "rick_Print:TwsButton";
+	private final String TAG = "rick_Print:TwsCombinationButton";
 
 	private Context mContext;
 	private int mButtomMode = -1;
@@ -60,48 +60,48 @@ public class TwsButton extends FrameLayout {
 	private TextView mTv;
 	private ProgressBar mProgressBar;
 
-	public TwsButton(Context context) {
+	public TwsCombinationButton(Context context) {
 		this(context, null);
 	}
 
-	public TwsButton(Context context, AttributeSet attrs) {
+	public TwsCombinationButton(Context context, AttributeSet attrs) {
 		this(context, attrs, R.attr.twsButtonStyle);
 	}
 
-	public TwsButton(Context context, AttributeSet attrs, int defStyleAttr) {
+	public TwsCombinationButton(Context context, AttributeSet attrs, int defStyleAttr) {
 		super(context, attrs, defStyleAttr);
 		mContext = context;
 
-		TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.TwsButton, 0, 0);
-		mText = a.getString(R.styleable.TwsButton_text);
-		mHeight = (int) a.getDimension(R.styleable.TwsButton_height, getResources().getDimensionPixelSize(R.dimen.tws_button_high));
-		mButtomMode = a.getInt(R.styleable.TwsButton_twsButtonMode, -1);
+		TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.TwsCombinationButton, 0, 0);
+		mText = a.getString(R.styleable.TwsCombinationButton_text);
+		mHeight = (int) a.getDimension(R.styleable.TwsCombinationButton_height, getResources().getDimensionPixelSize(R.dimen.tws_button_high));
+		mButtomMode = a.getInt(R.styleable.TwsCombinationButton_twsButtonMode, -1);
 		if (-1 == mButtomMode) {
-			mBackground = a.getColor(R.styleable.TwsButton_normal_background, getResources().getColor(R.color.tws_button_normal_background));
-			mPressedBackground = a.getColor(R.styleable.TwsButton_pressed_background, getResources().getColor(R.color.tws_button_pressed_background));
-			mFocusBackground = a.getColor(R.styleable.TwsButton_focused_background, getResources().getColor(R.color.tws_button_focused_background));
-			mDisabledBackground = a.getColor(R.styleable.TwsButton_disabled_background, getResources().getColor(R.color.tws_button_disabled_background));
+			mBackground = a.getColor(R.styleable.TwsCombinationButton_normal_background, getResources().getColor(R.color.tws_button_normal_background));
+			mPressedBackground = a.getColor(R.styleable.TwsCombinationButton_pressed_background, getResources().getColor(R.color.tws_button_pressed_background));
+			mFocusBackground = a.getColor(R.styleable.TwsCombinationButton_focused_background, getResources().getColor(R.color.tws_button_focused_background));
+			mDisabledBackground = a.getColor(R.styleable.TwsCombinationButton_disabled_background, getResources().getColor(R.color.tws_button_disabled_background));
 
-			mBorderColor = a.getColor(R.styleable.TwsButton_normal_borderColor, getResources().getColor(R.color.tws_button_normal_borderColor));
-			mFocusedBorderColor = a.getColor(R.styleable.TwsButton_focused_borderColor, getResources().getColor(R.color.tws_button_focused_borderColor));
-			mPressedBorderColor = a.getColor(R.styleable.TwsButton_pressed_borderColor, getResources().getColor(R.color.tws_button_pressed_borderColor));
-			mDisabledBorderColor = a.getColor(R.styleable.TwsButton_disabled_borderColor, getResources().getColor(R.color.tws_button_disabled_borderColor));
+			mBorderColor = a.getColor(R.styleable.TwsCombinationButton_normal_borderColor, getResources().getColor(R.color.tws_button_normal_borderColor));
+			mFocusedBorderColor = a.getColor(R.styleable.TwsCombinationButton_focused_borderColor, getResources().getColor(R.color.tws_button_focused_borderColor));
+			mPressedBorderColor = a.getColor(R.styleable.TwsCombinationButton_pressed_borderColor, getResources().getColor(R.color.tws_button_pressed_borderColor));
+			mDisabledBorderColor = a.getColor(R.styleable.TwsCombinationButton_disabled_borderColor, getResources().getColor(R.color.tws_button_disabled_borderColor));
 
-			mBorderWidth = (int) a.getDimension(R.styleable.TwsButton_borderWidth, getResources().getDimensionPixelSize(R.dimen.tws_button_border));
-			mProgressColor = a.getColor(R.styleable.TwsButton_progressColor, Color.TRANSPARENT);
+			mBorderWidth = (int) a.getDimension(R.styleable.TwsCombinationButton_borderWidth, getResources().getDimensionPixelSize(R.dimen.tws_button_border));
+			mProgressColor = a.getColor(R.styleable.TwsCombinationButton_progressColor, Color.TRANSPARENT);
 			if (mProgressColor != Color.TRANSPARENT) {
 				isProgressButton = true;
-				mProgressBorderColor = a.getColor(R.styleable.TwsButton_progress_borderColor, mProgressColor);
+				mProgressBorderColor = a.getColor(R.styleable.TwsCombinationButton_progress_borderColor, mProgressColor);
 				mProgressBorderColor = mProgressColor;
 				mProgressBorderWith = mBorderWidth;
-				mProgressMax = a.getInt(R.styleable.TwsButton_android_max, 100);
+				mProgressMax = a.getInt(R.styleable.TwsCombinationButton_android_max, 100);
 			}
 
-			mRadius = (int) a.getDimension(R.styleable.TwsButton_radius, getResources().getDimensionPixelSize(R.dimen.tws_button_round_radius));
-			mTextColor = a.getColor(R.styleable.TwsButton_textColor, getResources().getColor(R.color.tws_button_textColor));
+			mRadius = (int) a.getDimension(R.styleable.TwsCombinationButton_radius, getResources().getDimensionPixelSize(R.dimen.tws_button_round_radius));
+			mTextColor = a.getColor(R.styleable.TwsCombinationButton_textColor, getResources().getColor(R.color.tws_button_textColor));
 			mPressedTextColor = mTextColor;
-			mDisableTextColor = a.getColor(R.styleable.TwsButton_disabled_textColor, getResources().getColor(R.color.tws_button_disabled_textColor));
-			mTextSize = (int) a.getDimension(R.styleable.TwsButton_textSize, getResources().getDimensionPixelSize(R.dimen.tws_Medium_TextSize));
+			mDisableTextColor = a.getColor(R.styleable.TwsCombinationButton_disabled_textColor, getResources().getColor(R.color.tws_button_disabled_textColor));
+			mTextSize = (int) a.getDimension(R.styleable.TwsCombinationButton_textSize, getResources().getDimensionPixelSize(R.dimen.tws_Medium_TextSize));
 		} else {
 			initDataFromMode();
 		}

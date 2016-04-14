@@ -571,9 +571,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tencent.tws.core.apidemos.widget.TwsButtonActivity"
+            android:name="com.tencent.tws.core.apidemos.widget.TwsCombinationButtonActivity"
             android:hardwareAccelerated="false"
-            android:label="@string/activity_label_TwsButtonActivity" >
+            android:label="@string/activity_label_TwsCombinationButtonActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

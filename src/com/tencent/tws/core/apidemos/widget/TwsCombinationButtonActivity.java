@@ -10,15 +10,15 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.tencent.tws.core.widget.TwsButton;
+import com.tencent.tws.core.widget.TwsCombinationButton;
 import com.tencent.tws.burgeon.R;
 
-public class TwsButtonActivity extends TwsActivity implements OnClickListener {
+public class TwsCombinationButtonActivity extends TwsActivity implements OnClickListener {
 
-	TwsButton tws_btn_Normal;
-	TwsButton tws_btn_Recommended;
-	TwsButton tws_btn_Progress;
-	TwsButton tws_btn_Custom;
+	TwsCombinationButton tws_btn_Normal;
+	TwsCombinationButton tws_btn_Recommended;
+	TwsCombinationButton tws_btn_Progress;
+	TwsCombinationButton tws_btn_Custom;
 	Button btn_action_enable;
 	private ValueAnimator mAnimator;
 
@@ -27,13 +27,13 @@ public class TwsButtonActivity extends TwsActivity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 
 		setContentView(R.layout.activity_tws_button);
-		tws_btn_Normal = (TwsButton) findViewById(R.id.tws_btn_Normal);
+		tws_btn_Normal = (TwsCombinationButton) findViewById(R.id.tws_btn_Normal);
 		tws_btn_Normal.setOnClickListener(this);
-		tws_btn_Recommended = (TwsButton) findViewById(R.id.tws_btn_Recommended);
+		tws_btn_Recommended = (TwsCombinationButton) findViewById(R.id.tws_btn_Recommended);
 		tws_btn_Recommended.setOnClickListener(this);
-		tws_btn_Progress = (TwsButton) findViewById(R.id.tws_btn_Progress);
+		tws_btn_Progress = (TwsCombinationButton) findViewById(R.id.tws_btn_Progress);
 		tws_btn_Progress.setOnClickListener(this);
-		tws_btn_Custom = (TwsButton) findViewById(R.id.tws_btn_Custom);
+		tws_btn_Custom = (TwsCombinationButton) findViewById(R.id.tws_btn_Custom);
 		tws_btn_Custom.setOnClickListener(this);
 		btn_action_enable = (Button) findViewById(R.id.btn_test);
 		btn_action_enable.setOnClickListener(this);
