@@ -865,7 +865,7 @@ public class Switch extends CompoundButton {
         checked = isChecked();
 
 //        if (getWindowToken() != null && isLaidOut(this) && isShown()) {
-        if (isAttachedToWindow() && isLaidOut()) {
+        if (android.os.Build.VERSION.SDK_INT > 18 && isAttachedToWindow() && isLaidOut()) {
             animateThumbToCheckedState(checked);
         } else {
             // Immediately move the thumb to the new position.

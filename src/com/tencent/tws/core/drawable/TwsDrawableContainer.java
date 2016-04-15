@@ -456,7 +456,7 @@ public class TwsDrawableContainer extends Drawable implements Drawable.Callback 
         d.setState(getState());
         d.setLevel(getLevel());
         d.setBounds(getBounds());
-        if (android.os.Build.VERSION.SDK_INT > 17) {
+        if (android.os.Build.VERSION.SDK_INT > 18) {
             d.setAutoMirrored(mDrawableContainerState.mAutoMirrored);
         }
     }
