@@ -25,7 +25,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dip"
                 android:text="@string/circle_dark_green"
-                tws:twsButtonMode="circle_dark_green" />
+                tws:buttonMode="circle_dark_green" />
 
             <com.tencent.tws.core.widget.TwsButton
                 android:id="@+id/circle_light_green"
@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dip"
                 android:text="@string/circle_light_green"
-                tws:twsButtonMode="circle_light_green" />
+                tws:buttonMode="circle_light_green" />
         </LinearLayout>
 
         <com.tencent.tws.core.widget.TwsButton
@@ -43,7 +43,15 @@
             android:layout_gravity="center_horizontal"
             android:layout_margin="5dip"
             android:text="@string/rectangle_light_green"
-            tws:twsButtonMode="rectangle_light_green" />
+            tws:buttonMode="rectangle_light_green" />
+
+        <com.tencent.tws.core.widget.TwsButton
+            android:id="@+id/action2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dip"
+            android:text="test" />
 
         <com.tencent.tws.core.widget.TwsButton
             android:id="@+id/rectangle_dark_green"
@@ -52,7 +60,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_margin="5dip"
             android:text="@string/rectangle_dark_green"
-            tws:twsButtonMode="rectangle_dark_green" />
+            tws:buttonMode="rectangle_dark_green" />
 
         <com.tencent.tws.core.widget.TwsButton
             android:id="@+id/circle_dark_red"
@@ -61,7 +69,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_margin="5dip"
             android:text="@string/circle_dark_red"
-            tws:twsButtonMode="circle_dark_red" />
+            tws:buttonMode="circle_dark_red" />
 
         <com.tencent.tws.core.widget.TwsButton
             android:id="@+id/action"

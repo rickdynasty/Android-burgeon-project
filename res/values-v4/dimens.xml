@@ -35,7 +35,7 @@
     <dimen name="fastscroll_overlay_padding">16dp</dimen>
     <dimen name="fastscroll_thumb_width">64dp</dimen>
     <dimen name="fastscroll_thumb_height">52dp</dimen>
-    
+
     <!-- textSize -->
     <dimen name="tws_SuperBiger_TextSize">36sp</dimen>
     <dimen name="tws_SuperBig_TextSize">32sp</dimen>
@@ -180,9 +180,13 @@
     <dimen name="tws_tabhost_h">42dp</dimen>
     <dimen name="tws_tabhost_big_h">54dp</dimen>
     <dimen name="tws_tabspec_space">16dp</dimen>
+
     <!-- widget -->
     <dimen name="twsbutton_circle_size">86.7dp</dimen>
     <dimen name="twsbutton_rectangle_w">116dp</dimen>
     <dimen name="twsbutton_rectangle_h">44dp</dimen>
     <dimen name="tws_button_radius">167.3dp</dimen>
+    <dimen name="tws_button_border_width">2dp</dimen>
+    <dimen name="tws_alert_dialog_button_vertical_space">18dp</dimen>
+
 </resources>

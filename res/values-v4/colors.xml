@@ -174,4 +174,17 @@
     <!-- 15% alpha green -->
     <color name="green_alpha_mini">#267EDF1E</color>
 
+    <!-- twsButton -->
+    <color name="twsbutton_light_green_startColor">#7EDF1E</color>
+    <color name="twsbutton_light_green_endColor">#807FFF00</color>
+    <color name="twsbutton_dark_green_startColor">#7EDF1E</color>
+    <color name="twsbutton_dark_green_endColor">#3346dc5f</color>
+    <color name="twsbutton_dark_red_startColor">#FFE32B6C</color>
+    <color name="twsbutton_dark_red_endColor">#66E32B6C</color>
+    <color name="twsbutton_fillColor">#132205</color>
+    <color name="twsbutton_red_fillColor">#80E32B6C</color>
+    <color name="twsbutton_disabled_startColor">#66FFFFFF</color>
+    <color name="twsbutton_disabled_endColor">#33FFFFFF</color>
+    <color name="twsbutton_disabled_fillColor">#26FFFFFF</color>
+
 </resources>
