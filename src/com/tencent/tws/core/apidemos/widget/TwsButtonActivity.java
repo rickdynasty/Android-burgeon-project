@@ -2,10 +2,12 @@ package com.tencent.tws.core.apidemos.widget;
 
 import android.app.Activity;
 import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Switch;
+import android.widget.Button;
+import android.widget.LinearLayout;
 
 import com.tencent.tws.burgeon.R;
 import com.tencent.tws.core.widget.TwsButton;
@@ -16,11 +18,14 @@ public class TwsButtonActivity extends Activity implements OnClickListener {
 	TwsButton circle_dark_green;
 	TwsButton rectangle_light_green;
 	TwsButton rectangle_dark_green;
-	TwsButton circle_dark_red;
-	private boolean mIsEnable = true;
-	TwsButton mActionButton;
+	private boolean bEnable = true;
+	Drawable drawable;
 
-	private int mFlag = 0;
+	private boolean bShowThreeButton = true;
+	LinearLayout mLinearLayout;
+	TwsButton button1;
+	TwsButton button2;
+	TwsButton button3;
 
 	@Override
 	protected void onCreate(Bundle arg0) {
@@ -30,64 +35,65 @@ public class TwsButtonActivity extends Activity implements OnClickListener {
 		circle_dark_green = (TwsButton) findViewById(R.id.circle_dark_green);
 		rectangle_light_green = (TwsButton) findViewById(R.id.rectangle_light_green);
 		rectangle_dark_green = (TwsButton) findViewById(R.id.rectangle_dark_green);
-		circle_dark_red = (TwsButton) findViewById(R.id.circle_dark_red);
-		mActionButton = (TwsButton) findViewById(R.id.action);
-		mActionButton.setOnClickListener(this);
-		((TwsButton) findViewById(R.id.action2)).setOnClickListener(this);
-		setTwsButtonEnabled(mIsEnable);
+		rectangle_dark_green.setOnClickListener(this);
+		Button actionButton = (Button) findViewById(R.id.action);
+		actionButton.setOnClickListener(this);
+		mLinearLayout = (LinearLayout) findViewById(R.id.buttonPanel);
+		mLinearLayout.setOrientation(LinearLayout.VERTICAL);
+
+		((TwsButton) findViewById(R.id.user_defined)).setOnClickListener(this);
+		button1 = (TwsButton) findViewById(R.id.button1);
+		button1.setButtonMode(TwsButton.RECTANGLE_LIGHT_GREEN_MODE);
+		button1.setOnClickListener(this);
+
+		button2 = (TwsButton) findViewById(R.id.button2);
+		button2.setButtonMode(TwsButton.RECTANGLE_LIGHT_GREEN_MODE);
+		button2.setOnClickListener(this);
+
+		button3 = (TwsButton) findViewById(R.id.button3);
+		// button3.setButtonMode(TwsButton.RECTANGLE_LIGHT_GREEN_MODE);
+		button3.setOnClickListener(this);
 	}
 
 	@Override
 	public void onClick(View view) {
 		switch (view.getId()) {
 		case R.id.action:
-			mIsEnable = !mIsEnable;
-			setTwsButtonEnabled(mIsEnable);
+			bEnable = !bEnable;
+			circle_light_green.setEnabled(bEnable);
+			circle_dark_green.setEnabled(bEnable);
+			rectangle_light_green.setEnabled(bEnable);
+			rectangle_dark_green.setEnabled(bEnable);
 			break;
-		case R.id.action2:
-			dillAction2();
+		case R.id.button1:
+			drawable.setBounds(null);
+			break;
+		case R.id.button2:
+		case R.id.button3:
+			if (bShowThreeButton) {
+				bShowThreeButton = false;
+				button2.setVisibility(View.GONE);
+				button1.setButtonMode(TwsButton.CIRCLE_LIGHT_GREEN_MODE);
+				button3.setButtonMode(TwsButton.CIRCLE_LIGHT_GREEN_MODE);
+
+				mLinearLayout.setOrientation(LinearLayout.HORIZONTAL);
+			} else {
+
+				bShowThreeButton = true;
+				button2.setVisibility(View.VISIBLE);
+
+				mLinearLayout.setOrientation(LinearLayout.VERTICAL);
+				button1.setButtonMode(TwsButton.RECTANGLE_LIGHT_GREEN_MODE);
+				button2.setButtonMode(TwsButton.RECTANGLE_LIGHT_GREEN_MODE);
+				button3.setButtonMode(TwsButton.RECTANGLE_LIGHT_GREEN_MODE);
+			}
+			break;
+		case R.id.user_defined:
+			rectangle_light_green.setBorderColors(Color.BLUE, Color.WHITE);
+			rectangle_light_green.setFillColor(Color.GREEN);
 			break;
 		default:
 			break;
 		}
-	}
-
-	private void dillAction2() {
-		switch (mFlag) {
-		case 0:
-			circle_light_green.setBorderColors(Color.LTGRAY, Color.GREEN);
-			circle_light_green.setFillColor(Color.BLUE);
-			break;
-		case 1:
-			circle_dark_green.setBorderColors(Color.GRAY, Color.GREEN);
-			circle_dark_green.setFillColor(Color.GREEN);
-			break;
-		case 2:
-			rectangle_light_green.setBorderColors(Color.MAGENTA, Color.DKGRAY);
-			rectangle_light_green.setFillColor(Color.CYAN);
-			break;
-		case 3:
-			rectangle_dark_green.setBorderColors(Color.BLUE, Color.WHITE);
-			rectangle_dark_green.setFillColor(Color.LTGRAY);
-			break;
-		case 4:
-			circle_dark_red.setBorderColors(Color.RED, Color.WHITE);
-			circle_dark_red.setFillColor(Color.YELLOW);
-			break;
-
-		}
-		mFlag++;
-	}
-
-	private void setTwsButtonEnabled(boolean enable) {
-		if (enable) {
-			mActionButton.setText("Set to UnEnabled");
-		} else {
-			mActionButton.setText("Set to Enabled");
-		}
-		circle_light_green.setEnabled(enable);
-		circle_dark_green.setEnabled(enable);
-		rectangle_light_green.setEnabled(enable);
-		rectangle_dark_green.setEnabled(enable);
 	}
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tws="http://schemas.android.com/apk/res/com.tencent.tws.burgeon"
+    xmlns:tws="http://schemas.android.com/apk/res-auto"
     android:id="@+id/screen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -20,38 +20,38 @@
             android:orientation="horizontal" >
 
             <com.tencent.tws.core.widget.TwsButton
-                android:id="@+id/circle_dark_green"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dip"
-                android:text="@string/circle_dark_green"
-                tws:buttonMode="circle_dark_green" />
-
-            <com.tencent.tws.core.widget.TwsButton
                 android:id="@+id/circle_light_green"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:layout_margin="5dip"
                 android:text="@string/circle_light_green"
                 tws:buttonMode="circle_light_green" />
+
+            <com.tencent.tws.core.widget.TwsButton
+                android:id="@+id/circle_dark_green"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dip"
+                android:text="@string/circle_dark_green"
+                tws:buttonMode="circle_dark_green" />
         </LinearLayout>
 
         <com.tencent.tws.core.widget.TwsButton
             android:id="@+id/rectangle_light_green"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
             android:layout_gravity="center_horizontal"
             android:layout_margin="5dip"
             android:text="@string/rectangle_light_green"
             tws:buttonMode="rectangle_light_green" />
 
         <com.tencent.tws.core.widget.TwsButton
-            android:id="@+id/action2"
+            android:id="@+id/user_defined"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="5dip"
-            android:text="test" />
+            android:text="user-defined" />
 
         <com.tencent.tws.core.widget.TwsButton
             android:id="@+id/rectangle_dark_green"
@@ -78,6 +78,42 @@
             android:layout_gravity="center_horizontal"
             android:layout_margin="5dip"
             android:text="test" />
+
+        <LinearLayout
+            android:id="@+id/buttonPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:minHeight="20dp"
+            android:orientation="horizontal"
+            android:paddingBottom="46dip" >
+
+            <com.tencent.tws.core.widget.TwsButton
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="button2" />
+
+            <com.tencent.tws.core.widget.TwsButton
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="button3" />
+
+            <com.tencent.tws.core.widget.TwsButton
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="crash" />
+        </LinearLayout>
     </LinearLayout>
 
 </ScrollView>
