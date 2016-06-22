@@ -14,8 +14,8 @@
      limitations under the License.
 -->
 
-<com.tencent.tws.core.widget.CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tws="http://schemas.android.com/apk/res/com.tencent.tws.burgeon"
+<com.rickdynasty.tws.core.widget.CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tws="http://schemas.android.com/apk/res/com.rickdynasty.tws.burgeon"
     tws:twsCheckStyle="twsSingle"
     android:id="@id/text1"
     android:layout_width="match_parent"

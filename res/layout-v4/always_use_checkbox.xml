@@ -24,7 +24,7 @@
     android:clipToPadding="false"
     android:orientation="vertical">
     
-    <com.tencent.tws.core.widget.CheckBox
+    <com.rickdynasty.tws.core.widget.CheckBox
         android:id="@+id/alwaysUse"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

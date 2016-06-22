@@ -45,22 +45,22 @@ import android.widget.PopupWindow;
 import android.widget.TextView;
 
 import com.android.internal.view.menu.ContextMenuBuilder;
-import com.tencent.tws.core.app.ActionBar;
-import com.tencent.tws.core.app.TwsDialog;
-import com.tencent.tws.core.gaussblur.JNIBlur;
-import com.tencent.tws.core.internal.app.ActionBarImpl;
-import com.tencent.tws.core.internal.view.menu.ListMenuPresenter;
-import com.tencent.tws.core.internal.view.menu.MenuBuilder;
-import com.tencent.tws.core.internal.view.menu.MenuDialogHelper;
-import com.tencent.tws.core.internal.view.menu.MenuPresenter;
-import com.tencent.tws.core.internal.view.menu.MenuView;
-import com.tencent.tws.core.internal.view.menu.StandaloneActionMode;
-import com.tencent.tws.core.internal.widget.ActionBarContainer;
-import com.tencent.tws.core.internal.widget.ActionBarContextView;
-import com.tencent.tws.core.internal.widget.ActionBarView;
-import com.tencent.tws.core.utils.ReflectUtils;
-import com.tencent.tws.core.utils.ThemeUtils;
-import com.tencent.tws.burgeon.R;
+import com.rickdynasty.tws.burgeon.R;
+import com.rickdynasty.tws.core.app.ActionBar;
+import com.rickdynasty.tws.core.app.TwsDialog;
+import com.rickdynasty.tws.core.gaussblur.JNIBlur;
+import com.rickdynasty.tws.core.internal.app.ActionBarImpl;
+import com.rickdynasty.tws.core.internal.view.menu.ListMenuPresenter;
+import com.rickdynasty.tws.core.internal.view.menu.MenuBuilder;
+import com.rickdynasty.tws.core.internal.view.menu.MenuDialogHelper;
+import com.rickdynasty.tws.core.internal.view.menu.MenuPresenter;
+import com.rickdynasty.tws.core.internal.view.menu.MenuView;
+import com.rickdynasty.tws.core.internal.view.menu.StandaloneActionMode;
+import com.rickdynasty.tws.core.internal.widget.ActionBarContainer;
+import com.rickdynasty.tws.core.internal.widget.ActionBarContextView;
+import com.rickdynasty.tws.core.internal.widget.ActionBarView;
+import com.rickdynasty.tws.core.utils.ReflectUtils;
+import com.rickdynasty.tws.core.utils.ThemeUtils;
 
 //
 

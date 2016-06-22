@@ -3,10 +3,10 @@
   <!-- All values are in mAh except as noted -->
   <item name="android"></item>
   <item name="com.android.deskclock"></item>
-  <item name="com.tencent.twsStatisticBusinessService"></item> 
+  <item name="com.rickdynasty.twsStatisticBusinessService"></item> 
   <item name="web3.Program.Clock"></item>
   <item name="com.android.settings"></item>
-  <item name="com.tencent.twspowersavesettings"></item>
+  <item name="com.rickdynasty.twspowersavesettings"></item>
 	<item name="mcgo.alarmclock"></item>
 	<item name="com.dianxinos.clock"></item>
 	<item name="org.woodroid.alarmbird"></item>

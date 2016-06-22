@@ -4,7 +4,7 @@ import android.content.Context;
 import android.graphics.Rect;
 import android.util.AttributeSet;
 
-import com.tencent.tws.burgeon.R;
+import com.rickdynasty.tws.burgeon.R;
 
 public class TwsActionBarLinearLayout extends LinearLayout {
 	public TwsActionBarLinearLayout(Context context) {

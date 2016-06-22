@@ -30,7 +30,7 @@
         android:background="?android:attr/selectableItemBackground"
         />
 
-    <com.tencent.tws.core.widget.SeekBar
+    <com.rickdynasty.tws.core.widget.SeekBar
         style="@style/Theme.tws.Second.seekBarStyle"
         android:id="@+id/seekbar"
         android:layout_width="match_parent"

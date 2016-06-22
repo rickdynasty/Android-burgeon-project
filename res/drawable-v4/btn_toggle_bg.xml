@@ -15,6 +15,6 @@
 -->
 
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+com.tencent.tws.burgeon:id/background" android:drawable="@drawable/btn_default_holo_light" />
-    <item android:id="@+com.tencent.tws.burgeon:id/toggle" android:drawable="@drawable/btn_toggle" />
+    <item android:id="@+com.rickdynasty.tws.burgeon:id/background" android:drawable="@drawable/btn_default_holo_light" />
+    <item android:id="@+com.rickdynasty.tws.burgeon:id/toggle" android:drawable="@drawable/btn_toggle" />
 </layer-list>

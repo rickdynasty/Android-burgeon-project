@@ -15,7 +15,7 @@ import android.util.AttributeSet;
 import android.util.StateSet;
 import android.widget.Button;
 
-import com.tencent.tws.burgeon.R;
+import com.rickdynasty.tws.burgeon.R;
 
 public class CircularProgressButton extends Button {
 

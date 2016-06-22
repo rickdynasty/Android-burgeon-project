@@ -1,4 +1,4 @@
-<com.tencent.tws.core.widget.TwsScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<com.rickdynasty.tws.core.widget.TwsScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
     
@@ -106,4 +106,4 @@
 	        android:textAppearance="@android:style/TextAppearance.Medium"
 	        android:textStyle="bold" />
 	   </LinearLayout>
-</com.tencent.tws.core.widget.TwsScrollView>
+</com.rickdynasty.tws.core.widget.TwsScrollView>

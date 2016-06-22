@@ -3,7 +3,7 @@ package com.rick_tan.burgeon.apidemos.draw;
 import android.app.TwsActivity;
 import android.os.Bundle;
 
-import com.tencent.tws.burgeon.R;
+import com.rickdynasty.tws.burgeon.R;
 
 public class ShapeOvalActivity extends TwsActivity {
 

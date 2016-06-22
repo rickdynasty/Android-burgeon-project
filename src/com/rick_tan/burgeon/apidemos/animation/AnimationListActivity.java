@@ -9,7 +9,7 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.tencent.tws.burgeon.R;
+import com.rickdynasty.tws.burgeon.R;
 
 public class AnimationListActivity extends TwsActivity implements OnClickListener {
 	private ImageView mImageView;

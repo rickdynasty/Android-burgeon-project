@@ -14,7 +14,7 @@ import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.tencent.tws.burgeon.R;
+import com.rickdynasty.tws.burgeon.R;
 
 public class AnimationBaseActivity extends TwsActivity implements OnClickListener {
 	private ImageView mImageView = null;

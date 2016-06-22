@@ -43,7 +43,7 @@
              />
     </RelativeLayout>
 
-    <com.tencent.tws.core.widget.DateTimePicker
+    <com.rickdynasty.tws.core.widget.DateTimePicker
         android:id="@+id/dateTimePicker"
         android:layout_width="match_parent"
         android:layout_height="234dip"

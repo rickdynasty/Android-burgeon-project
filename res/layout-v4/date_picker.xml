@@ -41,7 +41,7 @@
         android:orientation="horizontal" >
 
         <!-- Lunar -->
-        <com.tencent.tws.core.widget.NumberPicker
+        <com.rickdynasty.tws.core.widget.NumberPicker
             android:id="@+id/lunar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
             android:focusableInTouchMode="true" />
 
         <!-- Month -->
-        <com.tencent.tws.core.widget.NumberPicker
+        <com.rickdynasty.tws.core.widget.NumberPicker
             android:id="@+id/month"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
             android:focusableInTouchMode="true" />
 
         <!-- Day -->
-        <com.tencent.tws.core.widget.NumberPicker
+        <com.rickdynasty.tws.core.widget.NumberPicker
             android:id="@+id/day"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
             android:focusableInTouchMode="true" />
 
         <!-- Year -->
-        <com.tencent.tws.core.widget.NumberPicker
+        <com.rickdynasty.tws.core.widget.NumberPicker
             android:id="@+id/year"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

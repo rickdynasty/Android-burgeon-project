@@ -785,7 +785,7 @@
         <attr name="disabled_textColor" format="dimension" />
     </declare-styleable>
     <declare-styleable name="TwsButton">
-        <attr name="buttonMode">
+        <attr name="buttonMode" format="integer">
             <enum name="circle_light_green" value="0" />
             <enum name="circle_dark_green" value="1" />
             <enum name="rectangle_light_green" value="2" />
@@ -796,6 +796,8 @@
         <attr name="android:layout_width" />
         <attr name="android:layout_height" />
         <attr name="android:enabled" />
+        <attr name="android:clickable" />
+        <attr name="android:textColor" />
         <attr name="src" format="reference" />
     </declare-styleable>
 

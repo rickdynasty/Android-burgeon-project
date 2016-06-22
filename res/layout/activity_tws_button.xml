@@ -19,7 +19,7 @@
             android:gravity="center"
             android:orientation="horizontal" >
 
-            <com.tencent.tws.core.widget.TwsButton
+            <com.rickdynasty.tws.core.widget.TwsButton
                 android:id="@+id/circle_light_green"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
@@ -27,7 +27,7 @@
                 android:text="@string/circle_light_green"
                 tws:buttonMode="circle_light_green" />
 
-            <com.tencent.tws.core.widget.TwsButton
+            <com.rickdynasty.tws.core.widget.TwsButton
                 android:id="@+id/circle_dark_green"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
@@ -36,7 +36,7 @@
                 tws:buttonMode="circle_dark_green" />
         </LinearLayout>
 
-        <com.tencent.tws.core.widget.TwsButton
+        <com.rickdynasty.tws.core.widget.TwsButton
             android:id="@+id/rectangle_light_green"
             android:layout_width="150dp"
             android:layout_height="60dp"
@@ -45,7 +45,7 @@
             android:text="@string/rectangle_light_green"
             tws:buttonMode="rectangle_light_green" />
 
-        <com.tencent.tws.core.widget.TwsButton
+        <com.rickdynasty.tws.core.widget.TwsButton
             android:id="@+id/user_defined"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -53,7 +53,7 @@
             android:layout_margin="5dip"
             android:text="user-defined" />
 
-        <com.tencent.tws.core.widget.TwsButton
+        <com.rickdynasty.tws.core.widget.TwsButton
             android:id="@+id/rectangle_dark_green"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
             android:text="@string/rectangle_dark_green"
             tws:buttonMode="rectangle_dark_green" />
 
-        <com.tencent.tws.core.widget.TwsButton
+        <com.rickdynasty.tws.core.widget.TwsButton
             android:id="@+id/circle_dark_red"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
             android:text="@string/circle_dark_red"
             tws:buttonMode="circle_dark_red" />
 
-        <com.tencent.tws.core.widget.TwsButton
+        <com.rickdynasty.tws.core.widget.TwsButton
             android:id="@+id/action"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -90,7 +90,7 @@
             android:orientation="horizontal"
             android:paddingBottom="46dip" >
 
-            <com.tencent.tws.core.widget.TwsButton
+            <com.rickdynasty.tws.core.widget.TwsButton
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -98,7 +98,7 @@
                 android:gravity="center_horizontal|center_vertical"
                 android:text="button2" />
 
-            <com.tencent.tws.core.widget.TwsButton
+            <com.rickdynasty.tws.core.widget.TwsButton
                 android:id="@+id/button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -106,7 +106,7 @@
                 android:gravity="center_horizontal|center_vertical"
                 android:text="button3" />
 
-            <com.tencent.tws.core.widget.TwsButton
+            <com.rickdynasty.tws.core.widget.TwsButton
                 android:id="@+id/button1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

@@ -3,7 +3,7 @@ package com.rick_tan.burgeon.Draw.Paint;
 import android.app.TwsActivity;
 import android.os.Bundle;
 
-import com.tencent.tws.burgeon.R;
+import com.rickdynasty.tws.burgeon.R;
 
 /**
  * Created by yongchen on 2016/1/13.

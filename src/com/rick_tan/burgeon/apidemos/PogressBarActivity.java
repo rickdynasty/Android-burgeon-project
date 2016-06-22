@@ -13,7 +13,7 @@ import android.widget.Toast;
 import com.rick_tan.burgeon.widget.CirculaPogressBar;
 import com.rick_tan.burgeon.widget.MasterLayout;
 import com.rick_tan.burgeon.widget.progressbar.CircularProgressButton;
-import com.tencent.tws.burgeon.R;
+import com.rickdynasty.tws.burgeon.R;
 
 public class PogressBarActivity extends TwsActivity implements SeekBar.OnSeekBarChangeListener, OnClickListener {
 

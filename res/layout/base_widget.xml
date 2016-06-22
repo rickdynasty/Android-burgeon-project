@@ -28,14 +28,14 @@
                     android:layout_height="wrap_content"
                     android:text="@string/AutoComplete" />
 
-                <com.tencent.tws.core.widget.AutoCompleteTextView
+                <com.rickdynasty.tws.core.widget.AutoCompleteTextView
                     android:id="@+id/autoCompleteTextView1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:clickable="false"
                     android:editable="false"
                     android:focusable="false" >
-                </com.tencent.tws.core.widget.AutoCompleteTextView>
+                </com.rickdynasty.tws.core.widget.AutoCompleteTextView>
             </LinearLayout>
 
             <LinearLayout
@@ -111,7 +111,7 @@
                 android:text="Ripple"
                 android:textColor="@android:color/black" />
 
-            <com.tencent.tws.core.widget.RadioGroup
+            <com.rickdynasty.tws.core.widget.RadioGroup
                 android:id="@+id/radioGroup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -124,25 +124,25 @@
                     android:layout_height="wrap_content"
                     android:text="@string/RadioButton" />
 
-                <com.tencent.tws.core.widget.RadioButton
+                <com.rickdynasty.tws.core.widget.RadioButton
                     android:id="@+id/radioButton1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/OptionA" />
 
-                <com.tencent.tws.core.widget.RadioButton
+                <com.rickdynasty.tws.core.widget.RadioButton
                     android:id="@+id/radioButton2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/OptionB" />
 
-                <com.tencent.tws.core.widget.RadioButton
+                <com.rickdynasty.tws.core.widget.RadioButton
                     android:id="@+id/radioButton3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/OptionC"
                     android:visibility="gone" />
-            </com.tencent.tws.core.widget.RadioGroup>
+            </com.rickdynasty.tws.core.widget.RadioGroup>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -158,7 +158,7 @@
                     android:gravity="center"
                     android:text="@string/CheckBox" />
 
-                <com.tencent.tws.core.widget.CheckBox
+                <com.rickdynasty.tws.core.widget.CheckBox
                     android:id="@+id/checkbox2"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -166,12 +166,12 @@
                     android:text="打开打开"
                     android:visibility="gone" />
 
-                <com.tencent.tws.core.widget.CheckBox
+                <com.rickdynasty.tws.core.widget.CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text="关闭" />
 
-                <com.tencent.tws.core.widget.CheckBox
+                <com.rickdynasty.tws.core.widget.CheckBox
                     android:id="@+id/checkbox3"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -190,12 +190,12 @@
                     android:layout_height="wrap_content"
                     android:text="@string/Switch" />
 
-                <com.tencent.tws.core.widget.Switch
+                <com.rickdynasty.tws.core.widget.Switch
                     android:id="@+id/switchbutton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
 
-                <com.tencent.tws.core.widget.Switch
+                <com.rickdynasty.tws.core.widget.Switch
                     android:id="@+id/switchbutton2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -304,7 +304,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/SeekBar" />
 
-                <com.tencent.tws.core.widget.SeekBar
+                <com.rickdynasty.tws.core.widget.SeekBar
                     android:id="@+id/seekBar1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
@@ -338,7 +338,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/Spinner" />
 
-                <com.tencent.tws.core.widget.Spinner
+                <com.rickdynasty.tws.core.widget.Spinner
                     android:id="@+id/spinner1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

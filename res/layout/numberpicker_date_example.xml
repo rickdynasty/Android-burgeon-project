@@ -34,7 +34,7 @@
             android:textSize="20sp" />
     </LinearLayout>
 
-    <com.tencent.tws.core.widget.DatePicker
+    <com.rickdynasty.tws.core.widget.DatePicker
         android:id="@+id/datePicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

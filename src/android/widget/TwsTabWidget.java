@@ -29,7 +29,7 @@ import android.view.View.OnFocusChangeListener;
 import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityEvent;
 
-import com.tencent.tws.burgeon.R;
+import com.rickdynasty.tws.burgeon.R;
 //import android.widget.TwsLinearLayout;
 //import java.lang.reflect.Field;
 //import java.lang.reflect.Method;
@@ -39,7 +39,7 @@ import com.tencent.tws.burgeon.R;
  *
  * Displays a list of tab labels representing each page in the parent's tab
  * collection. The container object for this widget is
- * {@link com.tencent.tws.core.widget.TabHost TabHost}. When the user selects a tab, this
+ * {@link com.rickdynasty.tws.core.widget.TabHost TabHost}. When the user selects a tab, this
  * object sends a message to the parent container, TabHost, to tell it to switch
  * the displayed page. You typically won't use many methods directly on this
  * object. The container TabHost is used to add labels, add the callback

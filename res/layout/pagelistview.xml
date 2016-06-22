@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <com.tencent.tws.core.widget.ListView
+    <com.rickdynasty.tws.core.widget.ListView
         android:id="@+id/listview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -25,6 +25,6 @@
         android:dividerHeight="8dp"
         android:padding="16dp"
         android:scrollbarStyle="outsideOverlay" >
-    </com.tencent.tws.core.widget.ListView>
+    </com.rickdynasty.tws.core.widget.ListView>
 
 </LinearLayout>

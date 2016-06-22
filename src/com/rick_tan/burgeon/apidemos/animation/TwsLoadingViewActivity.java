@@ -5,7 +5,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 
 import com.rick_tan.burgeon.widget.TwsLoadingView;
-import com.tencent.tws.burgeon.R;
+import com.rickdynasty.tws.burgeon.R;
 
 public class TwsLoadingViewActivity extends TwsActivity {
 	private TwsLoadingView mTwsLoadingView;

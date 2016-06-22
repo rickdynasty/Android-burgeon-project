@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tws="http://schemas.android.com/apk/res/com.tencent.tws.burgeon"
+    xmlns:tws="http://schemas.android.com/apk/res/com.rickdynasty.tws.burgeon"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/tws_view_bg" >
@@ -16,7 +16,7 @@
             android:text="默认按钮"
             android:textColor="@color/white" />
 
-        <com.tencent.tws.core.widget.TwsCombinationButton
+        <com.rickdynasty.tws.core.widget.TwsCombinationButton
             android:id="@+id/tws_btn_Normal"
             style="@style/Widget.tws.TwsCombinationButtonStyle"
             android:layout_width="match_parent"
@@ -25,7 +25,7 @@
             android:layout_marginRight="@dimen/tws_button_margin_right"
             android:gravity="center"
             tws:text="only use to test TwsCombinationButton - only use to test TwsCombinationButton - only use to" >
-        </com.tencent.tws.core.widget.TwsCombinationButton>
+        </com.rickdynasty.tws.core.widget.TwsCombinationButton>
 
         <TextView
             android:layout_width="wrap_content"
@@ -34,7 +34,7 @@
             android:text="推荐按钮"
             android:textColor="@color/white" />
 
-        <com.tencent.tws.core.widget.TwsCombinationButton
+        <com.rickdynasty.tws.core.widget.TwsCombinationButton
             android:id="@+id/tws_btn_Recommended"
             android:layout_width="match_parent"
             android:layout_height="@dimen/tws_button_high"
@@ -43,7 +43,7 @@
             android:gravity="center"
             tws:text="only use to test TwsCombinationButton - only use to test TwsCombinationButton - only use to"
             tws:twsCombinationButtonMode="recommended" >
-        </com.tencent.tws.core.widget.TwsCombinationButton>
+        </com.rickdynasty.tws.core.widget.TwsCombinationButton>
 
         <Button
             android:id="@+id/btn_test"
@@ -57,7 +57,7 @@
             android:text="进度按钮"
             android:textColor="@color/white" />
 
-        <com.tencent.tws.core.widget.TwsCombinationButton
+        <com.rickdynasty.tws.core.widget.TwsCombinationButton
             android:id="@+id/tws_btn_Progress"
             android:layout_width="match_parent"
             android:layout_height="@dimen/tws_button_high"
@@ -66,7 +66,7 @@
             android:gravity="center"
             tws:text="only use to test TwsCombinationButton - only use to test TwsCombinationButton - only use to"
             tws:twsCombinationButtonMode="progress" >
-        </com.tencent.tws.core.widget.TwsCombinationButton>
+        </com.rickdynasty.tws.core.widget.TwsCombinationButton>
 
         <Button
             android:id="@+id/btn_test2"
@@ -81,7 +81,7 @@
             android:text="自定义按钮"
             android:textColor="@color/white" />
 
-        <com.tencent.tws.core.widget.TwsCombinationButton
+        <com.rickdynasty.tws.core.widget.TwsCombinationButton
             android:id="@+id/tws_btn_Custom"
             android:layout_width="match_parent"
             android:layout_height="50dp"
@@ -105,7 +105,7 @@
             tws:text="only use to test TwsCombinationButton - only use to test TwsCombinationButton - only use to"
             tws:textColor="@color/blue"
             tws:textSize="@dimen/tws_Larger_TextSize" >
-        </com.tencent.tws.core.widget.TwsCombinationButton>
+        </com.rickdynasty.tws.core.widget.TwsCombinationButton>
     </LinearLayout>
 
 </ScrollView>

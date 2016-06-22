@@ -31,7 +31,7 @@
         android:gravity="center"
         android:text="@string/date_picker_example_dateDisplay_text" />
 
-    <com.tencent.tws.core.widget.TimePicker
+    <com.rickdynasty.tws.core.widget.TimePicker
         android:id="@+id/timePicker"
         android:layout_gravity="center_horizontal"
         android:layout_width="match_parent"

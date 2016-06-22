@@ -8,7 +8,7 @@ import android.graphics.PaintFlagsDrawFilter;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.tencent.tws.core.utils.UiUtils;
+import com.rickdynasty.tws.core.utils.UiUtils;
 
 /**
  * Created by yongchen on 2016/1/13.

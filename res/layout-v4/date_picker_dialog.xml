@@ -44,7 +44,7 @@
              />
     </RelativeLayout>
 
-    <com.tencent.tws.core.widget.DatePicker
+    <com.rickdynasty.tws.core.widget.DatePicker
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/datePicker"
         android:layout_width="match_parent"

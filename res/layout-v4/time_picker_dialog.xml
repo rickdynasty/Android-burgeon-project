@@ -43,7 +43,7 @@
             android:textSize="20dp" />
     </RelativeLayout>
 
-    <com.tencent.tws.core.widget.TimePicker
+    <com.rickdynasty.tws.core.widget.TimePicker
         android:id="@+id/timePicker"
         android:layout_width="match_parent"
         android:layout_height="234dip"

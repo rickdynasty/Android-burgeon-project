@@ -34,7 +34,7 @@
             android:textSize="20sp" />
     </LinearLayout>
 
-    <com.tencent.tws.core.widget.DateTimePicker
+    <com.rickdynasty.tws.core.widget.DateTimePicker
         android:id="@+id/dateTimePicker"
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"

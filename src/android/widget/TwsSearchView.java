@@ -66,11 +66,11 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.TextView.OnEditorActionListener;
 
-import com.tencent.tws.core.drawable.TwsRippleDrawable;
-import com.tencent.tws.core.utils.ReflectUtils;
-import com.tencent.tws.core.utils.ThemeUtils;
-import com.tencent.tws.core.utils.TwsRippleUtils;
-import com.tencent.tws.burgeon.R;
+import com.rickdynasty.tws.burgeon.R;
+import com.rickdynasty.tws.core.drawable.TwsRippleDrawable;
+import com.rickdynasty.tws.core.utils.ReflectUtils;
+import com.rickdynasty.tws.core.utils.ThemeUtils;
+import com.rickdynasty.tws.core.utils.TwsRippleUtils;
 /**
  * A widget that provides a user interface for the user to enter a search query and submit a request
  * to a search provider. Shows a list of query suggestions or results, if available, and allows the

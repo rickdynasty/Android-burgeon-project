@@ -35,22 +35,22 @@ public class TwsDownloadManager extends DownloadManager {
     /**
      * 广播任务删除
      */
-    public static final String ACTION_DOWNLOAD_DELETED = "com.tencent.intent.action.DOWNLOAD_DELETED";
+    public static final String ACTION_DOWNLOAD_DELETED = "com.rickdynasty.intent.action.DOWNLOAD_DELETED";
     
     /**
      * 广播任务暂停
      */
-    public static final String ACTION_DOWNLOAD_PAUSED = "com.tencent.intent.action.DOWNLOAD_PAUSED";
+    public static final String ACTION_DOWNLOAD_PAUSED = "com.rickdynasty.intent.action.DOWNLOAD_PAUSED";
     
     /**
      * 广播任务继续
      */
-    public static final String ACTION_DOWNLOAD_RESUMED = "com.tencent.intent.action.DOWNLOAD_RESUMED";
+    public static final String ACTION_DOWNLOAD_RESUMED = "com.rickdynasty.intent.action.DOWNLOAD_RESUMED";
     
     /**
      * 广播任务更新
      */
-    public static final String ACTION_DOWNLOAD_UPDATED = "com.tencent.intent.action.DOWNLOAD_UPDATED";
+    public static final String ACTION_DOWNLOAD_UPDATED = "com.rickdynasty.intent.action.DOWNLOAD_UPDATED";
     
     /**
      * 任务的总大小
@@ -70,7 +70,7 @@ public class TwsDownloadManager extends DownloadManager {
     /**
      * 定制UI的Activity 名
      */
-    public static final ComponentName CUSTOMIZED_DOWNLOAD_ACTIVITY = new ComponentName("com.tencent.tws.core.download", "com.tencent.tws.core.download.DownloadCustomerActivity");
+    public static final ComponentName CUSTOMIZED_DOWNLOAD_ACTIVITY = new ComponentName("com.rickdynasty.tws.core.download", "com.rickdynasty.tws.core.download.DownloadCustomerActivity");
     
     /**
      * 定制UI的title

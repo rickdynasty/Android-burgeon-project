@@ -12,7 +12,7 @@ import android.graphics.drawable.LevelListDrawable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.tencent.tws.burgeon.R;
+import com.rickdynasty.tws.burgeon.R;
 
 public class TwsLoadingView extends View {
 	public static int TOTAL_FRAME_COUNT = 35;

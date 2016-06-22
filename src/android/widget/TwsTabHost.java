@@ -41,10 +41,10 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.view.Window;
 
-import com.tencent.tws.core.support.v4.view.PagerAdapter;
-import com.tencent.tws.core.support.v4.view.ViewPager;
-import com.tencent.tws.core.widget.TabIndicator;
-import com.tencent.tws.burgeon.R;
+import com.rickdynasty.tws.burgeon.R;
+import com.rickdynasty.tws.core.support.v4.view.PagerAdapter;
+import com.rickdynasty.tws.core.support.v4.view.ViewPager;
+import com.rickdynasty.tws.core.widget.TabIndicator;
 
 /**
  * Container for a tabbed window view. This object holds two children: a set of
@@ -674,7 +674,7 @@ public class TwsTabHost extends FrameLayout implements ViewTreeObserver.OnTouchM
 
 		/**
 		 * Specify a
-		 * {@link com.tencent.tws.core.widget.TabHost.TabContentFactory} to
+		 * {@link com.rickdynasty.tws.core.widget.TabHost.TabContentFactory} to
 		 * use to create the content of the tab.
 		 */
 		public TabSpec setContent(TabContentFactory contentFactory) {

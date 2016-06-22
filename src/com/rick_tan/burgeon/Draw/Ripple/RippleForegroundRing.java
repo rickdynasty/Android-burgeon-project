@@ -13,8 +13,8 @@ import android.graphics.Rect;
 import android.os.Build;
 import android.view.animation.LinearInterpolator;
 
-import com.tencent.tws.core.utils.FloatProperty;
-import com.tencent.tws.core.utils.MathUtils;
+import com.rickdynasty.tws.core.utils.FloatProperty;
+import com.rickdynasty.tws.core.utils.MathUtils;
 
 /**
  * Draws a ripple foreground.

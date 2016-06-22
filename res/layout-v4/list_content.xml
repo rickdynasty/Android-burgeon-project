@@ -42,7 +42,7 @@
             android:layout_width="match_parent" 
             android:layout_height="match_parent">
             
-        <com.tencent.tws.core.widget.ListView android:id="@android:id/list"
+        <com.rickdynasty.tws.core.widget.ListView android:id="@android:id/list"
                 android:layout_width="match_parent" 
                 android:layout_height="match_parent"
                 android:drawSelectorOnTop="false" />

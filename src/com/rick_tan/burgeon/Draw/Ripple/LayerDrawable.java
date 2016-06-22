@@ -20,7 +20,7 @@ import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.View;
 
-import com.tencent.tws.burgeon.R;
+import com.rickdynasty.tws.burgeon.R;
 
 @SuppressLint("NewApi")
 @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR1)

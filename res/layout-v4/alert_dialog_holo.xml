@@ -18,7 +18,7 @@
 -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tws="http://schemas.android.com/apk/res/com.tencent.tws.devicemanager"
+    xmlns:tws="http://schemas.android.com/apk/res/com.rickdynasty.tws.devicemanager"
     android:id="@id/parentPanel"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
