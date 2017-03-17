@@ -17,7 +17,6 @@
 package com.rickdynasty.tws.core.support.v4.view;
 
 import android.os.Build;
-import android.support.v4.view.ViewGroupCompat;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityEvent;

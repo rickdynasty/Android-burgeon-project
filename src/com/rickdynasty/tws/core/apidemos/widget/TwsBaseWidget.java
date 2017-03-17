@@ -139,8 +139,7 @@ public class TwsBaseWidget extends TwsActivity {
             @Override
             public void onClick(View v) {
                 
-                Toast toast = Toast.makeText(TwsBaseWidget.this, TwsBaseWidget.this.getString(R.string.app_name), Toast.LENGTH_SHORT);
-                toast.show();
+                Toast.makeText(TwsBaseWidget.this, TwsBaseWidget.this.getString(R.string.app_name), Toast.LENGTH_SHORT).show();
             	TwsDialog mDialog = new AlertDialog.Builder(TwsBaseWidget.this)
                 .setTitle(getString(R.string.preference_common_dialogtittle))
                 .setMessage(getString(R.string.preference_common_summary))

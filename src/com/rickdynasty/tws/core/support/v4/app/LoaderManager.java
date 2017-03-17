@@ -22,7 +22,6 @@ import java.lang.reflect.Modifier;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 
 import com.rickdynasty.tws.core.support.v4.content.Loader;

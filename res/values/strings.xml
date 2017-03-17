@@ -66,9 +66,10 @@
     <string name="activity_label_ActionBarShowHide">ActionBar/ActionBarShowHide</string>
     <string name="activity_label_ActionModeNormal">ActionBar/ActionMode</string>
     <string name="activity_label_ActionBarSpinner">ActionBar/ActionBarSpinner</string>
-    <string name="activity_label_ActionModeMultiChoiceListActivity">MultiChoiceList</string>
     <string name="activity_label_ActionMenuSelected">ActionBar/ActionMenuSelected</string>
     <string name="activity_label_ActionMenuSelectedText">ActionBar/ActionMenuSelectedText</string>
+    <string name="activity_label_ActionBarMiniMode">ActionBar/ActionMiniMode</string>
+    <string name="activity_label_ActionModeMultiChoiceListActivity">MultiChoiceList</string>
     <string name="activity_label_TwsBaseWidget">Widget/TwsBaseWidget</string>
     <string name="activity_label_PreferenceActivityDemo">Preference</string>
     <string name="activity_label_TabViewpagerActivity">Tab/TabViewpager</string>
@@ -101,7 +102,6 @@
     <string name="activity_label_ListViewTest">Widget/Listview/ListView_Default</string>
     <string name="activity_label_ListViewComplex">Widget/Listview/ListView_Custom</string>
     <string name="activity_label_MultipleChoiceList">Widget/Listview/ListView_Multi</string>
-    <string name="activity_label_ActionBarMiniMode">ActionBar/ActionMiniMode</string>
     <string name="activity_label_SideBarActivity">Widget/SideBar</string>
     <string name="activity_label_ButtonRipple">Widget/Button/ButtonRipple</string>
     <string name="activity_label_TwsEditTextActivity">Widget/EditText/TwsEditText</string>
