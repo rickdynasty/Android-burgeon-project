@@ -75,7 +75,7 @@ public class TwsActivity extends Activity {
 	ViewGroup mContentParent = null;
 	ViewGroup mPhoneWindowContent = null;
 	TwsContentView mTwsRootView = null;// tws's root view, handle message for
-											// tws
+										// tws
 	View mActivityView = null;
 
 	private boolean mTitleReady = false;
@@ -133,7 +133,9 @@ public class TwsActivity extends Activity {
 			}
 			mActionBarView = (ActionBarView) mActivityView.findViewById(R.id.tws_action_bar);
 			final int tws_action_bar_height = (int) getResources().getDimension(R.dimen.tws_action_bar_height);
-			mActionBarView.setContentHeight(getResources().getBoolean(R.bool.config_statusbar_state) ? tws_action_bar_height + getStatusBarHeight() : tws_action_bar_height);
+			mActionBarView
+					.setContentHeight(getResources().getBoolean(R.bool.config_statusbar_state) ? tws_action_bar_height
+							+ getStatusBarHeight() : tws_action_bar_height);
 			mActionBarView.setPadding(0, mStatusBarOverlay ? getStatusBarHeight() : 0, 0, 0);
 			if (mActionBarView == null) {
 				throw new AndroidRuntimeException("twsAddContentView no mActionBarView");
@@ -187,7 +189,8 @@ public class TwsActivity extends Activity {
 			mActionBarView.setSplitView(splitView);
 			mActionBarView.setSplitActionBar(splitActionBar);
 			mActionBarView.setSplitWhenNarrow(splitWhenNarrow);
-			final ActionBarContextView cab = (ActionBarContextView) mActivityView.findViewById(R.id.tws_action_context_bar);
+			final ActionBarContextView cab = (ActionBarContextView) mActivityView
+					.findViewById(R.id.tws_action_context_bar);
 			cab.setSplitView(splitView);
 			cab.setSplitActionBar(splitActionBar);
 			cab.setSplitWhenNarrow(splitWhenNarrow);
@@ -216,12 +219,12 @@ public class TwsActivity extends Activity {
 				}
 			}
 		}
-		
+
 		if (mTwsStatusBarHeight == 0) {
 			mTwsStatusBarHeight = (int) getResources().getDimension(R.dimen.status_bar_height);
 		}
 	}
-	
+
 	public final ViewGroup getTwsContentView() {
 		if (mContentParent == null) {
 			twsGenerateContentParent();
@@ -576,7 +579,8 @@ public class TwsActivity extends Activity {
 		lp.width = width;
 		lp.height = WindowManager.LayoutParams.WRAP_CONTENT;
 		lp.format = getPopupViewContainer().getBackground().getOpacity();
-		lp.flags = WindowManager.LayoutParams.FLAG_DITHER | WindowManager.LayoutParams.FLAG_ALT_FOCUSABLE_IM | WindowManager.LayoutParams.FLAG_SPLIT_TOUCH | WindowManager.LayoutParams.FLAG_DIM_BEHIND;
+		lp.flags = WindowManager.LayoutParams.FLAG_DITHER | WindowManager.LayoutParams.FLAG_ALT_FOCUSABLE_IM
+				| WindowManager.LayoutParams.FLAG_SPLIT_TOUCH | WindowManager.LayoutParams.FLAG_DIM_BEHIND;
 
 		lp.gravity = Gravity.CENTER | Gravity.BOTTOM;
 		lp.dimAmount = 0.6f;
@@ -585,7 +589,8 @@ public class TwsActivity extends Activity {
 		return lp;
 	}
 
-	ListMenuPresenter mListMenuPresenter = new ListMenuPresenter(R.layout.popup_menu_item_layout, R.style.Theme_tws_CompactMenu_Second);
+	ListMenuPresenter mListMenuPresenter = new ListMenuPresenter(R.layout.popup_menu_item_layout,
+			R.style.Theme_tws_CompactMenu_Second);
 	MenuView mMenuView;
 
 	PopupViewContainer mPopupViewContainer;
@@ -634,7 +639,8 @@ public class TwsActivity extends Activity {
 			final int x = (int) event.getX();
 			final int y = (int) event.getY();
 
-			if ((event.getAction() == MotionEvent.ACTION_DOWN) && ((x < 0) || (x >= getWidth()) || (y < 0) || (y >= getHeight()))) {
+			if ((event.getAction() == MotionEvent.ACTION_DOWN)
+					&& ((x < 0) || (x >= getWidth()) || (y < 0) || (y >= getHeight()))) {
 				closePopupMenu();
 				return true;
 			} else if (event.getAction() == MotionEvent.ACTION_OUTSIDE) {
@@ -776,12 +782,14 @@ public class TwsActivity extends Activity {
 
 						TypedValue heightValue = new TypedValue();
 						mContext.getTheme().resolveAttribute(android.R.attr.actionBarSize, heightValue, true);
-						final int height = TypedValue.complexToDimensionPixelSize(heightValue.data, mContext.getResources().getDisplayMetrics());
+						final int height = TypedValue.complexToDimensionPixelSize(heightValue.data, mContext
+								.getResources().getDisplayMetrics());
 						mActionModeView.setContentHeight(height);
 						mActionModePopup.setHeight(WRAP_CONTENT);
 						mShowActionModePopup = new Runnable() {
 							public void run() {
-								mActionModePopup.showAtLocation(mActionModeView.getApplicationWindowToken(), Gravity.TOP | Gravity.FILL_HORIZONTAL, 0, 0);
+								mActionModePopup.showAtLocation(mActionModeView.getApplicationWindowToken(),
+										Gravity.TOP | Gravity.FILL_HORIZONTAL, 0, 0);
 							}
 						};
 					}
@@ -790,7 +798,8 @@ public class TwsActivity extends Activity {
 
 				if (mActionModeView != null) {
 					mActionModeView.killMode();
-					mode = new StandaloneActionMode(getContext(), mActionModeView, wrappedCallback, mActionModePopup == null);
+					mode = new StandaloneActionMode(getContext(), mActionModeView, wrappedCallback,
+							mActionModePopup == null);
 					twsActionModPopWindow(mode, callback);
 				}
 			}
@@ -839,12 +848,14 @@ public class TwsActivity extends Activity {
 
 						TypedValue heightValue = new TypedValue();
 						mContext.getTheme().resolveAttribute(android.R.attr.actionBarSize, heightValue, true);
-						final int height = TypedValue.complexToDimensionPixelSize(heightValue.data, mContext.getResources().getDisplayMetrics());
+						final int height = TypedValue.complexToDimensionPixelSize(heightValue.data, mContext
+								.getResources().getDisplayMetrics());
 						mActionModeView.setContentHeight(height);
 						mActionModePopup.setHeight(WRAP_CONTENT);
 						mShowActionModePopup = new Runnable() {
 							public void run() {
-								mActionModePopup.showAtLocation(mActionModeView.getApplicationWindowToken(), Gravity.TOP | Gravity.FILL_HORIZONTAL, 0, 0);
+								mActionModePopup.showAtLocation(mActionModeView.getApplicationWindowToken(),
+										Gravity.TOP | Gravity.FILL_HORIZONTAL, 0, 0);
 							}
 						};
 					} else {
@@ -857,7 +868,8 @@ public class TwsActivity extends Activity {
 
 				if (mActionModeView != null) {
 					mActionModeView.killMode();
-					mode = new StandaloneActionMode(getContext(), mActionModeView, wrappedCallback, mActionModePopup == null);
+					mode = new StandaloneActionMode(getContext(), mActionModeView, wrappedCallback,
+							mActionModePopup == null);
 					if (callback.onCreateActionMode(mode, mode.getMenu())) {
 						mode.invalidate();
 						mActionModeView.initForMode(mode);
@@ -1029,7 +1041,8 @@ public class TwsActivity extends Activity {
 			Class<?> clazz3 = ReflectUtils.forClassName("android.os.ServiceManager");
 			Field field3 = ReflectUtils.getDeclaredField(clazz3, "sServiceManager");
 			ReflectUtils.setFieldValue(null, field3, null);
-			HashMap<String, IBinder> map = (HashMap<String, IBinder>) ReflectUtils.getFieldValue("sCache", null, clazz3);
+			HashMap<String, IBinder> map = (HashMap<String, IBinder>) ReflectUtils
+					.getFieldValue("sCache", null, clazz3);
 			if (map != null) {
 				IBinder oldValue = map.remove("package");
 				if (oldValue != null) {
