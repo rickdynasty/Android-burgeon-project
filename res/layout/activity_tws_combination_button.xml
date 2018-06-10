@@ -18,7 +18,7 @@
 
         <com.rickdynasty.tws.core.widget.TwsCombinationButton
             android:id="@+id/tws_btn_Normal"
-            style="@style/Widget.tws.TwsCombinationButtonStyle"
+            style="@style/Widget.tws.TwsButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="@dimen/tws_button_high"
             android:layout_marginLeft="@dimen/tws_button_margin_left"

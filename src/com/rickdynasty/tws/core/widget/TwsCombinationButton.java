@@ -65,7 +65,7 @@ public class TwsCombinationButton extends FrameLayout {
 	}
 
 	public TwsCombinationButton(Context context, AttributeSet attrs) {
-		this(context, attrs, R.attr.twsCombinationButtonStyle);
+		this(context, attrs, R.attr.twsButtonStyle);
 	}
 
 	public TwsCombinationButton(Context context, AttributeSet attrs, int defStyleAttr) {

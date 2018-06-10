@@ -12,7 +12,6 @@
     <integer name="shadowRadius">1</integer>
     <integer name="config_listMenuExitFadeTime">10</integer>
     <integer name="config_toastDefaultGravity">0x00000051</integer>
-    <dimen name="launcher_theme_icon_composite_inner_image_dy">56dp</dimen>
     <integer name="action_bar_tab_layout_weight">0</integer>
     <bool name="default_tab_indicator_fades">false</bool>
     <integer name="default_tab_indicator_fade_delay">100</integer>
@@ -27,4 +26,9 @@
     <integer name="config_listItemShortDelayTime">30</integer>
     <integer name="theme_icon_dispose_type">1</integer>
     <bool name="config_statusbar_state">true</bool>
+    
+    <!-- values -->
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
+    <dimen name="abc_config_prefDialogWidth">320dp</dimen>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
 </resources>

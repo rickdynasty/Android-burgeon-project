@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
-    <com.rickdynasty.tws.core.widget.ListView android:id="@+id/ringList1" 
+    <com.tencent.tws.assistant.widget.ListView android:id="@+id/ringList1" 
         android:layout_width="match_parent"
     	android:layout_height="match_parent"
     	android:cacheColorHint="@null"
@@ -11,8 +11,8 @@
     	android:scrollbars="vertical"
     	android:overScrollMode="ifContentScrolls"
     	>  
-    </com.rickdynasty.tws.core.widget.ListView>
-    <com.rickdynasty.tws.core.widget.ListView android:id="@+id/ringList2" 
+    </com.tencent.tws.assistant.widget.ListView>
+    <com.tencent.tws.assistant.widget.ListView android:id="@+id/ringList2" 
         android:layout_width="match_parent"
     	android:layout_height="match_parent"
     	android:cacheColorHint="@null"
@@ -20,7 +20,7 @@
     	android:scrollbars="vertical"
     	android:overScrollMode="ifContentScrolls"
     	>  
-    </com.rickdynasty.tws.core.widget.ListView>
+    </com.tencent.tws.assistant.widget.ListView>
     <TextView android:id="@+id/empty_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

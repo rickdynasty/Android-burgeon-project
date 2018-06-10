@@ -4,16 +4,16 @@
     <style name="AlertDialog"></style>
 
     <style name="AlertDialog.tws">
-        <item name="android:fullDark">@drawable/dialog_full_holo_light</item>
-        <item name="android:topDark">@drawable/dialog_top_holo_light</item>
-        <item name="android:centerDark">@drawable/dialog_middle_holo_light</item>
-        <item name="android:bottomDark">@drawable/dialog_bottom_holo_light</item>
-        <item name="android:fullBright">@drawable/dialog_full_holo_light</item>
-        <item name="android:topBright">@drawable/dialog_top_holo_light</item>
-        <item name="android:centerBright">@drawable/dialog_middle_holo_light</item>
-        <item name="android:bottomBright">@drawable/dialog_bottom_holo_light</item>
-        <item name="android:bottomMedium">@drawable/dialog_bottom_holo_light</item>
-        <item name="android:centerMedium">@drawable/dialog_middle_holo_light</item>
+        <item name="android:fullDark">@color/tws_dialog_holo_bg</item>
+        <item name="android:topDark">@color/tws_dialog_holo_bg</item>
+        <item name="android:centerDark">@color/tws_dialog_holo_bg</item>
+        <item name="android:bottomDark">@color/tws_dialog_holo_bg</item>
+        <item name="android:fullBright">@color/tws_dialog_holo_bg</item>
+        <item name="android:topBright">@color/tws_dialog_holo_bg</item>
+        <item name="android:centerBright">@color/tws_dialog_holo_bg</item>
+        <item name="android:bottomBright">@color/tws_dialog_holo_bg</item>
+        <item name="android:bottomMedium">@color/tws_dialog_holo_bg</item>
+        <item name="android:centerMedium">@color/tws_dialog_holo_bg</item>
     </style>
 
     <style name="AlertDialog.tws.ButtonBar" parent="@android:style/Holo.ButtonBar">
@@ -28,42 +28,42 @@
     </style>
 
     <style name="AlertDialog.tws.Second">
-        <item name="android:fullDark">@drawable/dialog_full_holo_light</item>
-        <item name="android:topDark">@drawable/dialog_top_holo_light</item>
-        <item name="android:centerDark">@drawable/dialog_middle_holo_light</item>
-        <item name="android:bottomDark">@drawable/dialog_bottom_holo_light</item>
-        <item name="android:fullBright">@drawable/dialog_full_holo_light</item>
-        <item name="android:topBright">@drawable/dialog_top_holo_light</item>
-        <item name="android:centerBright">@drawable/dialog_middle_holo_light</item>
-        <item name="android:bottomBright">@drawable/dialog_bottom_holo_light</item>
-        <item name="android:bottomMedium">@drawable/dialog_bottom_holo_light</item>
-        <item name="android:centerMedium">@drawable/dialog_middle_holo_light</item>
+        <item name="android:fullDark">@color/tws_dialog_holo_bg</item>
+        <item name="android:topDark">@color/tws_dialog_holo_bg</item>
+        <item name="android:centerDark">@color/tws_dialog_holo_bg</item>
+        <item name="android:bottomDark">@color/tws_dialog_holo_bg</item>
+        <item name="android:fullBright">@color/tws_dialog_holo_bg</item>
+        <item name="android:topBright">@color/tws_dialog_holo_bg</item>
+        <item name="android:centerBright">@color/tws_dialog_holo_bg</item>
+        <item name="android:bottomBright">@color/tws_dialog_holo_bg</item>
+        <item name="android:bottomMedium">@color/tws_dialog_holo_bg</item>
+        <item name="android:centerMedium">@color/tws_dialog_holo_bg</item>
     </style>
 
     <style name="AlertDialog.tws.Second.Bottom">
-        <item name="android:fullDark">@drawable/bottom_dialog_full_holo_light</item>
-        <item name="android:topDark">@drawable/bottom_dialog_top_holo_light</item>
-        <item name="android:centerDark">@drawable/bottom_dialog_middle_holo_light</item>
-        <item name="android:bottomDark">@drawable/bottom_dialog_bottom_holo_light</item>
-        <item name="android:fullBright">@drawable/bottom_dialog_full_holo_light</item>
-        <item name="android:topBright">@drawable/bottom_dialog_top_holo_light</item>
-        <item name="android:centerBright">@drawable/bottom_dialog_middle_holo_light</item>
-        <item name="android:bottomBright">@drawable/bottom_dialog_bottom_holo_light</item>
-        <item name="android:bottomMedium">@drawable/bottom_dialog_bottom_holo_light</item>
-        <item name="android:centerMedium">@drawable/bottom_dialog_middle_holo_light</item>
+        <item name="android:fullDark">@color/tws_dialog_holo_bg</item>
+        <item name="android:topDark">@color/tws_dialog_holo_bg</item>
+        <item name="android:centerDark">@color/tws_dialog_holo_bg</item>
+        <item name="android:bottomDark">@color/tws_dialog_holo_bg</item>
+        <item name="android:fullBright">@color/tws_dialog_holo_bg</item>
+        <item name="android:topBright">@color/tws_dialog_holo_bg</item>
+        <item name="android:centerBright">@color/tws_dialog_holo_bg</item>
+        <item name="android:bottomBright">@color/tws_dialog_holo_bg</item>
+        <item name="android:bottomMedium">@color/tws_dialog_holo_bg</item>
+        <item name="android:centerMedium">@color/tws_dialog_holo_bg</item>
     </style>
 
     <style name="AlertDialog.tws.Second.Dark">
-        <item name="android:fullDark">@drawable/dialog_full_holo_dark</item>
-        <item name="android:topDark">@drawable/dialog_top_holo_dark</item>
-        <item name="android:centerDark">@drawable/dialog_middle_holo_dark</item>
-        <item name="android:bottomDark">@drawable/dialog_bottom_holo_dark</item>
-        <item name="android:fullBright">@drawable/dialog_full_holo_dark</item>
-        <item name="android:topBright">@drawable/dialog_top_holo_dark</item>
-        <item name="android:centerBright">@drawable/dialog_middle_holo_dark</item>
-        <item name="android:bottomBright">@drawable/dialog_bottom_holo_dark</item>
-        <item name="android:bottomMedium">@drawable/dialog_bottom_holo_dark</item>
-        <item name="android:centerMedium">@drawable/dialog_middle_holo_dark</item>
+        <item name="android:fullDark">@color/tws_dialog_dark_bg</item>
+        <item name="android:topDark">@color/tws_dialog_dark_bg</item>
+        <item name="android:centerDark">@color/tws_dialog_dark_bg</item>
+        <item name="android:bottomDark">@color/tws_dialog_dark_bg</item>
+        <item name="android:fullBright">@color/tws_dialog_dark_bg</item>
+        <item name="android:topBright">@color/tws_dialog_dark_bg</item>
+        <item name="android:centerBright">@color/tws_dialog_dark_bg</item>
+        <item name="android:bottomBright">@color/tws_dialog_dark_bg</item>
+        <item name="android:bottomMedium">@color/tws_dialog_dark_bg</item>
+        <item name="android:centerMedium">@color/tws_dialog_dark_bg</item>
     </style>
 
     <style name="AlertDialog.tws.Second.Transparent">
@@ -85,16 +85,16 @@
     </style>
 
     <style name="AlertDialog.tws.Second.default">
-        <item name="android:fullDark">@drawable/dialog_full_holo_dark</item>
-        <item name="android:topDark">@drawable/dialog_top_holo_dark</item>
-        <item name="android:centerDark">@drawable/dialog_middle_holo_dark</item>
-        <item name="android:bottomDark">@drawable/dialog_bottom_holo_dark</item>
-        <item name="android:fullBright">@drawable/dialog_full_holo_light</item>
-        <item name="android:topBright">@drawable/dialog_top_holo_light</item>
-        <item name="android:centerBright">@drawable/dialog_middle_holo_light</item>
-        <item name="android:bottomBright">@drawable/dialog_bottom_holo_light</item>
-        <item name="android:bottomMedium">@drawable/dialog_bottom_holo_dark</item>
-        <item name="android:centerMedium">@drawable/dialog_middle_holo_light</item>
+        <item name="android:fullDark">@color/tws_dialog_dark_bg</item>
+        <item name="android:topDark">@color/tws_dialog_dark_bg</item>
+        <item name="android:centerDark">@color/tws_dialog_dark_bg</item>
+        <item name="android:bottomDark">@color/tws_dialog_dark_bg</item>
+        <item name="android:fullBright">@color/tws_dialog_holo_bg</item>
+        <item name="android:topBright">@color/tws_dialog_holo_bg</item>
+        <item name="android:centerBright">@color/tws_dialog_holo_bg</item>
+        <item name="android:bottomBright">@color/tws_dialog_holo_bg</item>
+        <item name="android:bottomMedium">@color/tws_dialog_dark_bg</item>
+        <item name="android:centerMedium">@color/tws_dialog_holo_bg</item>
     </style>
 
     <style name="Animation" parent="@android:style/Animation"></style>
@@ -265,7 +265,9 @@
         <item name="android:paddingRight">@dimen/preference_fragment_padding_side</item>
     </style>
 
-    <style name="TextAppearance.tws" parent="@android:style/TextAppearance"></style>
+    <style name="TextAppearance.tws" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">NotoSansCJKsc-Light</item>
+    </style>
 
     <style name="TextAppearance.tws.Transparent">
         <item name="android:textSize">0sp</item>
@@ -274,7 +276,7 @@
 
     <style name="TextAppearance.tws.DialogWindowTitle">
         <item name="android:textSize">@dimen/tws_Large_TextSize</item>
-        <item name="android:textColor">@color/tws_blue</item>
+        <item name="android:textColor">@color/tws_black</item>
     </style>
 
     <style name="TextAppearance.tws.ListViewEmptyText">
@@ -305,17 +307,17 @@
     </style>
 
     <style name="TextAppearance.tws.Second.twsTextLargerDarkTitle.ActionBarTitle">
-        <item name="android:textSize">16dip</item>
+        <item name="android:textSize">16sp</item>
     </style>
 
     <style name="TextAppearance.tws.Second.twsTextLargerDarkTitleLeftButton" parent="Widget.tws.Button.Second">
-        <item name="android:textSize">16dip</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/tws_text_dark_title</item>
         <item name="android:textColorHint">@color/tws_second_Hint</item>
     </style>
 
     <style name="TextAppearance.tws.Second.twsTextLargerDarkTitleMenuItem">
-        <item name="android:textSize">16dip</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/tws_menuitem_text_dark</item>
         <item name="android:textColorHint">@color/tws_second_Hint</item>
     </style>
@@ -325,7 +327,7 @@
     </style>
 
     <style name="TextAppearance.tws.Second.twsTextLargerDarkTitleRightButton" parent="Widget.tws.Button.Second">
-        <item name="android:textSize">16dip</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/tws_text_dark_title</item>
         <item name="android:textColorHint">@color/tws_second_Hint</item>
     </style>
@@ -338,18 +340,18 @@
 
     <style name="TextAppearance.tws.Second.twsTextLargerLightTitle.ActionBarTitle">
         <item name="android:textColor">@color/tws_light_title_actionBar</item>
-        <item name="android:textSize">16dip</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
     <style name="TextAppearance.tws.Second.twsTextLargerLightTitleLeftButton" parent="Widget.tws.Button.Second">
-        <item name="android:textSize">16dip</item>
+        <item name="android:textSize">@dimen/tws_Large_TextSize</item>
         <item name="android:textColor">@color/tws_text_light_title_actionbarbtn</item>
         <item name="android:textColorHint">@color/tws_second_Hint</item>
         <item name="android:background">@color/transparent</item>
     </style>
 
     <style name="TextAppearance.tws.Second.twsTextLargerLightTitleMenuItem">
-        <item name="android:textSize">16dip</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/tws_menuitem_text_light</item>
         <item name="android:textColorHint">@color/tws_second_Hint</item>
     </style>
@@ -359,7 +361,7 @@
     </style>
 
     <style name="TextAppearance.tws.Second.twsTextLargerLightTitleRightButton" parent="Widget.tws.Button.Second">
-        <item name="android:textSize">16dip</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/tws_text_light_title_actionbarbtn</item>
         <item name="android:textColorHint">@color/tws_second_Hint</item>
         <item name="android:background">@color/transparent</item>
@@ -416,7 +418,7 @@
     </style>
 
     <style name="TextAppearance.tws.Second.twsTextSmallDarkTitle">
-        <item name="android:textSize">12dip</item>
+        <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/tws_dark_title</item>
         <item name="android:textColorHint">@color/tws_second_Hint</item>
     </style>
@@ -434,7 +436,7 @@
     </style>
 
     <style name="TextAppearance.tws.Second.twsTextSmallLightTitle">
-        <item name="android:textSize">12dip</item>
+        <item name="android:textSize">@dimen/tws_Micro_TextSize</item>
         <item name="android:textColor">@color/tws_light_subtitle_actionBar</item>
         <item name="android:textColorHint">@color/tws_second_Hint</item>
     </style>
@@ -470,7 +472,7 @@
     </style>
 
     <style name="TextAppearance.tws.Second.twsTextSuperDarkTitle.ActionModeTitle">
-        <item name="android:textSize">16dip</item>
+        <item name="android:textSize">16sp</item>
     </style>
 
     <style name="TextAppearance.tws.Second.twsTextSuperLightTitle">
@@ -481,7 +483,7 @@
 
     <style name="TextAppearance.tws.Second.twsTextSuperLightTitle.ActionModeTitle">
         <item name="android:textColor">@color/tws_light_title_actionBar</item>
-        <item name="android:textSize">16dip</item>
+        <item name="android:textSize">16sp</item>
     </style>
 
     <style name="TextAppearance.tws.Second.twstextMicroDarkSummary">
@@ -574,7 +576,7 @@
         <item name="twstextMicroDarkSummary">@style/TextAppearance.tws.Second.twstextMicroDarkSummary</item>
         <item name="twstextMicroLightSummary">@style/TextAppearance.tws.Second.twstextMicroLightSummary</item>
         <item name="homebackground">@color/transparent</item>
-        <item name="twsActionbarBackgroud">@drawable/ab_solid_holo_light</item>
+        <item name="twsActionbarBackgroud">@color/tws_bar_background</item>
         <item name="twsActionModMenuFontColor">@color/tws_text_light_title</item>
         <item name="twsTextHintColor">@color/tws_black_alpha_medium</item>
         <item name="actionBarStyle">@style/Widget.tws.ActionBar</item>
@@ -676,7 +678,6 @@
         <item name="android:editTextPreferenceStyle">@style/Preference.tws.DialogPreference.EditTextPreference</item>
         <item name="android:dividerVertical">?android:attr/listDivider</item>
         <item name="android:switchPreferenceStyle">@style/Preference.tws.SwitchPreference</item>
-        <item name="twsCombinationButtonStyle">@style/Widget.tws.TwsCombinationButtonStyle</item>
         <item name="twsButtonStyle">@style/Widget.tws.TwsButtonStyle</item>
     </style>
 
@@ -744,7 +745,7 @@
         <item name="twstextMicroLightSummary">@style/TextAppearance.tws.Second.twstextMicroLightSummary</item>
         <item name="homebackground">@color/transparent</item>
         <item name="homebutton">@drawable/ic_ab_back</item>
-        <item name="twsActionbarBackgroud">@drawable/ab_solid_holo_light</item>
+        <item name="twsActionbarBackgroud">@color/tws_bar_background</item>
         <item name="twsActionModMenuFontColor">@color/tws_text_light_title</item>
         <item name="twsTextHintColor">@color/tws_black_alpha_medium</item>
         <item name="android:alertDialogStyle">@style/AlertDialog.tws</item>
@@ -756,7 +757,7 @@
         <item name="android:windowFrame">@null</item>
         <item name="android:windowTitleStyle">@style/DialogWindowTitle.tws</item>
         <item name="windowTitleStyle">@style/DialogWindowTitle.tws</item>
-        <item name="android:windowBackground">@drawable/dialog_full_holo_light</item>
+        <item name="android:windowBackground">@color/tws_dialog_holo_bg</item>
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowAnimationStyle">@style/Animation.tws.Dialog</item>
@@ -910,6 +911,10 @@
         <item name="preferenceLeftPadding">@dimen/preference_default_leftpadding</item>
         <item name="preferenceRightPadding">@dimen/preference_default_rightpadding</item>
     </style>
+    
+    <style name="Theme.tws.Second.Overlay">
+        <item name="actionBarStyle">@style/Widget.tws.ActionBar.Second.Overlay</item>
+    </style>
 
     <style name="Theme.tws.Second.Dark">
         <item name="actionBarStyle">@style/Widget.tws.ActionBar.Second.Holo</item>
@@ -920,8 +925,8 @@
         <item name="actionOverflowButtonBottomStyle">@style/Widget.tws.ActionButton.Overflow.Bottom.Holo</item>
         <item name="searchViewBackground">@drawable/search_view_dark_background</item>
         <item name="searchViewEditorBackground">@drawable/search_view_editor_dark_background</item>
-        <item name="searchViewSearchIcon">@drawable/ic_search_holo</item>
-        <item name="searchViewCloseIcon">@drawable/second_ic_clear_holo</item>
+        <item name="searchViewSearchIcon">@drawable/ic_search</item>
+        <item name="searchViewCloseIcon">@drawable/second_ic_clear_holo_light</item>
         <item name="searchViewCancel">@color/tws_text_dark_title</item>
         <item name="searchViewTextColor">@color/search_view_text_color_dark</item>
         <item name="searchViewTextColorHint">@color/search_view_text_color_hint_dark</item>
@@ -1036,7 +1041,7 @@
     <style name="Theme.tws.Second.Dialog.Bottom">
         <item name="android:windowMinWidthMajor">@dimen/bottom_dialog_min_width_major</item>
         <item name="android:windowMinWidthMinor">@dimen/bottom_dialog_min_width_minor</item>
-        <item name="android:windowBackground">@drawable/bottom_dialog_full_holo_light</item>
+        <item name="android:windowBackground">@color/tws_dialog_holo_bg</item>
         <item name="android:windowAnimationStyle">@style/Animation.tws.Dialog.Bottom</item>
         <item name="android:alertDialogStyle">@style/AlertDialog.tws.Second.Bottom</item>
         <item name="android:dialogTheme">@style/Theme.tws.Second.Dialog.Bottom</item>
@@ -1283,14 +1288,14 @@
 
     <style name="Widget.tws.ActionBar">
         <item name="homeAsUpIndicator">@drawable/ic_ab_back</item>
-        <item name="background">@drawable/ab_solid_holo_light</item>
-        <item name="backgroundStacked">@drawable/ab_solid_holo_light</item>
-        <item name="backgroundSplit">@drawable/cab_background_bottom_holo_light</item>
+        <item name="background">@color/tws_bar_background</item>
+        <item name="backgroundStacked">@color/tws_bar_background</item>
+        <item name="backgroundSplit">@color/tws_bar_background</item>
         <item name="divider">?android:attr/dividerVertical</item>
         <item name="progressBarStyle">@style/Widget.tws.ProgressBar.Horizontal</item>
         <item name="indeterminateProgressStyle">@style/Widget.tws.ProgressBar.Small</item>
-        <item name="progressBarPadding">32dip</item>
-        <item name="itemPadding">8dip</item>
+        <item name="progressBarPadding">@dimen/actionbar_progressBarPadding</item>
+        <item name="itemPadding">@dimen/actionbar_itemPadding</item>
         <item name="displayOptions">useLogo|showHome|showTitle</item>
         <item name="height">?android:attr/actionBarSize</item>
         <item name="android:paddingLeft">0dip</item>
@@ -1302,9 +1307,9 @@
     <style name="Widget.tws.ActionBar.Second">
         <item name="titleTextStyle">@style/TextAppearance.tws.Second.twsTextLargerLightTitle.ActionBarTitle</item>
         <item name="subtitleTextStyle">@style/TextAppearance.tws.Second.twsTextSmallLightTitle</item>
-        <item name="background">@drawable/ab_solid_holo_light</item>
-        <item name="backgroundStacked">@drawable/ab_solid_holo_light</item>
-        <item name="backgroundSplit">@drawable/ab_solid_holo_light_bottom</item>
+        <item name="background">@color/tws_bar_background</item>
+        <item name="backgroundStacked">@color/tws_bar_background</item>
+        <item name="backgroundSplit">@color/tws_bar_background</item>
         <item name="homebutton">@drawable/ic_ab_back</item>
         <item name="homebackground">@color/transparent</item>
         <item name="actionbarleftbtnstyle">@style/TextAppearance.tws.Second.twsTextLargerLightTitleLeftButton</item>
@@ -1313,6 +1318,10 @@
         <item name="actionbartabTheme">tab_wave</item>
         <item name="gradientBackgroundStartColor">@color/actionbar_gradient_background_start_color</item>
         <item name="gradientBackgroundEndColor">@color/actionbar_gradient_background_end_color</item>
+    </style>
+    
+    <style name="Widget.tws.ActionBar.Second.Overlay">
+        <item name="background">@color/transparent</item>
     </style>
 
     <style name="Widget.tws.ActionBar.Second.Holo">
@@ -1420,7 +1429,7 @@
         <item name="titleTextStyle">@style/TextAppearance.tws.Second.twsTextSuperLightTitle.ActionModeTitle</item>
         <item name="subtitleTextStyle">@style/TextAppearance.tws.Second.twsTextSmallLightTitle</item>
         <item name="backgroundActionMode">@drawable/ab_solid_holo_light_noshadow</item>
-        <item name="backgroundSplit">@drawable/ab_solid_holo_light_bottom</item>
+        <item name="backgroundSplit">@color/tws_bar_background</item>
         <item name="backgroundMode">gradient</item>
         <item name="gradientBackgroundStartColor">@color/actionbar_gradient_background_start_color</item>
         <item name="gradientBackgroundEndColor">@color/actionbar_gradient_background_end_color</item>
@@ -1513,13 +1522,13 @@
         <item name="android:paddingBottom">13sp</item>
         <item name="android:paddingLeft">2sp</item>
         <item name="android:paddingRight">2sp</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">@dimen/tws_Medium_TextSize</item>
         <item name="android:background">@null</item>
     </style>
 
     <style name="Widget.tws.EditText.NumberPickerInputText.Second">
-        <item name="android:textSize">18dp</item>
-        <item name="android:textColor">@color/tws_picker_selected_textcolor</item>
+        <item name="android:textSize">@dimen/tws_Larger_TextSize</item>
+        <item name="android:textColor">@color/tws_black</item>
         <item name="android:gravity">center</item>
         <item name="android:singleLine">true</item>
         <item name="android:paddingTop">0dp</item>
@@ -1527,6 +1536,7 @@
         <item name="android:paddingLeft">0dp</item>
         <item name="android:paddingRight">0dp</item>
         <item name="android:background">@null</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="Widget.tws.EditText.TwsEditTextStyle">
@@ -1613,8 +1623,8 @@
     </style>
 
     <style name="Widget.tws.ListView.Second.Dialog.Dark">
-        <item name="android:background">@color/tws_black</item>
-        <item name="listSelector">@color/tws_black</item>
+        <item name="android:background">@color/tws_dialog_holo_bg</item>
+        <item name="listSelector">@color/tws_dialog_holo_bg</item>
     </style>
 
     <style name="Widget.tws.ListViewMenu" parent="@android:style/Widget.ListView">
@@ -1648,7 +1658,7 @@
         <item name="minHeight">30dip</item>
         <item name="maxHeight">210dip</item>
         <item name="virtualButtonPressedDrawable">@null</item>
-        <item name="normalTextSize">14dp</item>
+        <item name="normalTextSize">@dimen/tws_Micro_TextSize</item>
         <item name="normalTextColor">@color/tws_picker_normal_textcolor</item>
     </style>
 
@@ -1803,7 +1813,7 @@
     <style name="Widget.tws.TabText" parent="@android:style/Widget.Holo.ActionBar.TabText">
         <item name="android:maxWidth">180dip</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:textSize">18dp</item>
+        <item name="android:textSize">@dimen/tws_Large_TextSize</item>
         <item name="android:textColor">@color/tab_text_light</item>
     </style>
 
@@ -1825,6 +1835,7 @@
 
     <style name="Widget.tws.TabView" parent="@android:style/Widget.Holo.ActionBar.TabView">
         <item name="android:textColor">@color/tab_text_light</item>
+        <item name="android:textSize">@dimen/tws_Small_TextSize</item>
         <item name="android:gravity">center</item>
         <item name="android:background">@drawable/tab_bg_light</item>
         <item name="android:layout_weight">@integer/action_bar_tab_layout_weight</item>
@@ -1871,7 +1882,7 @@
         <item name="layout">@layout/time_picker</item>
     </style>
 
-    <style name="Widget.tws.TwsCombinationButtonStyle">
+    <style name="Widget.tws.TwsButtonStyle">
         <item name="height">@dimen/tws_button_high</item>
         <item name="radius">@dimen/tws_button_round_radius</item>
         <item name="normal_background">@color/tws_button_normal_background</item>
@@ -1887,10 +1898,13 @@
         <item name="textColor">@color/tws_button_textColor</item>
         <item name="disabled_textColor">@color/tws_button_disabled_textColor</item>
     </style>
-
-    <style name="Widget.tws.TwsButtonStyle" parent="@android:style/Widget.Button">
-        <item name="android:textColor">@color/white</item>
-        <item name="android:textSize">@dimen/tws_Medium_TextSize</item>
+    <style name="twsProgressBarStyleLarge">
+　　       	<item name="android:indeterminateDrawable">@drawable/tws_common_progress_bar_bg</item>
+　　        	<item name="android:minWidth">12dp</item>
+　　        	<item name="android:maxWidth">48dp</item>
+　　        	<item name="android:minHeight">12dp</item>
+　　        	<item name="android:maxHeight">48dp</item>
     </style>
+    
 
 </resources>

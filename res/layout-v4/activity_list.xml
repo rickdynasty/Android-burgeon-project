@@ -19,7 +19,7 @@
     android:layout_height="match_parent"
     >
 
-    <com.rickdynasty.tws.core.widget.ListView
+    <com.tencent.tws.assistant.widget.ListView
         android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

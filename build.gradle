@@ -1,0 +1,62 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply from: "config.gradle"
+buildscript {
+
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    defaultConfig {
+        applicationId "com.rickdynasty.tws.burgeon"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+    }
+
+    sourceSets.main {
+        java.srcDirs = ['src']
+        manifest.srcFile 'AndroidManifest.xml'
+        res.srcDirs = ['res']
+        jniLibs.srcDirs = ['libs']
+        assets.srcDirs = ['assets']
+        aidl.srcDirs = ['src']
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    buildToolsVersion '26.0.2'
+}
+
+dependencies {
+    provided fileTree(include: ['*.jar'], dir: 'framework_libs')
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+}

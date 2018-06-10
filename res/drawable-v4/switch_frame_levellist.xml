@@ -12,5 +12,4 @@
     <item android:maxLevel="8" android:drawable="@drawable/switch_frame08" />
     <item android:maxLevel="9" android:drawable="@drawable/switch_frame09" />
     <item android:maxLevel="10" android:drawable="@drawable/switch_frame10" />
-    <item android:maxLevel="11" android:drawable="@drawable/switch_frame11" />
 </level-list>

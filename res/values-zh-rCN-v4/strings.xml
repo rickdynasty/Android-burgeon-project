@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="reboot_system" product="default">重启手机</string>
-    <string name="reboot_confirm">您的手机会重启</string>
-    <string name="shutdown_progress">"正在关机..."</string>
-    <string name="cutToast">"剪切成功"</string>
-    <string name="copyToast">"复制成功"</string>
+    <string name="back_button_label">返回</string>
+    <string name="skip_button_label">跳过</string>
+    <string name="next_button_label">下一步</string>
+    <string name="searchview_description_query">搜索查询</string>
+    <string name="searchview_description_clear">清除查询</string>
     <string name="choose_ring_title">"手机铃声"</string>
     <string name="choose_notification_title">"通知铃声"</string>
     <string name="choose_alarm_title">"闹钟铃声"</string>
@@ -14,120 +14,77 @@
     <string name="menu_doNotSave">"取消"</string>
     <string name="pick_other_ring_title">"其他铃声"</string>
     <string name="ring_empty">"无相关铃声"</string>
-    <string name="text_selectWord">"选择"</string>
     <string name="current_ring">"当前铃声"</string>
     <string name="update_sdcard">更新SD卡数据中...</string>
-    <string name="usb_storage_activity_title" msgid="2399289999608900443">"USB 大容量存储设备"</string>
-    <string name="usb_storage_message" msgid="6631094834151575841" product="nosdcard">"您已通过 USB 连接至计算机。如果您要在计算机与 Android 设备的 USB 存储设备之间复制文件，请触摸下面的按钮。"</string>
-    <string name="usb_storage_message" msgid="4510858346516069238" product="default">"您已通过 USB 连接至计算机。如果您要在计算机和 Android 设备的 SD 卡之间复制文件，请触摸下面的按钮。"</string>
-    <string name="usb_storage_button_mount" msgid="1052259930369508235">"打开 USB 存储设备"</string>
-    <string name="usb_storage_notification_title" msgid="8175892554757216525">"USB 已连接"</string>
-    <string name="usb_storage_notification_message" msgid="7380082404288219341">"选择将文件复制到计算机或从计算机复制到存储设备。"</string>
-    <string name="usb_storage_stop_notification_title" msgid="2336058396663516017">"关闭 USB 存储设备"</string>
-    <string name="usb_storage_stop_notification_message" msgid="2591813490269841539">"选中以关闭 USB 存储设备。"</string>
-    <string name="usb_storage_stop_message" msgid="1368842269463745067" product="nosdcard">"在关闭 USB 存储设备前，请确保您已从计算机中卸载（“弹出”）Android 手机的 USB 存储设备。"</string>
-    <string name="usb_storage_stop_message" msgid="3613713396426604104" product="default">"在关闭 USB 存储设备前，请确保您已从计算机中卸载（“弹出”）Android 手机的 SD 卡。"</string>
-    <string name="usb_storage_stop_button_mount" msgid="7060218034900696029">"关闭 USB 存储设备"</string>
-    <string name="ext_media_checking_notification_title" msgid="3449816005351468560" product="nosdcard">"正在准备 USB 存储设备"</string>
-    <string name="ext_media_checking_notification_title" msgid="5457603418970994050" product="default">"正在准备 SD 卡"</string>
-    <string name="ext_media_checking_notification_message" msgid="8287319882926737053">"正在检查是否有错误。"</string>
-    <string name="ext_media_nofs_notification_title" msgid="7788040745686229307" product="nosdcard">"USB 存储设备中无文件"</string>
-    <string name="ext_media_nofs_notification_title" msgid="780477838241212997" product="default">"空 SD 卡"</string>
-    <string name="ext_media_nofs_notification_message" msgid="8623130522556087311" product="nosdcard">"USB 存储设备中无文件或使用了不支持的文件系统。"</string>
-    <string name="ext_media_nofs_notification_message" msgid="3817704088027829380" product="default">"SD 卡无文件系统，或文件系统不受支持。"</string>
-    <string name="ext_media_unmountable_notification_title" msgid="2090046769532713563" product="nosdcard">"USB 存储设备已损坏"</string>
-    <string name="ext_media_unmountable_notification_title" msgid="6410723906019100189" product="default">"SD 卡受损"</string>
-    <string name="ext_media_unmountable_notification_message" msgid="529021299294450667" product="nosdcard">"USB 存储设备已损坏，您可能需要对其重新格式化。"</string>
-    <string name="ext_media_unmountable_notification_message" msgid="6902531775948238989" product="default">"SD 卡已损坏。您可能必须将其重新格式化。"</string>
-    <string name="ext_media_badremoval_notification_title" msgid="1661683031330951073" product="nosdcard">"USB 存储设备已意外移除"</string>
-    <string name="ext_media_badremoval_notification_title" msgid="6872152882604407837" product="default">"SD 卡未正常移除"</string>
-    <string name="ext_media_badremoval_notification_message" msgid="4329848819865594241" product="nosdcard">"请先卸载 USB 存储设备，再将其移除，以防数据丢失。"</string>
-    <string name="ext_media_badremoval_notification_message" msgid="7260183293747448241" product="default">"请先卸载 SD 卡，再将其移除，以防数据丢失。"</string>
-    <string name="ext_media_safe_unmount_notification_title" msgid="3967973893270360230" product="nosdcard">"USB 存储设备已安全移除"</string>
-    <string name="ext_media_safe_unmount_notification_title" msgid="6729801130790616200" product="default">"SD 卡已安全移除"</string>
-    <string name="ext_media_safe_unmount_notification_message" msgid="6142195361606493530" product="nosdcard">"您可以安全地移除 USB 存储设备。"</string>
-    <string name="ext_media_safe_unmount_notification_message" msgid="568841278138377604" product="default">"您现在可以安全移除 SD 卡。"</string>
-    <string name="ext_media_nomedia_notification_title" msgid="4486377230140227651" product="nosdcard">"USB 存储设备已移除"</string>
-    <string name="ext_media_nomedia_notification_title" msgid="8902518030404381318" product="default">"已移除 SD 卡"</string>
-    <string name="ext_media_nomedia_notification_message" msgid="6921126162580574143" product="nosdcard">"USB 存储设备已移除。请插入新媒体。"</string>
-    <string name="ext_media_nomedia_notification_message" msgid="3870120652983659641" product="default">"SD 卡已移除。请插入新的 SD 卡。"</string>
-    <string name="clearDefaultHintMsg" msgid="4815455344600932173">"通过主屏幕上的“设置”&gt;“应用程序”&gt;“管理应用程序”清除默认设置"</string>
-    <string name="chooseUsbActivity" msgid="7892597146032121735">"选择适用于 USB 设备的应用程序"</string>
+    <string name="clearDefaultHintMsg">"通过主屏幕上的“设置”&gt;“应用程序”&gt;“管理应用程序”清除默认设置"</string>
     <string name="ringtone_default">"默认铃声"</string>
     <string name="ringtone_silent">"静音"</string>
-    <string name="power_off" msgid="4266614107412865048">"关机"</string>
-    <string name="shutdown_confirm" msgid="3385745179555731470" product="tablet">"您的平板电脑会关闭。"</string>
-    <string name="shutdown_confirm" msgid="649792175242821353" product="default">"您的手机会关机。"</string>
-    <string name="shutdown_confirm_question" msgid="6656441286856415014">"您要关机吗？"</string>
-    <string name="configure_input_methods" msgid="6324843080254191535">"配置输入法"</string>
-    <string name="ok" msgid="5970060430562524910">"确定"</string>
-    <string name="cancel" msgid="6442560571259935130">"取消"</string>
-    <string name="yes" msgid="5362982303337969312">"确定"</string>
-    <string name="no" msgid="5141531044935541497">"取消"</string>
-    <string name="selectAll">"全选"</string>
-    <string name="cut">"剪切"</string>
-    <string name="copy">"复制"</string>
-    <string name="paste">"粘贴"</string>
-    <string name="replace">"替换..."</string>
-    <string name="inputMethod">"输入法"</string>
+    <string name="ok">"确定"</string>
+    <string name="cancel">"取消"</string>
+    <string name="yes">"确定"</string>
     <string name="action_bar_home_description">"导航首页"</string>
     <string name="action_bar_up_description">"向上导航"</string>
-    <string name="number_picker_increment_button" msgid="4830170763103463443">"增加"</string>
-    <string name="number_picker_decrement_button" msgid="2576606679160067262">"减少"</string>
-    <string name="reboot_safemode_confirm" msgid="55293944502784668">"您要重新启动并进入安全模式吗？这样会停用您已安装的所有第三方应用。再次重新启动将恢复这些应用。"</string>
-    <string name="reboot_safemode_title" msgid="7054509914500140361">"重新启动并进入安全模式"</string>
+    <string name="number_picker_increment_button">"增加"</string>
+    <string name="number_picker_decrement_button">"减少"</string>
+    <string name="chooseActivity">"选择一项操作"</string>
+    <string name="whichApplication">"选择要使用的应用程序："</string>
+    <string name="alwaysUse">"设为默认选项"</string>
+    <string name="noApplications">"没有应用程序可执行此操作。"</string>
+    <string name="activity_list_empty">No matching activities found</string>
+    <string name="capital_on">打开</string>
+    <string name="capital_off">关闭</string>
+    <string name="select_ring">请选择铃声</string>
+    <string name="loading">"正在载入..."</string>
+    <string name="togglebutton_pressed">"已按下"</string>
+    <string name="togglebutton_not_pressed">"未按下"</string>
+    <string name="select_input_method">选择输入法</string>
+    <string name="hardware">硬件</string>
+    <string name="use_physical_keyboard">物理键盘</string>
+    <string name="lunar_leap">闰</string>
+    <string name="picker_dialog_positive_text">"完成"</string>
+    <string name="resolver_setting_text">更多</string>
+    <string name="resolver_always_text">始终选择该应用打开</string>
+    <string name="time_picker_increment_minute_button">"增加分钟数"</string>
+    <string name="time_picker_decrement_minute_button">"减少分钟数"</string>
+    <string name="time_picker_increment_hour_button">"增加小时数"</string>
+    <string name="time_picker_decrement_hour_button">"减少小时数"</string>
+    <string name="time_picker_increment_set_pm_button">"设置下午时间"</string>
+    <string name="time_picker_decrement_set_am_button">"设置上午时间"</string>
+    <string name="date_picker_increment_month_button">"增加月份值"</string>
+    <string name="date_picker_decrement_month_button">"减少月份值"</string>
+    <string name="date_picker_increment_day_button">"增加天数"</string>
+    <string name="date_picker_decrement_day_button">"减少天数"</string>
+    <string name="date_picker_increment_year_button">"增加年数"</string>
+    <string name="date_picker_decrement_year_button">"减少年份值"</string>
     <string name="calendar_year">年</string>
     <string name="calendar_month">月</string>
     <string name="calendar_day">日</string>
     <string name="calendar_hour">时</string>
     <string name="calendar_mintue">分</string>
-    <string name="chooseActivity">"选择一项操作"</string>
-    <string name="whichApplication">"选择要使用的应用程序："</string>
-    <string name="alwaysUse">"设为默认选项"</string>
-    <string name="noApplications">"没有应用程序可执行此操作。"</string>
-    <string name="volume_alarm">"闹钟音量"</string>
-    <string name="volume_icon_description_bluetooth">"蓝牙音量"</string>
-    <string name="volume_icon_description_ringer">"铃声音量"</string>
-    <string name="volume_icon_description_incall">"通话音量"</string>
-    <string name="volume_icon_description_media">"媒体音量"</string>
-    <string name="volume_icon_description_notification">"通知音量"</string>
-    <string name="searchview_description_query" msgid="5911778593125355124">"搜索查询"</string>
-    <string name="searchview_description_clear" msgid="1330281990951833033">"清除查询"</string>
-    <string name="capital_on">打开</string>
-    <string name="capital_off">关闭</string>
-    <string name="select_ring">请选择铃声</string>
-    <string name="time_picker_increment_minute_button" msgid="2843066823236250329">"增加分钟数"</string>
-    <string name="time_picker_decrement_minute_button" msgid="4357907223628449595">"减少分钟数"</string>
-    <string name="time_picker_increment_hour_button" msgid="2484204991937119057">"增加小时数"</string>
-    <string name="time_picker_decrement_hour_button" msgid="4659353501775842780">"减少小时数"</string>
-    <string name="time_picker_increment_set_pm_button" msgid="4147590696151230863">"设置下午时间"</string>
-    <string name="time_picker_decrement_set_am_button" msgid="8302140353539486752">"设置上午时间"</string>
-    <string name="date_picker_increment_month_button" msgid="6324978841467899081">"增加月份值"</string>
-    <string name="date_picker_decrement_month_button" msgid="7304349355000398077">"减少月份值"</string>
-    <string name="date_picker_increment_day_button" msgid="4397040141921413183">"增加天数"</string>
-    <string name="date_picker_decrement_day_button" msgid="2427816793443629131">"减少天数"</string>
-    <string name="date_picker_increment_year_button" msgid="3058553394722295105">"增加年数"</string>
-    <string name="date_picker_decrement_year_button" msgid="5193062846559743823">"减少年份值"</string>
-    <string name="date_time_set" msgid="5777075614321087758">"设置"</string>
-    <string name="loading" msgid="1760724998928255250">"正在载入..."</string>
+    <string name="next">下一步</string>
+    <string name="begin_sport_travel">开启运动之旅</string>
+
+    <!-- values -->
+    <string name="abc_action_mode_done">"完成"</string>
+    <string name="abc_action_bar_home_description">"转到主屏幕"</string>
+    <string name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string name="abc_searchview_description_search">"搜索"</string>
+    <string name="abc_searchview_description_query">"搜索查询"</string>
+    <string name="abc_searchview_description_clear">"清除查询"</string>
+    <string name="abc_searchview_description_submit">"提交查询"</string>
+    <string name="abc_searchview_description_voice">"语音搜索"</string>
+    <string name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string name="abc_shareactionprovider_share_with_application">"通过%s分享"</string>
+    <string name="abc_shareactionprovider_share_with">"分享方式"</string>
+    <string name="share_string_1">这是宿主程序共享库资源1</string>
+    <string name="share_string_2">这是宿主程序共享库自定义控件</string>
+    <string name="share_app_name">PluginTest</string>
+
+    <!-- 时间选择器 -->
     <string name="datetime_picker_day_format">M月d日</string>
     <string name="datetime_picker_today_str">今天</string>
     <string name="datetime_picker_tomorrow_str">明天</string>
-    <string name="select_input_method">选择输入法</string>
-    <string name="hardware">硬件</string>
-    <string name="use_physical_keyboard">物理键盘</string>
-    <string name="lunar_leap">闰</string>
-    <string name="safe_media_volume_warning">"音量将超出安全值，长时间高音量聆听可能会损害您的听力。"</string>
-    <string name="tws_app_upgrading">"正在优化应用，已完成%1$s%%"</string>
-    <string name="volume_i_know">"我知道了"</string>
-    <string name="picker_dialog_positive_text">"完成"</string>
-    <string name="choose_app">选择要使用的应用</string>
-    <string name="choose_app_onlyonce">仅此一次</string>
-    <string name="choose_app_always">设为默认</string>
-    <string name="tws_actionmode_title">已选%d项</string>
-    <string name="aerr_application">"很抱歉，“<xliff:g id="APPLICATION">%1$s</xliff:g>”已停止运行。"</string>
-    <string name="aerr_process">"抱歉，进程“<xliff:g id="PROCESS">%1$s</xliff:g>”已停止运行。"</string>
-    <string name="resolver_setting_text">更多</string>
-    <string name="resolver_always_text">始终选择该应用打开</string>
-
+    <string name="date_time_set">"设置"</string>
 </resources>

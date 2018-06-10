@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top" >
 
-        <com.rickdynasty.tws.core.internal.widget.ActionBarContainer
+        <com.tencent.tws.assistant.internal.widget.ActionBarContainer
             android:id="@+id/tws_action_bar_container"
             style="?attr/actionBarStyle"
             android:layout_width="match_parent"
@@ -23,18 +23,18 @@
             android:layout_alignParentTop="true"
             android:gravity="top" >
 
-            <com.rickdynasty.tws.core.internal.widget.ActionBarView
+            <com.tencent.tws.assistant.internal.widget.ActionBarView
                 android:id="@+id/tws_action_bar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-            <com.rickdynasty.tws.core.internal.widget.ActionBarContextView
+            <com.tencent.tws.assistant.internal.widget.ActionBarContextView
                 android:id="@+id/tws_action_context_bar"
                 style="?attr/actionModeStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:visibility="gone" />
-        </com.rickdynasty.tws.core.internal.widget.ActionBarContainer>
+        </com.tencent.tws.assistant.internal.widget.ActionBarContainer>
 
         <ImageView
             android:layout_width="match_parent"
@@ -44,7 +44,7 @@
             android:src="?android:attr/windowContentOverlay" />
     </LinearLayout>
 
-    <com.rickdynasty.tws.core.internal.widget.ActionBarContainer
+    <com.tencent.tws.assistant.internal.widget.ActionBarContainer
         android:id="@+id/tws_split_action_bar"
         style="?attr/actionBarStyle"
         android:layout_width="match_parent"

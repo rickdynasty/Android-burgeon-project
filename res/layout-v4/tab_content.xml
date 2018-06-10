@@ -16,29 +16,29 @@
             android:scrollbars="none" >
 
             <android.widget.TwsTabWidget
-                android:id="@id/tabs"
+                android:id="@+id/tabs"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/tws_tabhost_h"
                 android:background="@drawable/tab_bar_bg_light"
                 android:orientation="horizontal" />
         </HorizontalScrollView>
 
-        <com.rickdynasty.tws.core.widget.TabIndicator
-            android:id="@id/tab_indicator"
+        <com.tencent.tws.assistant.widget.TabIndicator
+            android:id="@+id/tab_indicator"
             style="?attr/tabIndicatorStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/scrolltabs"
             android:layout_marginBottom="4dp" />
 
-        <com.rickdynasty.tws.core.support.v4.view.ViewPager
-            android:id="@id/tabviewpager"
+        <com.tencent.tws.assistant.support.v4.view.ViewPager
+            android:id="@+id/tabviewpager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/scrolltabs" />
 
         <FrameLayout
-            android:id="@id/tabcontent"
+            android:id="@+id/tabcontent"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/scrolltabs" />
